@@ -77,23 +77,21 @@
                 {
                     "data": [], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "colordict.intent.action.SEARCH", 
-                        "android.intent.action.SEARCH"
+                        "android.intent.action.SEARCH", 
+                        "colordict.intent.action.SEARCH"
                     ]
                 }, 
                 {
                     "data": [], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "colordict.intent.action.SEARCH", 
-                        "android.intent.action.SEARCH"
+                        "android.intent.action.SEARCH", 
+                        "colordict.intent.action.SEARCH"
                     ]
                 }
             ], 

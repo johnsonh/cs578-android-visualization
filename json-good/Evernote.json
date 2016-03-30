@@ -50,6 +50,12 @@
         }, 
         {
             "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.ResetPasswordFragment"
+        }, 
+        {
+            "dataType": null, 
             "consumerMethod": "sendOrderedBroadcast", 
             "action": null, 
             "sender": "com.evernote.util.an"
@@ -200,9 +206,9 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "sendOrderedBroadcast", 
+            "consumerMethod": "startActivity", 
             "action": null, 
-            "sender": "com.evernote.client.EvernoteService"
+            "sender": "com.evernote.ui.helper.StopAudioNoteReceiver"
         }, 
         {
             "dataType": null, 
@@ -284,12 +290,6 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "sendBroadcast", 
-            "action": "android.intent.action.MEDIA_SCANNER_SCAN_FILE", 
-            "sender": "com.evernote.client.EvernoteService"
-        }, 
-        {
-            "dataType": null, 
             "consumerMethod": "startService", 
             "action": "com.evernote.action.MOVE_NOTE", 
             "sender": "com.evernote.ui.NoteListFragment"
@@ -302,9 +302,9 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startActivity", 
+            "consumerMethod": "sendOrderedBroadcast", 
             "action": null, 
-            "sender": "com.evernote.ui.helper.StopAudioNoteReceiver"
+            "sender": "com.evernote.client.EvernoteService"
         }, 
         {
             "dataType": null, 
@@ -338,9 +338,9 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "sendBroadcast", 
-            "action": "com.evernote.action.REGISTER_RESULT", 
-            "sender": "com.evernote.client.EvernoteService"
+            "consumerMethod": "startService", 
+            "action": "com.android.vending.billing.PURCHASE_STATE_CHANGED", 
+            "sender": "com.evernote.billing.BillingReceiver"
         }, 
         {
             "dataType": null, 
@@ -389,12 +389,6 @@
             "consumerMethod": "startService", 
             "action": "com.evernote.action.FULL_SYNC", 
             "sender": "com.evernote.ui.EvernotePreferenceActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": null, 
-            "sender": "com.evernote.ui.by"
         }, 
         {
             "dataType": null, 
@@ -464,27 +458,21 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.evernote.action.SAVE_TODO", 
-            "sender": "com.evernote.ui.NoteViewFragment"
-        }, 
-        {
-            "dataType": null, 
             "consumerMethod": "startActivity", 
             "action": "com.evernote.action.DUMMY_ACTION", 
             "sender": "com.evernote.ui.de"
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": null, 
-            "sender": "com.evernote.ui.cb"
+            "consumerMethod": "startService", 
+            "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.ui.NewNoteActivity"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "startService", 
-            "action": "com.evernote.action.FULL_SYNC", 
-            "sender": "com.evernote.ui.NewNoteActivity"
+            "action": "com.evernote.action.REGISTER", 
+            "sender": "com.evernote.ui.CaptchaFragment"
         }, 
         {
             "dataType": null, 
@@ -524,6 +512,12 @@
         }, 
         {
             "dataType": null, 
+            "consumerMethod": "startService", 
+            "action": "com.evernote.action.SAVE_TODO", 
+            "sender": "com.evernote.ui.NoteViewFragment"
+        }, 
+        {
+            "dataType": null, 
             "consumerMethod": "sendOrderedBroadcast", 
             "action": "com.evernote.action.CHUNK_DONE", 
             "sender": "com.evernote.client.SyncService"
@@ -542,20 +536,8 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "setIntent", 
-            "action": null, 
-            "sender": "com.evernote.ui.TabletFragmentActivity"
-        }, 
-        {
-            "dataType": null, 
             "consumerMethod": "sendOrderedBroadcast", 
             "action": null, 
-            "sender": "com.evernote.ui.helper.bq"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.evernote.action.FULL_SYNC", 
             "sender": "com.evernote.ui.helper.bq"
         }, 
         {
@@ -674,6 +656,12 @@
         }, 
         {
             "dataType": null, 
+            "consumerMethod": "setIntent", 
+            "action": null, 
+            "sender": "com.evernote.ui.TabletFragmentActivity"
+        }, 
+        {
+            "dataType": null, 
             "consumerMethod": "startService", 
             "action": "com.evernote.action.LOG_OUT", 
             "sender": "com.evernote.ui.ee"
@@ -686,9 +674,9 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "sendBroadcast", 
-            "action": "com.evernote.action.LOGIN_RESULT", 
-            "sender": "com.evernote.client.EvernoteService"
+            "consumerMethod": "sendOrderedBroadcast", 
+            "action": "com.evernote.action.CONTENT_DONE", 
+            "sender": "com.evernote.provider.EvernoteProvider"
         }, 
         {
             "dataType": null, 
@@ -704,6 +692,12 @@
         }, 
         {
             "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.cb"
+        }, 
+        {
+            "dataType": null, 
             "consumerMethod": "startService", 
             "action": "com.evernote.action.RECOVER_NOTE", 
             "sender": "com.evernote.client.SyncService"
@@ -713,6 +707,12 @@
             "consumerMethod": "startService", 
             "action": "com.evernote.action.STOP_SEARCH_INDEXING", 
             "sender": "com.evernote.ui.helper.SyncNotification"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "action": "android.intent.action.MEDIA_SCANNER_SCAN_FILE", 
+            "sender": "com.evernote.client.EvernoteService"
         }, 
         {
             "dataType": null, 
@@ -740,9 +740,9 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.evernote.action.REGISTER", 
-            "sender": "com.evernote.ui.CaptchaFragment"
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.by"
         }, 
         {
             "dataType": null, 
@@ -880,6 +880,12 @@
             "dataType": null, 
             "consumerMethod": "startService", 
             "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.ui.helper.bq"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "action": "com.evernote.action.FULL_SYNC", 
             "sender": "com.evernote.provider.b"
         }, 
         {
@@ -887,12 +893,6 @@
             "consumerMethod": "startActivity", 
             "action": null, 
             "sender": "com.evernote.ui.NoteListFragment"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": null, 
-            "sender": "com.evernote.ui.ResetPasswordFragment"
         }, 
         {
             "dataType": null, 
@@ -950,9 +950,9 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.android.vending.billing.PURCHASE_STATE_CHANGED", 
-            "sender": "com.evernote.billing.BillingReceiver"
+            "consumerMethod": "sendBroadcast", 
+            "action": "com.evernote.action.REGISTER_RESULT", 
+            "sender": "com.evernote.client.EvernoteService"
         }, 
         {
             "dataType": null, 
@@ -968,9 +968,9 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "sendOrderedBroadcast", 
-            "action": "com.evernote.action.CONTENT_DONE", 
-            "sender": "com.evernote.provider.EvernoteProvider"
+            "consumerMethod": "sendBroadcast", 
+            "action": "com.evernote.action.LOGIN_RESULT", 
+            "sender": "com.evernote.client.EvernoteService"
         }
     ], 
     "packageName": "com.evernote", 
@@ -1086,40 +1086,34 @@
                 {
                     "data": [], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
+                        "com.evernote.action.VIEW_NOTELIST", 
                         "com.evernote.action.SEARCH_NOTES", 
-                        "android.intent.action.SEARCH", 
-                        "com.evernote.action.VIEW_NOTELIST"
+                        "android.intent.action.SEARCH"
                     ]
                 }, 
                 {
                     "data": [], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
+                        "com.evernote.action.VIEW_NOTELIST", 
                         "com.evernote.action.SEARCH_NOTES", 
-                        "android.intent.action.SEARCH", 
-                        "com.evernote.action.VIEW_NOTELIST"
+                        "android.intent.action.SEARCH"
                     ]
                 }, 
                 {
                     "data": [], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
+                        "com.evernote.action.VIEW_NOTELIST", 
                         "com.evernote.action.SEARCH_NOTES", 
-                        "android.intent.action.SEARCH", 
-                        "com.evernote.action.VIEW_NOTELIST"
+                        "android.intent.action.SEARCH"
                     ]
                 }
             ], 
@@ -1131,7 +1125,6 @@
                 {
                     "data": [], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
@@ -1142,7 +1135,6 @@
                 {
                     "data": [], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
@@ -1180,9 +1172,8 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE"
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
                         "com.evernote.action.VIEW_NOTE_TABLET", 
@@ -1198,9 +1189,8 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE"
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
                         "com.evernote.action.VIEW_NOTE_TABLET", 
@@ -1227,16 +1217,15 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "com.evernote.action.CREATE_NEW_NOTE", 
-                        "com.evernote.action.NEW_SNAPSHOT", 
                         "com.evernote.action.NEW_VOICE_NOTE", 
                         "com.evernote.action.NEW_SKITCH_NOTE", 
+                        "android.intent.action.SEND_MULTIPLE", 
+                        "com.evernote.action.NEW_SNAPSHOT", 
                         "android.intent.action.SEND", 
-                        "android.intent.action.SEND_MULTIPLE"
+                        "com.evernote.action.CREATE_NEW_NOTE"
                     ]
                 }, 
                 {
@@ -1248,16 +1237,15 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "com.evernote.action.CREATE_NEW_NOTE", 
-                        "com.evernote.action.NEW_SNAPSHOT", 
                         "com.evernote.action.NEW_VOICE_NOTE", 
                         "com.evernote.action.NEW_SKITCH_NOTE", 
+                        "android.intent.action.SEND_MULTIPLE", 
+                        "com.evernote.action.NEW_SNAPSHOT", 
                         "android.intent.action.SEND", 
-                        "android.intent.action.SEND_MULTIPLE"
+                        "com.evernote.action.CREATE_NEW_NOTE"
                     ]
                 }
             ], 
@@ -1277,8 +1265,8 @@
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "com.evernote.widget.action.CREATE_NEW_NOTE", 
                         "com.evernote.widget.action.NEW_SNAPSHOT", 
+                        "com.evernote.widget.action.CREATE_NEW_NOTE", 
                         "com.evernote.widget.action.NEW_VOICE_NOTE", 
                         "com.evernote.widget.action.NEW_SKITCH_NOTE"
                     ]
@@ -1433,8 +1421,8 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE"
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
                         "android.intent.action.VIEW"
@@ -1475,8 +1463,8 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE"
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
                         "android.intent.action.VIEW"
@@ -1549,15 +1537,15 @@
                     "categories": [], 
                     "actions": [
                         "com.evernote.action.ACTION_RECENT_NOTES_CHANGED", 
-                        "com.evernote.action.LOGOUT_DONE", 
-                        "com.evernote.action.SYNC_DONE", 
-                        "com.evernote.action.CHUNK_DONE", 
                         "com.evernote.action.NOTE_UPLOADED", 
-                        "com.evernote.action.SAVE_NOTE_DONE", 
-                        "com.evernote.action.CONTENT_DONE", 
                         "com.evernote.action.THUMBNAIL_DONE", 
+                        "com.evernote.action.CHUNK_DONE", 
+                        "com.evernote.action.CONTENT_DONE", 
+                        "com.evernote.action.SYNC_DONE", 
                         "com.evernote.action.ACTION_PINLOCK_STATE_CHANGE", 
-                        "com.evernote.action.ACTION_PIN_SHOW_WIDGET_CHANGED"
+                        "com.evernote.action.ACTION_PIN_SHOW_WIDGET_CHANGED", 
+                        "com.evernote.action.LOGOUT_DONE", 
+                        "com.evernote.action.SAVE_NOTE_DONE"
                     ]
                 }, 
                 {
@@ -1565,15 +1553,15 @@
                     "categories": [], 
                     "actions": [
                         "com.evernote.action.ACTION_RECENT_NOTES_CHANGED", 
-                        "com.evernote.action.LOGOUT_DONE", 
-                        "com.evernote.action.SYNC_DONE", 
-                        "com.evernote.action.CHUNK_DONE", 
                         "com.evernote.action.NOTE_UPLOADED", 
-                        "com.evernote.action.SAVE_NOTE_DONE", 
-                        "com.evernote.action.CONTENT_DONE", 
                         "com.evernote.action.THUMBNAIL_DONE", 
+                        "com.evernote.action.CHUNK_DONE", 
+                        "com.evernote.action.CONTENT_DONE", 
+                        "com.evernote.action.SYNC_DONE", 
                         "com.evernote.action.ACTION_PINLOCK_STATE_CHANGE", 
-                        "com.evernote.action.ACTION_PIN_SHOW_WIDGET_CHANGED"
+                        "com.evernote.action.ACTION_PIN_SHOW_WIDGET_CHANGED", 
+                        "com.evernote.action.LOGOUT_DONE", 
+                        "com.evernote.action.SAVE_NOTE_DONE"
                     ]
                 }
             ], 
@@ -1599,14 +1587,14 @@
                     "data": [], 
                     "categories": [], 
                     "actions": [
-                        "com.evernote.action.SYNC_STARTED", 
-                        "com.evernote.action.SYNC_ERROR", 
-                        "com.evernote.action.SYNC_DONE", 
-                        "com.evernote.action.SAVE_NOTE_DONE", 
                         "com.evernote.action.SDCARD_CHANGED", 
-                        "com.evernote.action.DB_READ_ONLY", 
+                        "com.evernote.action.SYNC_ERROR", 
                         "com.evernote.action.DB_OPEN_CREATION_FAILED", 
-                        "com.evernote.action.DB_CORRUPTED"
+                        "com.evernote.action.SYNC_DONE", 
+                        "com.evernote.action.DB_CORRUPTED", 
+                        "com.evernote.action.SYNC_STARTED", 
+                        "com.evernote.action.DB_READ_ONLY", 
+                        "com.evernote.action.SAVE_NOTE_DONE"
                     ]
                 }
             ], 
@@ -1646,8 +1634,8 @@
                     "categories": [], 
                     "actions": [
                         "com.android.vending.billing.IN_APP_NOTIFY", 
-                        "com.android.vending.billing.RESPONSE_CODE", 
-                        "com.android.vending.billing.PURCHASE_STATE_CHANGED"
+                        "com.android.vending.billing.PURCHASE_STATE_CHANGED", 
+                        "com.android.vending.billing.RESPONSE_CODE"
                     ]
                 }
             ], 

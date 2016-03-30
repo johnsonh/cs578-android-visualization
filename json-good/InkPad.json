@@ -62,9 +62,9 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "sendBroadcast", 
-            "action": "inkpad.notepad.sync.auth_intent_returned", 
-            "sender": "com.workpail.inkpad.notepad.notes.service.SyncIntentService"
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.workpail.inkpad.notepad.notes.ui.activity.NotesListActivity"
         }, 
         {
             "dataType": null, 
@@ -152,9 +152,9 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": "android.intent.action.VIEW", 
-            "sender": "com.workpail.inkpad.notepad.notes.ui.activity.NotesListActivity"
+            "consumerMethod": "sendBroadcast", 
+            "action": "inkpad.notepad.sync.auth_intent_returned", 
+            "sender": "com.workpail.inkpad.notepad.notes.service.SyncIntentService"
         }, 
         {
             "dataType": null, 
@@ -227,14 +227,13 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
                         "android.intent.action.VIEW", 
-                        "android.intent.action.EDIT", 
                         "android.intent.action.PICK", 
-                        "android.intent.action.GET_CONTENT"
+                        "android.intent.action.GET_CONTENT", 
+                        "android.intent.action.EDIT"
                     ]
                 }, 
                 {
@@ -251,14 +250,13 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
                         "android.intent.action.VIEW", 
-                        "android.intent.action.EDIT", 
                         "android.intent.action.PICK", 
-                        "android.intent.action.GET_CONTENT"
+                        "android.intent.action.GET_CONTENT", 
+                        "android.intent.action.EDIT"
                     ]
                 }
             ], 
@@ -281,14 +279,13 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
                         "android.intent.action.VIEW", 
-                        "android.intent.action.EDIT", 
+                        "android.intent.action.INSERT", 
                         "com.android.notepad.action.EDIT_NOTE", 
-                        "android.intent.action.INSERT"
+                        "android.intent.action.EDIT"
                     ]
                 }, 
                 {
@@ -305,14 +302,13 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
                         "android.intent.action.VIEW", 
-                        "android.intent.action.EDIT", 
+                        "android.intent.action.INSERT", 
                         "com.android.notepad.action.EDIT_NOTE", 
-                        "android.intent.action.INSERT"
+                        "android.intent.action.EDIT"
                     ]
                 }
             ], 
@@ -330,9 +326,9 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.SELECTED_ALTERNATIVE", 
                         "android.intent.category.ALTERNATIVE", 
-                        "android.intent.category.SELECTED_ALTERNATIVE"
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
                         "com.android.notepad.action.EDIT_TITLE"
@@ -353,8 +349,8 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE"
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
                         "android.intent.action.VIEW"

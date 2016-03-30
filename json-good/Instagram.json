@@ -38,6 +38,12 @@
         }, 
         {
             "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "hasValue", 
+            "sender": "com.instagram.android.maps.f.a"
+        }, 
+        {
+            "dataType": null, 
             "consumerMethod": "sendBroadcast", 
             "action": "com.android.music.musicservicecommand", 
             "sender": "com.instagram.creation.video.f.a"
@@ -77,12 +83,6 @@
             "consumerMethod": "startActivity", 
             "action": null, 
             "sender": "com.instagram.android.util.j"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": "hasValue", 
-            "sender": "com.instagram.android.maps.f.a"
         }, 
         {
             "dataType": null, 
@@ -354,13 +354,10 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE"
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.VIEW", 
                         "android.intent.action.VIEW"
                     ]
                 }, 
@@ -393,13 +390,10 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE"
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.VIEW", 
                         "android.intent.action.VIEW"
                     ]
                 }
@@ -488,8 +482,8 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE"
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
                         "android.intent.action.VIEW"
@@ -584,23 +578,21 @@
                 {
                     "data": [], 
                     "categories": [
-                        "com.instagram.android", 
                         "com.instagram.android"
                     ], 
                     "actions": [
-                        "com.google.android.c2dm.intent.RECEIVE", 
-                        "com.google.android.c2dm.intent.REGISTRATION"
+                        "com.google.android.c2dm.intent.REGISTRATION", 
+                        "com.google.android.c2dm.intent.RECEIVE"
                     ]
                 }, 
                 {
                     "data": [], 
                     "categories": [
-                        "com.instagram.android", 
                         "com.instagram.android"
                     ], 
                     "actions": [
-                        "com.google.android.c2dm.intent.RECEIVE", 
-                        "com.google.android.c2dm.intent.REGISTRATION"
+                        "com.google.android.c2dm.intent.REGISTRATION", 
+                        "com.google.android.c2dm.intent.RECEIVE"
                     ]
                 }
             ], 

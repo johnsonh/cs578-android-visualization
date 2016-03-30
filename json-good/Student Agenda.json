@@ -73,7 +73,6 @@
                 {
                     "data": [], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
@@ -84,7 +83,6 @@
                 {
                     "data": [], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [

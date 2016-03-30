@@ -39,12 +39,6 @@
         {
             "dataType": null, 
             "consumerMethod": "startService", 
-            "action": "com.sand.action.push.Config", 
-            "sender": "com.sand.push.ai"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
             "action": "com.sand.airdroid.forward.start", 
             "sender": "com.sand.airdroid.ServerStateActivity"
         }, 
@@ -357,6 +351,12 @@
         {
             "dataType": null, 
             "consumerMethod": "startService", 
+            "action": "com.sand.action.push.Config", 
+            "sender": "com.sand.push.ai"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
             "action": "com.sand.airdroid.forward.stop", 
             "sender": "com.sand.airdroid.main.UsbApConnectionActivity"
         }, 
@@ -526,7 +526,7 @@
             "dataType": null, 
             "consumerMethod": "setIntent", 
             "action": null, 
-            "sender": "com.sand.airdroid.RegisterActivity_"
+            "sender": "com.sand.push.MsgDialog2Activity_"
         }, 
         {
             "dataType": null, 
@@ -574,7 +574,7 @@
             "dataType": null, 
             "consumerMethod": "setIntent", 
             "action": null, 
-            "sender": "com.sand.push.MsgDialog2Activity_"
+            "sender": "com.sand.airdroid.RegisterActivity_"
         }, 
         {
             "dataType": null, 
@@ -644,8 +644,8 @@
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.MAIN", 
-                        "com.sand.airdroid.action.files"
+                        "com.sand.airdroid.action.files", 
+                        "android.intent.action.MAIN"
                     ]
                 }
             ], 
@@ -675,8 +675,8 @@
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.MAIN", 
-                        "com.sand.airdroid.action.device"
+                        "com.sand.airdroid.action.device", 
+                        "android.intent.action.MAIN"
                     ]
                 }
             ], 
@@ -707,8 +707,8 @@
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.MAIN", 
-                        "com.sand.airdroid.action.apps"
+                        "com.sand.airdroid.action.apps", 
+                        "android.intent.action.MAIN"
                     ]
                 }
             ], 
@@ -753,10 +753,9 @@
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
+                        "com.sand.airdroid.action.update", 
                         "com.sand.airdroid.action.connection", 
-                        "android.intent.action.MAIN", 
-                        "com.sand.airdroid.action.connection", 
-                        "com.sand.airdroid.action.update"
+                        "android.intent.action.MAIN"
                     ]
                 }, 
                 {
@@ -765,10 +764,9 @@
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
+                        "com.sand.airdroid.action.update", 
                         "com.sand.airdroid.action.connection", 
-                        "android.intent.action.MAIN", 
-                        "com.sand.airdroid.action.connection", 
-                        "com.sand.airdroid.action.update"
+                        "android.intent.action.MAIN"
                     ]
                 }
             ], 
@@ -877,14 +875,14 @@
                         "android.intent.category.HOME"
                     ], 
                     "actions": [
-                        "com.sand.action.push.Start", 
-                        "com.sand.action.push.Stop", 
                         "com.sand.action.push.Config", 
-                        "com.sand.action.location.alarm", 
-                        "com.sand.action.notice.alarm", 
+                        "com.sand.action.push.Start", 
                         "com.sand.action.push.Config_URL", 
-                        "com.sand.action.push.restart", 
-                        "android.intent.action.BOOT_COMPLETED"
+                        "com.sand.action.notice.alarm", 
+                        "android.intent.action.BOOT_COMPLETED", 
+                        "com.sand.action.location.alarm", 
+                        "com.sand.action.push.Stop", 
+                        "com.sand.action.push.restart"
                     ]
                 }, 
                 {
@@ -894,14 +892,14 @@
                         "android.intent.category.HOME"
                     ], 
                     "actions": [
-                        "com.sand.action.push.Start", 
-                        "com.sand.action.push.Stop", 
                         "com.sand.action.push.Config", 
-                        "com.sand.action.location.alarm", 
-                        "com.sand.action.notice.alarm", 
+                        "com.sand.action.push.Start", 
                         "com.sand.action.push.Config_URL", 
-                        "com.sand.action.push.restart", 
-                        "android.intent.action.BOOT_COMPLETED"
+                        "com.sand.action.notice.alarm", 
+                        "android.intent.action.BOOT_COMPLETED", 
+                        "com.sand.action.location.alarm", 
+                        "com.sand.action.push.Stop", 
+                        "com.sand.action.push.restart"
                     ]
                 }
             ], 
@@ -915,10 +913,10 @@
                     "categories": [], 
                     "actions": [
                         "com.sand.airdroid.action.server_start", 
-                        "com.sand.airdroid.action.server_stop", 
-                        "com.sand.airdroid.action.scan_result", 
                         "com.sand.airdroid.action.server_disconnect", 
-                        "com.sand.airdroid.action.http_server_restart"
+                        "com.sand.airdroid.action.server_stop", 
+                        "com.sand.airdroid.action.http_server_restart", 
+                        "com.sand.airdroid.action.scan_result"
                     ]
                 }
             ], 
@@ -931,10 +929,10 @@
                     "data": [], 
                     "categories": [], 
                     "actions": [
-                        "com.sand.airdroid.forward.start", 
-                        "com.sand.airdroid.forward.restart", 
                         "com.sand.airdroid.forward.stop", 
-                        "com.sand.airdroid.forward.wake_up"
+                        "com.sand.airdroid.forward.restart", 
+                        "com.sand.airdroid.forward.wake_up", 
+                        "com.sand.airdroid.forward.start"
                     ]
                 }
             ], 
@@ -987,12 +985,12 @@
                     "data": [], 
                     "categories": [], 
                     "actions": [
-                        "android.appwidget.action.APPWIDGET_UPDATE", 
-                        "android.net.wifi.WIFI_STATE_CHANGED", 
+                        "com.sand.airdroid.action.server_connected", 
                         "com.sand.airdroid.action.server_running", 
                         "com.sand.airdroid.action.server_stopped", 
-                        "com.sand.airdroid.action.server_connected", 
-                        "com.sand.airdroid.action.widget.click"
+                        "com.sand.airdroid.action.widget.click", 
+                        "android.net.wifi.WIFI_STATE_CHANGED", 
+                        "android.appwidget.action.APPWIDGET_UPDATE"
                     ]
                 }
             ], 
@@ -1033,8 +1031,8 @@
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.net.conn.CONNECTIVITY_CHANGE", 
                         "com.sand.push.timeup", 
+                        "android.net.conn.CONNECTIVITY_CHANGE", 
                         "android.provider.Telephony.SMS_RECEIVED"
                     ]
                 }, 
@@ -1044,8 +1042,8 @@
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.net.conn.CONNECTIVITY_CHANGE", 
                         "com.sand.push.timeup", 
+                        "android.net.conn.CONNECTIVITY_CHANGE", 
                         "android.provider.Telephony.SMS_RECEIVED"
                     ]
                 }

@@ -33,8 +33,8 @@
         {
             "dataType": null, 
             "consumerMethod": "startActivity", 
-            "action": null, 
-            "sender": "com.microsoft.office.onenote.ui.ONMSearchActivity"
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.microsoft.office.OMServices.LaunchAppInBrowser"
         }, 
         {
             "dataType": null, 
@@ -92,12 +92,6 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startActivityForResult", 
-            "action": null, 
-            "sender": "com.microsoft.office.uicontrols.OMSendFeedbackActivity"
-        }, 
-        {
-            "dataType": null, 
             "consumerMethod": "startActivity", 
             "action": null, 
             "sender": "com.microsoft.office.onenote.ui.ONMQuickCaptureHelperActivity"
@@ -107,12 +101,6 @@
             "consumerMethod": "startActivityForResult", 
             "action": null, 
             "sender": "com.microsoft.office.onenote.ui.ONMSettingActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivityForResult", 
-            "action": null, 
-            "sender": "com.microsoft.office.onenote.ui.firstrun.ONMSignInWrapperActivity"
         }, 
         {
             "dataType": null, 
@@ -153,12 +141,6 @@
         {
             "dataType": null, 
             "consumerMethod": "startActivity", 
-            "action": "android.intent.action.VIEW", 
-            "sender": "com.microsoft.office.OMServices.LaunchAppInBrowser"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
             "action": null, 
             "sender": "com.microsoft.office.onenote.ui.canvas.views.ONMPageView"
         }, 
@@ -167,6 +149,12 @@
             "consumerMethod": "binder", 
             "action": null, 
             "sender": "com.microsoft.office.auth.live.LiveAuthenticationService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.firstrun.ONMSignInWrapperActivity"
         }, 
         {
             "dataType": null, 
@@ -215,6 +203,12 @@
             "consumerMethod": "setResult", 
             "action": null, 
             "sender": "com.microsoft.office.onenote.ui.audio.ONMRecordActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.ONMSearchActivity"
         }, 
         {
             "dataType": null, 
@@ -305,6 +299,12 @@
             "consumerMethod": "startActivity", 
             "action": null, 
             "sender": "com.microsoft.office.onenote.ui.firstrun.ONMAccountPickerActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "action": null, 
+            "sender": "com.microsoft.office.uicontrols.OMSendFeedbackActivity"
         }, 
         {
             "dataType": null, 
@@ -502,21 +502,9 @@
                     ], 
                     "categories": [
                         "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.VIEW", 
-                        "android.intent.action.VIEW", 
-                        "android.intent.action.VIEW", 
-                        "android.intent.action.VIEW", 
                         "android.intent.action.VIEW"
                     ]
                 }, 
@@ -600,21 +588,9 @@
                     ], 
                     "categories": [
                         "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.VIEW", 
-                        "android.intent.action.VIEW", 
-                        "android.intent.action.VIEW", 
-                        "android.intent.action.VIEW", 
                         "android.intent.action.VIEW"
                     ]
                 }, 
@@ -698,21 +674,9 @@
                     ], 
                     "categories": [
                         "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.VIEW", 
-                        "android.intent.action.VIEW", 
-                        "android.intent.action.VIEW", 
-                        "android.intent.action.VIEW", 
                         "android.intent.action.VIEW"
                     ]
                 }, 
@@ -796,21 +760,9 @@
                     ], 
                     "categories": [
                         "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.VIEW", 
-                        "android.intent.action.VIEW", 
-                        "android.intent.action.VIEW", 
-                        "android.intent.action.VIEW", 
                         "android.intent.action.VIEW"
                     ]
                 }, 
@@ -894,21 +846,9 @@
                     ], 
                     "categories": [
                         "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.VIEW", 
-                        "android.intent.action.VIEW", 
-                        "android.intent.action.VIEW", 
-                        "android.intent.action.VIEW", 
                         "android.intent.action.VIEW"
                     ]
                 }

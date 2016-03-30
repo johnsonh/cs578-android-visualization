@@ -88,28 +88,18 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.LAUNCHER", 
                         "android.intent.category.BROWSABLE", 
                         "android.intent.category.APP_BROWSER", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.LAUNCHER", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.MAIN", 
-                        "android.intent.action.VIEW", 
-                        "android.intent.action.VIEW", 
+                        "android.nfc.action.NDEF_DISCOVERED", 
+                        "android.speech.action.VOICE_SEARCH_RESULTS", 
                         "android.intent.action.VIEW", 
                         "android.intent.action.MEDIA_SEARCH", 
-                        "android.speech.action.VOICE_SEARCH_RESULTS", 
-                        "android.nfc.action.NDEF_DISCOVERED", 
-                        "android.intent.action.SEARCH"
+                        "android.intent.action.SEARCH", 
+                        "android.intent.action.MAIN"
                     ]
                 }, 
                 {
@@ -196,28 +186,18 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.LAUNCHER", 
                         "android.intent.category.BROWSABLE", 
                         "android.intent.category.APP_BROWSER", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.LAUNCHER", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.MAIN", 
-                        "android.intent.action.VIEW", 
-                        "android.intent.action.VIEW", 
+                        "android.nfc.action.NDEF_DISCOVERED", 
+                        "android.speech.action.VOICE_SEARCH_RESULTS", 
                         "android.intent.action.VIEW", 
                         "android.intent.action.MEDIA_SEARCH", 
-                        "android.speech.action.VOICE_SEARCH_RESULTS", 
-                        "android.nfc.action.NDEF_DISCOVERED", 
-                        "android.intent.action.SEARCH"
+                        "android.intent.action.SEARCH", 
+                        "android.intent.action.MAIN"
                     ]
                 }, 
                 {
@@ -304,28 +284,18 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.LAUNCHER", 
                         "android.intent.category.BROWSABLE", 
                         "android.intent.category.APP_BROWSER", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.LAUNCHER", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.MAIN", 
-                        "android.intent.action.VIEW", 
-                        "android.intent.action.VIEW", 
+                        "android.nfc.action.NDEF_DISCOVERED", 
+                        "android.speech.action.VOICE_SEARCH_RESULTS", 
                         "android.intent.action.VIEW", 
                         "android.intent.action.MEDIA_SEARCH", 
-                        "android.speech.action.VOICE_SEARCH_RESULTS", 
-                        "android.nfc.action.NDEF_DISCOVERED", 
-                        "android.intent.action.SEARCH"
+                        "android.intent.action.SEARCH", 
+                        "android.intent.action.MAIN"
                     ]
                 }, 
                 {
@@ -412,28 +382,18 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.LAUNCHER", 
                         "android.intent.category.BROWSABLE", 
                         "android.intent.category.APP_BROWSER", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.LAUNCHER", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.MAIN", 
-                        "android.intent.action.VIEW", 
-                        "android.intent.action.VIEW", 
+                        "android.nfc.action.NDEF_DISCOVERED", 
+                        "android.speech.action.VOICE_SEARCH_RESULTS", 
                         "android.intent.action.VIEW", 
                         "android.intent.action.MEDIA_SEARCH", 
-                        "android.speech.action.VOICE_SEARCH_RESULTS", 
-                        "android.nfc.action.NDEF_DISCOVERED", 
-                        "android.intent.action.SEARCH"
+                        "android.intent.action.SEARCH", 
+                        "android.intent.action.MAIN"
                     ]
                 }, 
                 {
@@ -520,28 +480,18 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.LAUNCHER", 
                         "android.intent.category.BROWSABLE", 
                         "android.intent.category.APP_BROWSER", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.LAUNCHER", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.MAIN", 
-                        "android.intent.action.VIEW", 
-                        "android.intent.action.VIEW", 
+                        "android.nfc.action.NDEF_DISCOVERED", 
+                        "android.speech.action.VOICE_SEARCH_RESULTS", 
                         "android.intent.action.VIEW", 
                         "android.intent.action.MEDIA_SEARCH", 
-                        "android.speech.action.VOICE_SEARCH_RESULTS", 
-                        "android.nfc.action.NDEF_DISCOVERED", 
-                        "android.intent.action.SEARCH"
+                        "android.intent.action.SEARCH", 
+                        "android.intent.action.MAIN"
                     ]
                 }, 
                 {
@@ -628,28 +578,18 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.LAUNCHER", 
                         "android.intent.category.BROWSABLE", 
                         "android.intent.category.APP_BROWSER", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.LAUNCHER", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.MAIN", 
-                        "android.intent.action.VIEW", 
-                        "android.intent.action.VIEW", 
+                        "android.nfc.action.NDEF_DISCOVERED", 
+                        "android.speech.action.VOICE_SEARCH_RESULTS", 
                         "android.intent.action.VIEW", 
                         "android.intent.action.MEDIA_SEARCH", 
-                        "android.speech.action.VOICE_SEARCH_RESULTS", 
-                        "android.nfc.action.NDEF_DISCOVERED", 
-                        "android.intent.action.SEARCH"
+                        "android.intent.action.SEARCH", 
+                        "android.intent.action.MAIN"
                     ]
                 }, 
                 {
@@ -736,28 +676,18 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.LAUNCHER", 
                         "android.intent.category.BROWSABLE", 
                         "android.intent.category.APP_BROWSER", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.LAUNCHER", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.MAIN", 
-                        "android.intent.action.VIEW", 
-                        "android.intent.action.VIEW", 
+                        "android.nfc.action.NDEF_DISCOVERED", 
+                        "android.speech.action.VOICE_SEARCH_RESULTS", 
                         "android.intent.action.VIEW", 
                         "android.intent.action.MEDIA_SEARCH", 
-                        "android.speech.action.VOICE_SEARCH_RESULTS", 
-                        "android.nfc.action.NDEF_DISCOVERED", 
-                        "android.intent.action.SEARCH"
+                        "android.intent.action.SEARCH", 
+                        "android.intent.action.MAIN"
                     ]
                 }, 
                 {
@@ -844,28 +774,18 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.LAUNCHER", 
                         "android.intent.category.BROWSABLE", 
                         "android.intent.category.APP_BROWSER", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.LAUNCHER", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.MAIN", 
-                        "android.intent.action.VIEW", 
-                        "android.intent.action.VIEW", 
+                        "android.nfc.action.NDEF_DISCOVERED", 
+                        "android.speech.action.VOICE_SEARCH_RESULTS", 
                         "android.intent.action.VIEW", 
                         "android.intent.action.MEDIA_SEARCH", 
-                        "android.speech.action.VOICE_SEARCH_RESULTS", 
-                        "android.nfc.action.NDEF_DISCOVERED", 
-                        "android.intent.action.SEARCH"
+                        "android.intent.action.SEARCH", 
+                        "android.intent.action.MAIN"
                     ]
                 }
             ], 
@@ -888,7 +808,6 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.BROWSABLE", 
                         "android.intent.category.DEFAULT"
                     ], 
@@ -906,7 +825,6 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.BROWSABLE", 
                         "android.intent.category.DEFAULT"
                     ], 
@@ -1172,8 +1090,8 @@
                     "data": [], 
                     "categories": [], 
                     "actions": [
-                        "android.appwidget.action.APPWIDGET_UPDATE", 
-                        ".BOOKMARK_APPWIDGET_UPDATE"
+                        ".BOOKMARK_APPWIDGET_UPDATE", 
+                        "android.appwidget.action.APPWIDGET_UPDATE"
                     ]
                 }
             ], 
@@ -1193,8 +1111,8 @@
                         "com.android.chrome"
                     ], 
                     "actions": [
-                        "com.google.android.c2dm.intent.RECEIVE", 
-                        "com.google.android.c2dm.intent.REGISTRATION"
+                        "com.google.android.c2dm.intent.REGISTRATION", 
+                        "com.google.android.c2dm.intent.RECEIVE"
                     ]
                 }
             ], 
@@ -1269,8 +1187,8 @@
                     "data": [], 
                     "categories": [], 
                     "actions": [
-                        "android.intent.action.ACTION_POWER_CONNECTED", 
-                        "android.intent.action.ACTION_POWER_DISCONNECTED"
+                        "android.intent.action.ACTION_POWER_DISCONNECTED", 
+                        "android.intent.action.ACTION_POWER_CONNECTED"
                     ]
                 }
             ], 

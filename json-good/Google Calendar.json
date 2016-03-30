@@ -48,14 +48,13 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.LAUNCHER", 
-                        "android.intent.category.APP_CALENDAR", 
-                        "android.intent.category.DEFAULT"
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.APP_CALENDAR"
                     ], 
                     "actions": [
-                        "android.intent.action.MAIN", 
-                        "android.intent.action.VIEW"
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.MAIN"
                     ]
                 }, 
                 {
@@ -77,14 +76,13 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.LAUNCHER", 
-                        "android.intent.category.APP_CALENDAR", 
-                        "android.intent.category.DEFAULT"
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.APP_CALENDAR"
                     ], 
                     "actions": [
-                        "android.intent.action.MAIN", 
-                        "android.intent.action.VIEW"
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.MAIN"
                     ]
                 }
             ], 
@@ -102,11 +100,9 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.VIEW", 
                         "android.intent.action.VIEW"
                     ]
                 }, 
@@ -119,11 +115,9 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.VIEW", 
                         "android.intent.action.VIEW"
                     ]
                 }
@@ -162,8 +156,8 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE"
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
                         "android.intent.action.VIEW"
@@ -298,9 +292,9 @@
                     "actions": [
                         "android.intent.action.EVENT_REMINDER", 
                         "android.intent.action.TIME_SET", 
-                        "android.intent.action.BOOT_COMPLETED", 
                         "android.intent.action.LOCALE_CHANGED", 
-                        "android.intent.action.PROVIDER_CHANGED"
+                        "android.intent.action.PROVIDER_CHANGED", 
+                        "android.intent.action.BOOT_COMPLETED"
                     ]
                 }, 
                 {
@@ -325,9 +319,9 @@
                     "actions": [
                         "android.intent.action.EVENT_REMINDER", 
                         "android.intent.action.TIME_SET", 
-                        "android.intent.action.BOOT_COMPLETED", 
                         "android.intent.action.LOCALE_CHANGED", 
-                        "android.intent.action.PROVIDER_CHANGED"
+                        "android.intent.action.PROVIDER_CHANGED", 
+                        "android.intent.action.BOOT_COMPLETED"
                     ]
                 }, 
                 {
@@ -352,9 +346,9 @@
                     "actions": [
                         "android.intent.action.EVENT_REMINDER", 
                         "android.intent.action.TIME_SET", 
-                        "android.intent.action.BOOT_COMPLETED", 
                         "android.intent.action.LOCALE_CHANGED", 
-                        "android.intent.action.PROVIDER_CHANGED"
+                        "android.intent.action.PROVIDER_CHANGED", 
+                        "android.intent.action.BOOT_COMPLETED"
                     ]
                 }, 
                 {
@@ -379,9 +373,9 @@
                     "actions": [
                         "android.intent.action.EVENT_REMINDER", 
                         "android.intent.action.TIME_SET", 
-                        "android.intent.action.BOOT_COMPLETED", 
                         "android.intent.action.LOCALE_CHANGED", 
-                        "android.intent.action.PROVIDER_CHANGED"
+                        "android.intent.action.PROVIDER_CHANGED", 
+                        "android.intent.action.BOOT_COMPLETED"
                     ]
                 }
             ], 
@@ -394,8 +388,8 @@
                     "data": [], 
                     "categories": [], 
                     "actions": [
-                        "android.appwidget.action.APPWIDGET_UPDATE", 
-                        "com.google.android.calendar.APPWIDGET_UPDATE"
+                        "com.google.android.calendar.APPWIDGET_UPDATE", 
+                        "android.appwidget.action.APPWIDGET_UPDATE"
                     ]
                 }
             ], 
@@ -434,11 +428,11 @@
                     ], 
                     "categories": [], 
                     "actions": [
+                        "android.intent.action.PROVIDER_CHANGED", 
+                        "android.intent.action.TIME_SET", 
                         "android.intent.action.TIMEZONE_CHANGED", 
                         "android.intent.action.DATE_CHANGED", 
-                        "android.intent.action.TIME_SET", 
                         "android.intent.action.LOCALE_CHANGED", 
-                        "android.intent.action.PROVIDER_CHANGED", 
                         "com.google.android.calendar.APPWIDGET_SCHEDULED_UPDATE"
                     ]
                 }, 
@@ -472,11 +466,11 @@
                     ], 
                     "categories": [], 
                     "actions": [
+                        "android.intent.action.PROVIDER_CHANGED", 
+                        "android.intent.action.TIME_SET", 
                         "android.intent.action.TIMEZONE_CHANGED", 
                         "android.intent.action.DATE_CHANGED", 
-                        "android.intent.action.TIME_SET", 
                         "android.intent.action.LOCALE_CHANGED", 
-                        "android.intent.action.PROVIDER_CHANGED", 
                         "com.google.android.calendar.APPWIDGET_SCHEDULED_UPDATE"
                     ]
                 }, 
@@ -510,11 +504,11 @@
                     ], 
                     "categories": [], 
                     "actions": [
+                        "android.intent.action.PROVIDER_CHANGED", 
+                        "android.intent.action.TIME_SET", 
                         "android.intent.action.TIMEZONE_CHANGED", 
                         "android.intent.action.DATE_CHANGED", 
-                        "android.intent.action.TIME_SET", 
                         "android.intent.action.LOCALE_CHANGED", 
-                        "android.intent.action.PROVIDER_CHANGED", 
                         "com.google.android.calendar.APPWIDGET_SCHEDULED_UPDATE"
                     ]
                 }

@@ -2,6 +2,12 @@
     "myIntents": [
         {
             "dataType": null, 
+            "consumerMethod": "binder", 
+            "action": null, 
+            "sender": "com.twitter.android.platform.TwitterContactsSyncService"
+        }, 
+        {
+            "dataType": null, 
             "consumerMethod": "startActivityForResult", 
             "action": "android.intent.action.PICK", 
             "sender": "com.twitter.android.MessagesThreadActivity"
@@ -44,9 +50,9 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "setIntent", 
+            "consumerMethod": "startService", 
             "action": null, 
-            "sender": "com.twitter.android.SearchTweetsActivity"
+            "sender": "com.twitter.android.platform.C2DMService"
         }, 
         {
             "dataType": null, 
@@ -62,15 +68,15 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "binder", 
+            "consumerMethod": "setIntent", 
             "action": null, 
-            "sender": "com.twitter.android.platform.TwitterDataSyncService"
+            "sender": "com.twitter.android.SearchTweetsActivity"
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startService", 
+            "consumerMethod": "startActivityForResult", 
             "action": null, 
-            "sender": "com.twitter.android.platform.TwitterDataSyncService"
+            "sender": "com.twitter.android.HomeTabActivity"
         }, 
         {
             "dataType": null, 
@@ -80,9 +86,9 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startActivityForResult", 
+            "consumerMethod": "startActivity", 
             "action": null, 
-            "sender": "com.twitter.android.AccountsDialogActivity"
+            "sender": "com.twitter.android.BaseActivity"
         }, 
         {
             "dataType": null, 
@@ -104,9 +110,9 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startActivity", 
+            "consumerMethod": "startService", 
             "action": null, 
-            "sender": "com.twitter.android.BaseActivity"
+            "sender": "com.twitter.android.platform.TwitterDataSyncService"
         }, 
         {
             "dataType": null, 
@@ -116,9 +122,9 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "setResult", 
+            "consumerMethod": "startActivity", 
             "action": null, 
-            "sender": "com.twitter.android.DraftsFragment"
+            "sender": "com.twitter.android.bd"
         }, 
         {
             "dataType": null, 
@@ -131,12 +137,6 @@
             "consumerMethod": "sendOrderedBroadcast", 
             "action": "com.twitter.android.poll.data", 
             "sender": "com.twitter.android.platform.o"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "binder", 
-            "action": null, 
-            "sender": "com.twitter.android.platform.TwitterContactsSyncService"
         }, 
         {
             "dataType": null, 
@@ -200,12 +200,6 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": null, 
-            "sender": "com.twitter.android.platform.C2DMService"
-        }, 
-        {
-            "dataType": null, 
             "consumerMethod": "setResult", 
             "action": null, 
             "sender": "com.twitter.android.ListCreateEditActivity"
@@ -257,12 +251,6 @@
             "consumerMethod": "startActivity", 
             "action": "com.twitter.android.intent.action.FOLLOW", 
             "sender": "com.twitter.android.UrlInterpreterActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivityForResult", 
-            "action": null, 
-            "sender": "com.twitter.android.HomeTabActivity"
         }, 
         {
             "dataType": null, 
@@ -326,6 +314,12 @@
         }, 
         {
             "dataType": null, 
+            "consumerMethod": "startService", 
+            "action": "LOGIN", 
+            "sender": "com.twitter.android.AuthenticatorActivity"
+        }, 
+        {
+            "dataType": null, 
             "consumerMethod": "startActivity", 
             "action": null, 
             "sender": "com.twitter.android.be"
@@ -368,12 +362,6 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": null, 
-            "sender": "com.twitter.android.bd"
-        }, 
-        {
-            "dataType": null, 
             "consumerMethod": "setIntent", 
             "action": null, 
             "sender": "com.twitter.android.AboutActivity"
@@ -410,12 +398,6 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "LOGIN", 
-            "sender": "com.twitter.android.AuthenticatorActivity"
-        }, 
-        {
-            "dataType": null, 
             "consumerMethod": "startActivity", 
             "action": null, 
             "sender": "com.twitter.android.SearchUsersActivity"
@@ -439,6 +421,12 @@
             "sender": "com.twitter.android.HomeTabActivity"
         }, 
         {
+            "dataType": null, 
+            "consumerMethod": "binder", 
+            "action": null, 
+            "sender": "com.twitter.android.platform.TwitterDataSyncService"
+        }, 
+        {
             "dataType": "\"vnd.android.cursor.dir/image\"", 
             "consumerMethod": "startActivityForResult", 
             "action": null, 
@@ -458,9 +446,21 @@
         }, 
         {
             "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "action": null, 
+            "sender": "com.twitter.android.AccountsDialogActivity"
+        }, 
+        {
+            "dataType": null, 
             "consumerMethod": "startActivity", 
             "action": null, 
             "sender": "com.twitter.android.widget.j"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "action": null, 
+            "sender": "com.twitter.android.DraftsFragment"
         }, 
         {
             "dataType": null, 
@@ -494,8 +494,8 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE"
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
                         "android.intent.action.VIEW"
@@ -544,8 +544,8 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE"
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
                         "android.intent.action.VIEW"
@@ -566,8 +566,8 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE"
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
                         "android.intent.action.VIEW"
@@ -598,8 +598,8 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE"
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
                         "android.intent.action.VIEW"
@@ -625,8 +625,8 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE"
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
                         "android.intent.action.VIEW"
@@ -647,13 +647,12 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE"
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.SEARCH", 
-                        "android.intent.action.VIEW"
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.SEARCH"
                     ]
                 }, 
                 {
@@ -665,13 +664,12 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE"
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.SEARCH", 
-                        "android.intent.action.VIEW"
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.SEARCH"
                     ]
                 }
             ], 
@@ -724,14 +722,11 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
                         "android.intent.action.VIEW", 
-                        "android.intent.action.SEND", 
                         "android.intent.action.SEND"
                     ]
                 }, 
@@ -759,14 +754,11 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
                         "android.intent.action.VIEW", 
-                        "android.intent.action.SEND", 
                         "android.intent.action.SEND"
                     ]
                 }, 
@@ -794,14 +786,11 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
                         "android.intent.action.VIEW", 
-                        "android.intent.action.SEND", 
                         "android.intent.action.SEND"
                     ]
                 }
@@ -830,13 +819,10 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE"
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.VIEW", 
                         "android.intent.action.VIEW"
                     ]
                 }, 
@@ -854,13 +840,10 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
                         "android.intent.category.BROWSABLE", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE"
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.VIEW", 
                         "android.intent.action.VIEW"
                     ]
                 }
@@ -894,12 +877,10 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE"
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.VIEW", 
                         "android.intent.action.VIEW"
                     ]
                 }, 
@@ -917,12 +898,10 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE"
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
-                        "android.intent.action.VIEW", 
                         "android.intent.action.VIEW"
                     ]
                 }
@@ -946,8 +925,8 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE"
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
                         "android.intent.action.VIEW"
@@ -962,8 +941,8 @@
                 {
                     "data": [], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE"
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
                         "android.intent.action.VIEW"
@@ -1069,8 +1048,8 @@
                         }
                     ], 
                     "categories": [
-                        "android.intent.category.DEFAULT", 
-                        "android.intent.category.BROWSABLE"
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
                     ], 
                     "actions": [
                         "android.intent.action.VIEW"
@@ -1214,8 +1193,8 @@
                     "data": [], 
                     "categories": [], 
                     "actions": [
-                        "com.twitter.android.poll.data", 
                         "com.twitter.android.widget.button.next", 
+                        "com.twitter.android.poll.data", 
                         "com.twitter.android.widget.button.prev"
                     ]
                 }
@@ -1241,23 +1220,21 @@
                 {
                     "data": [], 
                     "categories": [
-                        "com.twitter.android", 
                         "com.twitter.android"
                     ], 
                     "actions": [
-                        "com.google.android.c2dm.intent.RECEIVE", 
-                        "com.google.android.c2dm.intent.REGISTRATION"
+                        "com.google.android.c2dm.intent.REGISTRATION", 
+                        "com.google.android.c2dm.intent.RECEIVE"
                     ]
                 }, 
                 {
                     "data": [], 
                     "categories": [
-                        "com.twitter.android", 
                         "com.twitter.android"
                     ], 
                     "actions": [
-                        "com.google.android.c2dm.intent.RECEIVE", 
-                        "com.google.android.c2dm.intent.REGISTRATION"
+                        "com.google.android.c2dm.intent.REGISTRATION", 
+                        "com.google.android.c2dm.intent.RECEIVE"
                     ]
                 }
             ], 
