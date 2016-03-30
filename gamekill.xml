@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application>
+    <packageName>com.example.hsiehj.gamekillbuttonapp</packageName>
+    <components>
+        <Component>
+            <type>activity</type>
+            <name>com.example.hsiehj.gamekillbuttonapp.MainActivity</name>
+            <RequiredPermissions/>
+            <IntentFilter>
+                <filter>
+                    <actions>android.intent.action.MAIN</actions>
+                    <categories>android.intent.category.LAUNCHER</categories>
+                    <pathData></pathData>
+                </filter>
+            </IntentFilter>
+            <PropagatedPermissions/>
+        </Component>
+    </components>
+    <newIntents>
+        <Intent>
+            <calledAt>com.example.hsiehj.gamekillbuttonapp.MainActivity$1: void onClick(android.view.View)</calledAt>
+            <sender>com.example.hsiehj.gamekillbuttonapp.MainActivity</sender>
+            <component>com.example.hsiehj.gamekillbuttonapp.</component>
+            <action></action>
+            <dataType></dataType>
+            <scheme></scheme>
+            <extra>true</extra>
+            <sensitiveData>false</sensitiveData>
+            <consumerMethod>sendBroadcast</consumerMethod>
+            <id>n7vpijbm82ktb10kml2l3u8me</id>
+            <random/>
+        </Intent>
+        <Intent>
+            <calledAt>com.example.hsiehj.gamekillbuttonapp.MainActivity$1: void onClick(android.view.View)</calledAt>
+            <sender>com.example.hsiehj.gamekillbuttonapp.MainActivity</sender>
+            <component>com.example.hsiehj.gamekillbuttonapp.</component>
+            <action></action>
+            <dataType></dataType>
+            <scheme></scheme>
+            <extra>true</extra>
+            <sensitiveData>false</sensitiveData>
+            <consumerMethod>sendBroadcast</consumerMethod>
+            <id>94mdfn8g8ppa6js9mlli9h87ol</id>
+            <random/>
+        </Intent>
+        <Intent>
+            <calledAt>com.example.hsiehj.gamekillbuttonapp.MainActivity$1: void onClick(android.view.View)</calledAt>
+            <sender>com.example.hsiehj.gamekillbuttonapp.MainActivity</sender>
+            <component>com.example.hsiehj.gamekillbuttonapp.</component>
+            <action></action>
+            <dataType></dataType>
+            <scheme></scheme>
+            <extra>true</extra>
+            <sensitiveData>false</sensitiveData>
+            <consumerMethod>sendBroadcast</consumerMethod>
+            <id>s23voooehgnru94dpln5jj4fgf</id>
+            <random/>
+        </Intent>
+        <Intent>
+            <calledAt>com.example.hsiehj.gamekillbuttonapp.MainActivity$1: void onClick(android.view.View)</calledAt>
+            <sender>com.example.hsiehj.gamekillbuttonapp.MainActivity</sender>
+            <component>com.example.hsiehj.gamekillbuttonapp.</component>
+            <action></action>
+            <dataType></dataType>
+            <scheme></scheme>
+            <extra>true</extra>
+            <sensitiveData>false</sensitiveData>
+            <consumerMethod>sendBroadcast</consumerMethod>
+            <id>ap551kt78vsdrpngr4s7rqtjru</id>
+            <random/>
+        </Intent>
+    </newIntents>
+    <ContentProviders/>
+    <usesPermissions/>
+    <actuallyUsesPermissions/>
+    <requiredPermissions/>
+    <apkFile>../../../app_repo/johnsonapps/GameKillButton.apk</apkFile>
+    <name>GameKillButton</name>
+</application>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application>
+    <packageName>com.example.amazed</packageName>
+    <components>
+        <Component>
+            <type>activity</type>
+            <name>com.example.amazed.AmazedActivity</name>
+            <RequiredPermissions/>
+            <IntentFilter>
+                <filter>
+                    <actions>android.intent.action.MAIN</actions>
+                    <categories>android.intent.category.LAUNCHER</categories>
+                    <pathData></pathData>
+                </filter>
+            </IntentFilter>
+            <PropagatedPermissions/>
+        </Component>
+        <Component>
+            <type>receiver</type>
+            <name>com.example.amazed.BatteryChangeReceiver</name>
+            <RequiredPermissions/>
+            <IntentFilter>
+                <filter>
+                    <actions>android.intent.action.ACTION_POWER_DISCONNECTED</actions>
+                    <pathData></pathData>
+                </filter>
+            </IntentFilter>
+            <PropagatedPermissions/>
+        </Component>
+    </components>
+    <newIntents>
+        <Intent>
+            <calledAt>com.example.amazed.BatteryChangeReceiver: void onReceive(android.content.Context,android.content.Intent)</calledAt>
+            <sender>com.example.amazed.BatteryChangeReceiver</sender>
+            <component></component>
+            <action>"android.intent.action.MAIN"</action>
+            <dataType></dataType>
+            <scheme></scheme>
+            <extra>false</extra>
+            <sensitiveData>false</sensitiveData>
+            <categories>"android.intent.category.HOME"</categories>
+            <sensitiveFlows>
+                <Flow>
+                    <sink>&lt;android.content.Context: void startActivity(android.content.Intent)&gt;($r2) on line 23 </sink>
+                    <sinkCalledAt>com.example.amazed.BatteryChangeReceiver: void onReceive(android.content.Context,android.content.Intent)</sinkCalledAt>
+                    <source> @parameter0: android.content.Context </source>
+                    <sourceCalledAt>com.example.amazed.BatteryChangeReceiver: void onReceive(android.content.Context,android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>IPC</sinkDomain>
+                    <sourceDomain>UNDEFINED</sourceDomain>
+                </Flow>
+            </sensitiveFlows>
+            <consumerMethod>startActivity</consumerMethod>
+            <id>es4mnje9q70q5vel8l8grstv1q</id>
+            <random/>
+        </Intent>
+        <Intent>
+            <calledAt>com.example.amazed.BatteryChangeReceiver: void onReceive(android.content.Context,android.content.Intent)</calledAt>
+            <sender>com.example.amazed.BatteryChangeReceiver</sender>
+            <component></component>
+            <action>"android.intent.action.MAIN"</action>
+            <dataType></dataType>
+            <scheme></scheme>
+            <extra>false</extra>
+            <sensitiveData>false</sensitiveData>
+            <categories>"android.intent.category.HOME"</categories>
+            <sensitiveFlows>
+                <Flow>
+                    <sink>&lt;android.content.Context: void startActivity(android.content.Intent)&gt;($r2) on line 23 </sink>
+                    <sinkCalledAt>com.example.amazed.BatteryChangeReceiver: void onReceive(android.content.Context,android.content.Intent)</sinkCalledAt>
+                    <source> @parameter0: android.content.Context </source>
+                    <sourceCalledAt>com.example.amazed.BatteryChangeReceiver: void onReceive(android.content.Context,android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>IPC</sinkDomain>
+                    <sourceDomain>UNDEFINED</sourceDomain>
+                </Flow>
+            </sensitiveFlows>
+            <consumerMethod>startActivity</consumerMethod>
+            <id>bvndlstq16fn5a6th94msjcfkb</id>
+            <random/>
+        </Intent>
+        <Intent>
+            <calledAt>com.example.amazed.BatteryChangeReceiver: void onReceive(android.content.Context,android.content.Intent)</calledAt>
+            <sender>com.example.amazed.BatteryChangeReceiver</sender>
+            <component></component>
+            <action>"android.intent.action.MAIN"</action>
+            <dataType></dataType>
+            <scheme></scheme>
+            <extra>false</extra>
+            <sensitiveData>false</sensitiveData>
+            <categories>"android.intent.category.HOME"</categories>
+            <sensitiveFlows>
+                <Flow>
+                    <sink>&lt;android.content.Context: void startActivity(android.content.Intent)&gt;($r2) on line 23 </sink>
+                    <sinkCalledAt>com.example.amazed.BatteryChangeReceiver: void onReceive(android.content.Context,android.content.Intent)</sinkCalledAt>
+                    <source> @parameter0: android.content.Context </source>
+                    <sourceCalledAt>com.example.amazed.BatteryChangeReceiver: void onReceive(android.content.Context,android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>IPC</sinkDomain>
+                    <sourceDomain>UNDEFINED</sourceDomain>
+                </Flow>
+            </sensitiveFlows>
+            <consumerMethod>startActivity</consumerMethod>
+            <id>8gl2hfjfa6kcrsi45hpit52mlk</id>
+            <random/>
+        </Intent>
+        <Intent>
+            <calledAt>com.example.amazed.BatteryChangeReceiver: void onReceive(android.content.Context,android.content.Intent)</calledAt>
+            <sender>com.example.amazed.BatteryChangeReceiver</sender>
+            <component></component>
+            <action>"android.intent.action.MAIN"</action>
+            <dataType></dataType>
+            <scheme></scheme>
+            <extra>false</extra>
+            <sensitiveData>false</sensitiveData>
+            <categories>"android.intent.category.HOME"</categories>
+            <sensitiveFlows>
+                <Flow>
+                    <sink>&lt;android.content.Context: void startActivity(android.content.Intent)&gt;($r2) on line 23 </sink>
+                    <sinkCalledAt>com.example.amazed.BatteryChangeReceiver: void onReceive(android.content.Context,android.content.Intent)</sinkCalledAt>
+                    <source> @parameter0: android.content.Context </source>
+                    <sourceCalledAt>com.example.amazed.BatteryChangeReceiver: void onReceive(android.content.Context,android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>IPC</sinkDomain>
+                    <sourceDomain>UNDEFINED</sourceDomain>
+                </Flow>
+            </sensitiveFlows>
+            <consumerMethod>startActivity</consumerMethod>
+            <id>hitkq4usd2l0eeh741i06kuabq</id>
+            <random/>
+        </Intent>
+    </newIntents>
+    <ContentProviders/>
+    <usesPermissions/>
+    <actuallyUsesPermissions/>
+    <requiredPermissions/>
+    <apkFile>../../../app_repo/johnsonapps/AmazedGame.apk</apkFile>
+    <name>AmazedGame</name>
+</application>

@@ -1,0 +1,86 @@
+{
+    "myIntents": [
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "tntstudio.supercompass.MainActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.VIEW", 
+            "sender": "tntstudio.supercompass.MainActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.VIEW", 
+            "sender": "tntstudio.supercompass.AdsActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "action": null, 
+            "sender": "tntstudio.supercompass.h"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "action": null, 
+            "sender": "tntstudio.supercompass.i"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.VIEW", 
+            "sender": "tntstudio.supercompass.k"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "action": null, 
+            "sender": "tntstudio.supercompass.g"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "action": null, 
+            "sender": "tntstudio.supercompass.f"
+        }
+    ], 
+    "packageName": "tntstudio.supercompass", 
+    "myComponents": [
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.LAUNCHER"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "tntstudio.supercompass.MainActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "tntstudio.supercompass.Compass_type"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "tntstudio.supercompass.AdsActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.google.android.gms.ads.AdActivity"
+        }
+    ], 
+    "name": "Compass for Android"
+}

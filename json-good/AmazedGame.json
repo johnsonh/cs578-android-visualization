@@ -1,0 +1,42 @@
+{
+    "myIntents": [
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.MAIN", 
+            "sender": "com.example.amazed.BatteryChangeReceiver"
+        }
+    ], 
+    "packageName": "com.example.amazed", 
+    "myComponents": [
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.LAUNCHER"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "com.example.amazed.AmazedActivity"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.intent.action.ACTION_POWER_DISCONNECTED"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "com.example.amazed.BatteryChangeReceiver"
+        }
+    ], 
+    "name": "AmazedGame"
+}

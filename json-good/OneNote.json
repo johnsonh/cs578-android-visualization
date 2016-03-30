@@ -1,0 +1,1095 @@
+{
+    "myIntents": [
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.uicontrols.OMFeedbackHelpers"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.navigation.ONMNotebookListFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.OMServices.BaseActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.ONMDeleteAccountService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.ONMApplication"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.ONMSearchActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.msohttp.StandardAuthLoginActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.ONMSplashActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.utils.ONMActions"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.ONMQuickCaptureHelperActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.msohttp.SPOAuthLoginActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.msohttp.FBALoginActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.ONMHyperlinkOpeningFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.ONMSettingActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.ONMNotebookSettingActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "action": null, 
+            "sender": "com.microsoft.office.uicontrols.OMSendFeedbackActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.ONMQuickCaptureHelperActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.ONMSettingActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.firstrun.ONMSignInWrapperActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.canvas.ONMCanvasActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.ONMSettingAccountPicker"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.adapters.ONMNotebookSettingAdapter"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.utils.ONMCameraUtils"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.firstrun.ONMIntroductionActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "binder", 
+            "action": null, 
+            "sender": "com.microsoft.office.msohttp.keystore.OfficeAuthenticationService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.microsoft.office.OMServices.LaunchAppInBrowser"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.canvas.views.ONMPageView"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "binder", 
+            "action": null, 
+            "sender": "com.microsoft.office.auth.live.LiveAuthenticationService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.firstrun.ONMSignInWrapperActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.ONMUpgradeActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.firstrun.ONMIntroductionActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.msohttp.OAuthLoginActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.firstrun.ONMAccountPickerActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "action": null, 
+            "sender": "com.microsoft.office.msohttp.AddAccountInSettingsActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.ONMShowMessageboxHelperActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.audio.ONMRecordActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.microsoft.office.uicontrols.OMSendFeedbackActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.canvas.ONMCanvasActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.microsoft.office.onenote.ui.canvas.views.ONMPageView"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.msohttp.OrgIdAuthLoginActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.adapters.ONMNotebookSettingAdapter"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.utils.ONMStorageUtils"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "action": null, 
+            "sender": "com.microsoft.office.auth.live.OAuthDeprecatedAuthenticatorActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.navigation.ONMBaseListFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.ONMApplication"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.ONMContentOpeningActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.ONMSplashActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "binder", 
+            "action": null, 
+            "sender": "com.microsoft.office.msohttp.keystore.SyncService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.navigation.ONMNavigationActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.audio.ONMReplayActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.firstrun.ONMAccountPickerActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.microsoft.office.OMServices.Email"
+        }
+    ], 
+    "packageName": "com.microsoft.office.onenote", 
+    "myComponents": [
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.microsoft.office.auth.live.OAuthDeprecatedAuthenticatorActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.microsoft.office.auth.live.LiveListAppsActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.microsoft.office.uicontrols.OMSendFeedbackActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "ui.navigation.ONMNavigationActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "ui.ONMUpgradeActivity"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.LAUNCHER"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "ui.ONMSplashActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "ui.ONMEULAActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "ui.firstrun.ONMIntroductionActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "ui.firstrun.ONMSignInWrapperActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "ui.firstrun.ONMProvisionActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "ui.canvas.ONMCanvasActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "ui.ONMQuickCaptureHelperActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "ui.ONMSyncErrorActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "ui.ONMSettingActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "ui.setting.ONMSettingSubActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "ui.EULABackgroundActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "ui.ONMShowMessageboxHelperActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.microsoft.office.onenote.ui.canvas.ONMNewPageWizardActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "ui.ONMSearchActivity"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "onenote"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "onenote"
+                        }, 
+                        {
+                            "mimeType": "*/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "application/msonenote", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "application/one", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "application/onenote", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "file"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "*", 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "*/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "file"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "*", 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "onenote"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "onenote"
+                        }, 
+                        {
+                            "mimeType": "*/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "application/msonenote", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "application/one", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "application/onenote", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "file"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "*", 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "*/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "file"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "*", 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "onenote"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "onenote"
+                        }, 
+                        {
+                            "mimeType": "*/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "application/msonenote", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "application/one", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "application/onenote", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "file"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "*", 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "*/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "file"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "*", 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "onenote"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "onenote"
+                        }, 
+                        {
+                            "mimeType": "*/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "application/msonenote", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "application/one", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "application/onenote", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "file"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "*", 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "*/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "file"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "*", 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "onenote"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "onenote"
+                        }, 
+                        {
+                            "mimeType": "*/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "application/msonenote", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "application/one", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "application/onenote", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "file"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "*", 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "*/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "file"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "*", 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "com.microsoft.office.onenote.ui.ONMContentOpeningActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.microsoft.office.onenote.ui.audio.ONMRecordActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.microsoft.office.onenote.ui.audio.ONMReplayActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.microsoft.office.msohttp.OAuthLoginActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.microsoft.office.msohttp.OrgIdAuthLoginActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.microsoft.office.msohttp.SPOAuthLoginActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.microsoft.office.msohttp.FBALoginActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.microsoft.office.msohttp.StandardAuthLoginActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.microsoft.office.msohttp.AddAccountInSettingsActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "ui.ONMNotebookSettingActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "ui.ONMSettingAccountPicker"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "ui.firstrun.ONMAccountPickerActivity"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.accounts.AccountAuthenticator"
+                    ]
+                }
+            ], 
+            "type": "service", 
+            "name": "com.microsoft.office.msohttp.keystore.OfficeAuthenticationService"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.content.SyncAdapter"
+                    ]
+                }
+            ], 
+            "type": "service", 
+            "name": "com.microsoft.office.msohttp.keystore.SyncService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "ui.ONMDeleteAccountService"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.accounts.AccountAuthenticator"
+                    ]
+                }
+            ], 
+            "type": "service", 
+            "name": "com.microsoft.office.auth.live.LiveAuthenticationService"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.intent.action.LOCALE_CHANGED"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "com.microsoft.office.onenote.ONMResourceManager$DataChangeReceiver"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.appwidget.action.APPWIDGET_UPDATE"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "ui.widget.ONMTextNoteWidgetReceiver"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.appwidget.action.APPWIDGET_UPDATE"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "ui.widget.ONMAudioNoteWidgetReceiver"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.appwidget.action.APPWIDGET_UPDATE"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "ui.widget.ONMImageNoteWidgetReceiver"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.appwidget.action.APPWIDGET_UPDATE"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "ui.widget.ONMFullWidgetReceiver"
+        }, 
+        {
+            "filter": [], 
+            "type": "provider", 
+            "name": "com.microsoft.office.onenote.content.ONMContentProvider"
+        }, 
+        {
+            "filter": [], 
+            "type": "provider", 
+            "name": "com.microsoft.office.onenote.content.ONMEmailContentProvider"
+        }
+    ], 
+    "name": "OneNote"
+}

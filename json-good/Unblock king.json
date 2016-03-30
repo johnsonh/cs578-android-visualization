@@ -1,0 +1,99 @@
+{
+    "myIntents": [
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.mobirix.util.callShop"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.mobirix.util.JniMethods"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.mobirix.util.JniMethods"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "action": null, 
+            "sender": "com.mobirix.slideking.MxPlayGameMultiListener"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.SEND", 
+            "sender": "com.mobirix.util.KakaoLink"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "action": null, 
+            "sender": "com.mobirix.util.JniMethods"
+        }
+    ], 
+    "packageName": "com.mobirix.slideking", 
+    "myComponents": [
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.LAUNCHER"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "com.mobirix.slideking.SlideKing"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.google.android.gms.ads.AdActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.mobirix.payment.sk.SkPayment"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.mobirix.payment.google.GooglePayment"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.mobirix.payment.kt.KTPayment"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.mobirix.payment.lg.LGPayment"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.mobirix.payment.sa.SamsungPayment"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.mobirix.payment.na.NaverPayment"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.feelingk.lguiab.manager.gui.InAppLockActivity"
+        }
+    ], 
+    "name": "Unblock king"
+}

@@ -1,0 +1,612 @@
+{
+    "myIntents": [
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "action": null, 
+            "sender": "com.instagram.creation.base.e"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.instagram.android.util.ReportMediaUtil"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "action": null, 
+            "sender": "com.instagram.android.c2dm.a"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.instagram.android.feed.a.a.z"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.instagram.c.b"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.instagram.android.login.c.c"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "action": "com.android.music.musicservicecommand", 
+            "sender": "com.instagram.creation.video.f.a"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.instagram.android.activity.w"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.instagram.android.widget.a"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "action": "suggestions", 
+            "sender": "com.instagram.android.creation.activity.MediaCaptureActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.instagram.android.people.c.l"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "action": null, 
+            "sender": "com.instagram.android.receiver.C2DMReceiver"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.instagram.android.util.j"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "hasValue", 
+            "sender": "com.instagram.android.maps.f.a"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.instagram.android.nux.SignedOutFragmentActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.instagram.android.feed.a.b.ao"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.instagram.android.directshare.c.b"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "action": null, 
+            "sender": "com.instagram.android.service.PendingMediaService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "action": null, 
+            "sender": "com.instagram.android.support.camera.CropActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "action": "com.google.android.c2dm.intent.REGISTER", 
+            "sender": "com.instagram.android.c2dm.b"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "action": null, 
+            "sender": "com.instagram.android.people.activity.PeopleTagActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "action": "suggestions", 
+            "sender": "com.instagram.android.b"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "bindService", 
+            "action": null, 
+            "sender": "com.instagram.android.service.o"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "action": null, 
+            "sender": "com.instagram.android.creation.c"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "action": null, 
+            "sender": "com.instagram.android.activity.MainTabActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.instagram.android.util.e"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "action": null, 
+            "sender": "com.instagram.android.rageshake.RageShakeService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "action": null, 
+            "sender": "com.instagram.android.util.i"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "action": "autocomplete", 
+            "sender": "com.instagram.android.b"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "action": null, 
+            "sender": "com.instagram.android.creation.b.bt"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.instagram.android.activity.UrlHandlerActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "action": "suggestions", 
+            "sender": "com.instagram.android.service.PendingMediaService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "action": null, 
+            "sender": "com.instagram.android.service.MediaService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "action": null, 
+            "sender": "com.instagram.android.activity.VkontakteAuthActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.instagram.android.nux.ao"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.instagram.android.rageshake.b"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.instagram.android.util.ReportCommentUtil"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.instagram.android.feed.a.b.m"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.instagram.android.activity.a"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "action": null, 
+            "sender": "com.instagram.android.activity.FoursquareAuthActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.instagram.android.creation.b.a"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.instagram.android.widget.y"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.instagram.android.activity.SimpleWebViewActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "action": null, 
+            "sender": "com.instagram.android.b"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "action": null, 
+            "sender": "com.instagram.android.service.TumblrService"
+        }
+    ], 
+    "packageName": "com.instagram.android", 
+    "myComponents": [
+        {
+            "filter": [
+                {
+                    "data": [
+                        {
+                            "mimeType": "image/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "video/*", 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.LAUNCHER", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN", 
+                        "android.intent.action.SEND"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": "image/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "video/*", 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.LAUNCHER", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN", 
+                        "android.intent.action.SEND"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "activity.MainTabActivity"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "instagram"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "instagram.com", 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "instagram.com", 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "instagr.am", 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "instagr.am", 
+                            "scheme": "https"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "instagram"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "instagram.com", 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "instagram.com", 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "instagr.am", 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "instagr.am", 
+                            "scheme": "https"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "login.PasswordResetActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "nux.SignedOutFragmentActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "creation.activity.MediaCaptureActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "rageshake.RageShakeActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "activity.TwitterAuthActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "activity.FoursquareAuthActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "activity.FlickrAuthActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "activity.TumblrAuthActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "activity.VkontakteAuthActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "activity.ActivityInTab"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": "instagr.am", 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "instagr.am", 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "instagram.com", 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "instagram.com", 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "instagram.com", 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "instagram.com", 
+                            "scheme": "https"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "activity.UrlHandlerActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "activity.NewsActivityInTab"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "maps.DedicatedMapActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "activity.ArbitraryFragmentActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "support.camera.CropActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "maps.PhotoMapsActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "people.activity.PeopleTagActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "activity.SimpleWebViewActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "service.PendingMediaService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "service.MediaService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "service.TumblrService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "service.UserService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "service.AutoCompleteHashtagService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "rageshake.RageShakeService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "foursquare.NearbyVenuesService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "receiver.C2DMReceiver"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "service.PushRegistrationService"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "com.instagram.android", 
+                        "com.instagram.android"
+                    ], 
+                    "actions": [
+                        "com.google.android.c2dm.intent.RECEIVE", 
+                        "com.google.android.c2dm.intent.REGISTRATION"
+                    ]
+                }, 
+                {
+                    "data": [], 
+                    "categories": [
+                        "com.instagram.android", 
+                        "com.instagram.android"
+                    ], 
+                    "actions": [
+                        "com.google.android.c2dm.intent.RECEIVE", 
+                        "com.google.android.c2dm.intent.REGISTRATION"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "c2dm.C2DMBroadcastReceiver"
+        }
+    ], 
+    "name": "Instagram"
+}

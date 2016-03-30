@@ -1,0 +1,1315 @@
+{
+    "myIntents": [], 
+    "packageName": "com.android.chrome", 
+    "myComponents": [
+        {
+            "filter": [
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "googlechrome"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "about"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "javascript"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "googlechrome"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "about"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "javascript"
+                        }, 
+                        {
+                            "mimeType": "text/html", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "text/plain", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "application/xhtml+xml", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "multipart/related", 
+                            "host": null, 
+                            "scheme": "file"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.LAUNCHER", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.APP_BROWSER", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.MEDIA_SEARCH", 
+                        "android.speech.action.VOICE_SEARCH_RESULTS", 
+                        "android.nfc.action.NDEF_DISCOVERED", 
+                        "android.intent.action.SEARCH"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "googlechrome"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "about"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "javascript"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "googlechrome"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "about"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "javascript"
+                        }, 
+                        {
+                            "mimeType": "text/html", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "text/plain", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "application/xhtml+xml", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "multipart/related", 
+                            "host": null, 
+                            "scheme": "file"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.LAUNCHER", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.APP_BROWSER", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.MEDIA_SEARCH", 
+                        "android.speech.action.VOICE_SEARCH_RESULTS", 
+                        "android.nfc.action.NDEF_DISCOVERED", 
+                        "android.intent.action.SEARCH"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "googlechrome"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "about"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "javascript"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "googlechrome"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "about"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "javascript"
+                        }, 
+                        {
+                            "mimeType": "text/html", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "text/plain", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "application/xhtml+xml", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "multipart/related", 
+                            "host": null, 
+                            "scheme": "file"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.LAUNCHER", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.APP_BROWSER", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.MEDIA_SEARCH", 
+                        "android.speech.action.VOICE_SEARCH_RESULTS", 
+                        "android.nfc.action.NDEF_DISCOVERED", 
+                        "android.intent.action.SEARCH"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "googlechrome"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "about"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "javascript"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "googlechrome"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "about"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "javascript"
+                        }, 
+                        {
+                            "mimeType": "text/html", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "text/plain", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "application/xhtml+xml", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "multipart/related", 
+                            "host": null, 
+                            "scheme": "file"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.LAUNCHER", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.APP_BROWSER", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.MEDIA_SEARCH", 
+                        "android.speech.action.VOICE_SEARCH_RESULTS", 
+                        "android.nfc.action.NDEF_DISCOVERED", 
+                        "android.intent.action.SEARCH"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "googlechrome"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "about"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "javascript"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "googlechrome"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "about"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "javascript"
+                        }, 
+                        {
+                            "mimeType": "text/html", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "text/plain", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "application/xhtml+xml", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "multipart/related", 
+                            "host": null, 
+                            "scheme": "file"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.LAUNCHER", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.APP_BROWSER", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.MEDIA_SEARCH", 
+                        "android.speech.action.VOICE_SEARCH_RESULTS", 
+                        "android.nfc.action.NDEF_DISCOVERED", 
+                        "android.intent.action.SEARCH"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "googlechrome"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "about"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "javascript"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "googlechrome"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "about"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "javascript"
+                        }, 
+                        {
+                            "mimeType": "text/html", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "text/plain", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "application/xhtml+xml", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "multipart/related", 
+                            "host": null, 
+                            "scheme": "file"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.LAUNCHER", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.APP_BROWSER", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.MEDIA_SEARCH", 
+                        "android.speech.action.VOICE_SEARCH_RESULTS", 
+                        "android.nfc.action.NDEF_DISCOVERED", 
+                        "android.intent.action.SEARCH"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "googlechrome"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "about"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "javascript"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "googlechrome"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "about"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "javascript"
+                        }, 
+                        {
+                            "mimeType": "text/html", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "text/plain", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "application/xhtml+xml", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "multipart/related", 
+                            "host": null, 
+                            "scheme": "file"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.LAUNCHER", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.APP_BROWSER", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.MEDIA_SEARCH", 
+                        "android.speech.action.VOICE_SEARCH_RESULTS", 
+                        "android.nfc.action.NDEF_DISCOVERED", 
+                        "android.intent.action.SEARCH"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "googlechrome"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "about"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "javascript"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "googlechrome"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "about"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "javascript"
+                        }, 
+                        {
+                            "mimeType": "text/html", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "text/plain", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "application/xhtml+xml", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "multipart/related", 
+                            "host": null, 
+                            "scheme": "file"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "https"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.LAUNCHER", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.APP_BROWSER", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.MEDIA_SEARCH", 
+                        "android.speech.action.VOICE_SEARCH_RESULTS", 
+                        "android.nfc.action.NDEF_DISCOVERED", 
+                        "android.intent.action.SEARCH"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "com.google.android.apps.chrome.Main"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.google.android.apps.chrome.sync.ui.PassphraseActivity"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": "editbookmark", 
+                            "scheme": "chrome"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW", 
+                        "com.android.chrome.ADDBOOKMARK"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": "editbookmark", 
+                            "scheme": "chrome"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW", 
+                        "com.android.chrome.ADDBOOKMARK"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "com.google.android.apps.chrome.ManageBookmarkActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.google.android.apps.chrome.firstrun.FirstRunExperienceActivityPhone"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.google.android.apps.chrome.firstrun.FirstRunExperienceActivityTablet"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.google.android.apps.chrome.preferences.PreferenceHeaders"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.google.android.apps.chrome.EmbedContentViewActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.google.android.apps.chrome.prerender.PrerenderAPITestActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.google.android.apps.chrome.fullscreenmedia.FullScreenMediaActivity"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.CREATE_SHORTCUT"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "com.google.android.apps.chrome.ShortcutActivity"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.content.SyncAdapter"
+                    ]
+                }
+            ], 
+            "type": "service", 
+            "name": "com.google.android.apps.chrome.sync.ChromeBrowserSyncAdapterService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "com.google.ipc.invalidation.external.client.contrib.MultiplexingGcmListener"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "com.google.ipc.invalidation.AUTH_TOKEN_REQUEST"
+                    ]
+                }
+            ], 
+            "type": "service", 
+            "name": "org.chromium.sync.notifier.InvalidationService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "com.google.ipc.invalidation.ticl.android2.TiclService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageReceiverService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "com.google.android.apps.chrome.snapshot.SnapshotArchiveManager"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "com.google.android.apps.chrome.ChromeBrowserPrerenderService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "com.google.android.apps.chrome.snapshot.cloudprint.CloudPrintService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "com.google.android.apps.chrome.crash.MinidumpUploadService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "com.google.android.apps.chrome.omaha.OmahaClient"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "com.google.android.apps.chrome.snapshot.gcm.GcmReceiver"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "org.chromium.content.app.SandboxedProcessService0"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "org.chromium.content.app.SandboxedProcessService1"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "org.chromium.content.app.SandboxedProcessService2"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "org.chromium.content.app.SandboxedProcessService3"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "org.chromium.content.app.SandboxedProcessService4"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "org.chromium.content.app.SandboxedProcessService5"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "org.chromium.content.app.SandboxedProcessService6"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "org.chromium.content.app.SandboxedProcessService7"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "org.chromium.content.app.SandboxedProcessService8"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "org.chromium.content.app.SandboxedProcessService9"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "org.chromium.content.app.SandboxedProcessService10"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "org.chromium.content.app.SandboxedProcessService11"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "org.chromium.content.app.SandboxedProcessService12"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "org.chromium.content.app.PrivilegedProcessService0"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "org.chromium.content.app.PrivilegedProcessService1"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "org.chromium.content.app.PrivilegedProcessService2"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "com.google.android.apps.chrome.videofling.NotificationTransportControl$ListenerService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "com.google.android.apps.chrome.MediaCaptureNotificationService"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.accounts.LOGIN_ACCOUNTS_CHANGED"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "com.google.android.apps.chrome.services.AccountsChangedReceiver"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "com.android.chrome.TOS_ACKED"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "com.google.android.apps.chrome.ToSAckedReceiver"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.appwidget.action.APPWIDGET_UPDATE", 
+                        ".BOOKMARK_APPWIDGET_UPDATE"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider"
+        }, 
+        {
+            "filter": [], 
+            "type": "receiver", 
+            "name": "com.google.android.apps.chrome.appwidget.bookmarks.BookmarkWidgetProxy"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "com.android.chrome"
+                    ], 
+                    "actions": [
+                        "com.google.android.c2dm.intent.RECEIVE", 
+                        "com.google.android.c2dm.intent.REGISTRATION"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "com.google.ipc.invalidation.external.client.contrib.MultiplexingGcmListener$GCMReceiver"
+        }, 
+        {
+            "filter": [], 
+            "type": "receiver", 
+            "name": "com.google.ipc.invalidation.ticl.android2.AndroidInternalScheduler$AlarmReceiver"
+        }, 
+        {
+            "filter": [], 
+            "type": "receiver", 
+            "name": "com.google.ipc.invalidation.external.client2.contrib.AndroidListener$AlarmReceiver"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "com.google.ipc.invalidation.gcmmplex.EVENT"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageReceiverService$Receiver"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.intent.action.DOWNLOAD_COMPLETE"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "com.google.android.apps.chrome.snapshot.SnapshotDownloadReceiver"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "com.google.ipc.invalidation.gcmmplex.EVENT"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "com.google.android.apps.chrome.snapshot.gcm.GcmReceiver$Receiver"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "com.google.android.apps.chrome.OpenDownloadReceiver"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.intent.action.ACTION_POWER_CONNECTED", 
+                        "android.intent.action.ACTION_POWER_DISCONNECTED"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "org.chromium.base.PowerStatusReceiver"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "com.google.android.gms.wallet.ENABLE_WALLET_OPTIMIZATION"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "com.no.real.class.needed.receiver"
+        }, 
+        {
+            "filter": [], 
+            "type": "provider", 
+            "name": "com.google.android.apps.chrome.snapshot.SnapshotProvider"
+        }, 
+        {
+            "filter": [], 
+            "type": "provider", 
+            "name": "com.google.android.apps.chrome.ChromeBrowserProvider"
+        }, 
+        {
+            "filter": [], 
+            "type": "provider", 
+            "name": "com.google.android.apps.chrome.icing.IcingProvider"
+        }, 
+        {
+            "filter": [], 
+            "type": "provider", 
+            "name": "com.google.android.apps.chrome.AutofillDataProvider"
+        }
+    ], 
+    "name": "Chrome"
+}

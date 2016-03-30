@@ -1,0 +1,467 @@
+{
+    "myIntents": [
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.workpail.inkpad.notepad.notes.TwitterPost"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.workpail.inkpad.notepad.notes.QuotaSettings"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.workpail.inkpad.notepad.notes.TwitterPost"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.workpail.inkpad.notepad.notes.Settings"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "action": "inkpad.notepad.sync.free_quota_info", 
+            "sender": "com.workpail.inkpad.notepad.notes.service.SyncIntentService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "action": "hasValue", 
+            "sender": "com.workpail.inkpad.notepad.notes.ui.activity.NoteEditActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.INSERT", 
+            "sender": "com.workpail.inkpad.notepad.notes.ui.activity.NotesListActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.workpail.inkpad.notepad.notes.ui.dialog.PremiumDialog"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "action": "inkpad.notepad.sync.finished", 
+            "sender": "com.workpail.inkpad.notepad.notes.service.SyncIntentService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "action": null, 
+            "sender": "com.workpail.inkpad.notepad.notes.ui.activity.NotesListActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "action": "inkpad.notepad.sync.auth_intent_returned", 
+            "sender": "com.workpail.inkpad.notepad.notes.service.SyncIntentService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "action": "inkpad.notepad.note.saved", 
+            "sender": "com.workpail.inkpad.notepad.notes.ui.activity.NoteEditActivity"
+        }, 
+        {
+            "dataType": "\"text/plain\"", 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.SEND", 
+            "sender": "com.workpail.inkpad.notepad.notes.ShareChooser"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.INSERT", 
+            "sender": "com.workpail.inkpad.notepad.notes.ui.activity.NoteEditActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.workpail.inkpad.notepad.notes.Utils"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.workpail.inkpad.notepad.notes.ui.dialog.RateDialog"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.workpail.inkpad.notepad.notes.ui.view.ChecklistItemView"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "action": null, 
+            "sender": "com.workpail.inkpad.notepad.notes.Utils"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.workpail.inkpad.notepad.notes.service.SyncIntentService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.workpail.inkpad.notepad.notes.ui.activity.NoteEditActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "action": null, 
+            "sender": "com.workpail.inkpad.notepad.notes.NotesLiveFolder"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "action": "inkpad.notepad.sync.started", 
+            "sender": "com.workpail.inkpad.notepad.notes.service.SyncIntentService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.workpail.inkpad.notepad.notes.AccountList"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.workpail.inkpad.notepad.notes.ui.activity.NotesListActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "action": "inkpad.notepad.sync.over_free_quota", 
+            "sender": "com.workpail.inkpad.notepad.notes.service.SyncIntentService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.workpail.inkpad.notepad.notes.ui.activity.NotesListActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "action": "inkpad.notepad.sync.failed", 
+            "sender": "com.workpail.inkpad.notepad.notes.service.SyncIntentService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "action": null, 
+            "sender": "com.workpail.inkpad.notepad.notes.GoPremiumWebView"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "action": "inkpad.notepad.sync.quota_available", 
+            "sender": "com.workpail.inkpad.notepad.notes.service.SyncIntentService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "action": null, 
+            "sender": "com.workpail.inkpad.notepad.notes.AccountList"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.workpail.inkpad.notepad.notes.ServerMessage"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.workpail.inkpad.notepad.notes.ui.activity.NoteEditActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "action": "inkpad.notepad.checkstatus.finished", 
+            "sender": "com.workpail.inkpad.notepad.notes.GoPremiumWebView"
+        }
+    ], 
+    "packageName": "com.workpail.inkpad.notepad.notes", 
+    "myComponents": [
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "net.hockeyapp.android.UpdateActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.workpail.inkpad.notepad.notes.AccountList"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [
+                        {
+                            "mimeType": "vnd.android.cursor.dir/vnd.workpail.inkpad.note", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "vnd.android.cursor.item/vnd.workpail.inkpad.note", 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.EDIT", 
+                        "android.intent.action.PICK", 
+                        "android.intent.action.GET_CONTENT"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": "vnd.android.cursor.dir/vnd.workpail.inkpad.note", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "vnd.android.cursor.item/vnd.workpail.inkpad.note", 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.EDIT", 
+                        "android.intent.action.PICK", 
+                        "android.intent.action.GET_CONTENT"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "com.workpail.inkpad.notepad.notes.ui.activity.NotesListActivity"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [
+                        {
+                            "mimeType": "vnd.android.cursor.item/vnd.workpail.inkpad.note", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "vnd.android.cursor.dir/vnd.workpail.inkpad.note", 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.EDIT", 
+                        "com.android.notepad.action.EDIT_NOTE", 
+                        "android.intent.action.INSERT"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": "vnd.android.cursor.item/vnd.workpail.inkpad.note", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "vnd.android.cursor.dir/vnd.workpail.inkpad.note", 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.EDIT", 
+                        "com.android.notepad.action.EDIT_NOTE", 
+                        "android.intent.action.INSERT"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "com.workpail.inkpad.notepad.notes.ui.activity.NoteEditActivity"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [
+                        {
+                            "mimeType": "vnd.android.cursor.item/vnd.workpail.inkpad.note", 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.ALTERNATIVE", 
+                        "android.intent.category.SELECTED_ALTERNATIVE"
+                    ], 
+                    "actions": [
+                        "com.android.notepad.action.EDIT_TITLE"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "com.workpail.inkpad.notepad.notes.TitleEditor"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "inkpad-twitter-post"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "com.workpail.inkpad.notepad.notes.TwitterPost"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.workpail.inkpad.notepad.notes.GoPremiumWebView"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.workpail.inkpad.notepad.notes.QuotaSettings"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.workpail.inkpad.notepad.notes.ServerMessage"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "com.workpail.inkpad.notepad.notes.Settings"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.workpail.inkpad.notepad.notes.ShareChooser"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.CREATE_LIVE_FOLDER"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "com.workpail.inkpad.notepad.notes.NotesLiveFolder"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.google.android.gms.ads.AdActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.amazon.device.ads.AdActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.inmobi.androidsdk.IMBrowserActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.flurry.android.FlurryFullscreenTakeoverActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "android.support.v7.widget.TestActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "com.workpail.inkpad.notepad.notes.service.SyncIntentService"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "com.android.vending.INSTALL_REFERRER"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "com.google.android.apps.analytics.AnalyticsReceiver"
+        }, 
+        {
+            "filter": [], 
+            "type": "provider", 
+            "name": "com.workpail.inkpad.notepad.notes.NotePadProvider"
+        }
+    ], 
+    "name": "InkPad Notepad - Notes - To do"
+}

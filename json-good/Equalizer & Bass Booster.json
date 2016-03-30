@@ -1,0 +1,57 @@
+{
+    "myIntents": [], 
+    "packageName": "music.bassbooster.equalizer", 
+    "myComponents": [
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.LAUNCHER"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "kx.com.app.equalizer.LauncherActivity"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "music.bassbooster.equalizer.EQActivity"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "kx.com.app.equalizer.EQActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "kx.com.app.equalizer.SettingsActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "net.coocent.android.xmlparser.GiftActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.google.android.gms.ads.AdActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "kx.com.app.equalizer.EQService"
+        }
+    ], 
+    "name": "Equalizer & Bass Booster"
+}

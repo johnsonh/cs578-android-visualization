@@ -1,0 +1,114 @@
+{
+    "myIntents": [
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "action": null, 
+            "sender": "com.clawdyvan.agendaestudantepro.Activities.m"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "action": null, 
+            "sender": "com.clawdyvan.agendaestudantepro.Activities.l"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.clawdyvan.agendaestudantepro.Activities.ContainerFragmentsActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "action": null, 
+            "sender": "com.clawdyvan.agendaestudantepro.Activities.c"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "action": null, 
+            "sender": "com.clawdyvan.agendaestudantepro.Activities.VisualizacaoFotoActivity"
+        }
+    ], 
+    "packageName": "com.clawdyvan.agendadigitalaluno", 
+    "myComponents": [
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.LAUNCHER"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "com.clawdyvan.agendaestudantepro.Activities.MainActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.clawdyvan.agendaestudantepro.Activities.CameraActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.clawdyvan.agendaestudantepro.Activities.VisualizacaoFotoActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.clawdyvan.agendaestudantepro.Activities.ContainerFragmentsActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.google.android.gms.ads.AdActivity"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "com.clawdyvan.agendadigitalaluno", 
+                        "AlarmReceiver"
+                    ]
+                }, 
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "com.clawdyvan.agendadigitalaluno", 
+                        "AlarmReceiver"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "com.clawdyvan.agendaestudantepro.Util.AlarmReceiver"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.intent.action.BOOT_COMPLETED"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "com.clawdyvan.agendaestudantepro.Util.ReceiverReativaAlarmReboot"
+        }
+    ], 
+    "name": "Student Agenda"
+}

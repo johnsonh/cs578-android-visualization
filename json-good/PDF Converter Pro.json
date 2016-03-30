@@ -1,0 +1,58 @@
+{
+    "myIntents": [
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "action": null, 
+            "sender": "com.twansoftware.pdfconverterpro.service.UploadAndConvertService"
+        }, 
+        {
+            "dataType": "\"application/msword\"", 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.twansoftware.pdfconverterpro.util.FileUtil"
+        }
+    ], 
+    "packageName": "com.twansoftware.pdfconverterpro", 
+    "myComponents": [
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.LAUNCHER"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "com.twansoftware.pdfconverterpro.ui.MainActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "android.support.v7.widget.TestActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "com.twansoftware.pdfconverterpro.service.UploadAndConvertService"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "com.amazon.inapp.purchasing.NOTIFY"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "com.amazon.device.iap.ResponseReceiver"
+        }
+    ], 
+    "name": "PDF Converter Pro"
+}

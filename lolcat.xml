@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application>
+    <packageName>com.android.lolcat</packageName>
+    <components>
+        <Component>
+            <type>activity</type>
+            <name>com.android.lolcat.LolcatActivity</name>
+            <RequiredPermissions/>
+            <IntentFilter>
+                <filter>
+                    <actions>android.intent.action.MAIN</actions>
+                    <categories>android.intent.category.LAUNCHER</categories>
+                    <pathData></pathData>
+                </filter>
+            </IntentFilter>
+            <PropagatedPermissions/>
+            <sensitiveFlows>
+                <Flow>
+                    <sink>&lt;android.util.Log: int w(java.lang.String,java.lang.String)&gt;("LolcatActivity", $r3) </sink>
+                    <sinkCalledAt>com.android.lolcat.LolcatActivity: void onClick(android.view.View)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.view.View: int getId()&gt;() </source>
+                    <sourceCalledAt>com.android.lolcat.LolcatActivity: void onClick(android.view.View)</sourceCalledAt>
+                    <sinkDomain>LOG</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;("LolcatActivity", $r8) </sink>
+                    <sinkCalledAt>com.android.lolcat.LolcatActivity: void updateCaptionsFromDialog()</sinkCalledAt>
+                    <source> virtualinvoke $r5.&lt;android.widget.EditText: android.text.Editable getText()&gt;() </source>
+                    <sourceCalledAt>com.android.lolcat.LolcatActivity: void updateCaptionsFromDialog()</sourceCalledAt>
+                    <sinkDomain>LOG</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.os.Bundle: void putString(java.lang.String,java.lang.String)&gt;("saved_image_filename", $r2) </sink>
+                    <sinkCalledAt>com.android.lolcat.LolcatActivity: void onSaveInstanceState(android.os.Bundle)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.os.Bundle: java.lang.String getString(java.lang.String)&gt;("saved_image_filename") </source>
+                    <sourceCalledAt>com.android.lolcat.LolcatActivity: void restoreStateFromIcicle(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>BUNDLE</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.util.Log: int w(java.lang.String,java.lang.String)&gt;("LolcatActivity", $r5) </sink>
+                    <sinkCalledAt>com.android.lolcat.LolcatActivity: void saveImageInternal()</sinkCalledAt>
+                    <source> staticinvoke &lt;android.os.Environment: java.io.File getExternalStorageDirectory()&gt;() </source>
+                    <sourceCalledAt>com.android.lolcat.LolcatActivity: void saveImageInternal()</sourceCalledAt>
+                    <sinkDomain>LOG</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;java.lang.String: java.lang.String substring(int,int)&gt;($i1, $i0) on line 736 </sink>
+                    <sinkCalledAt>com.android.lolcat.LolcatActivity: boolean ensureFileExists(java.lang.String)</sinkCalledAt>
+                    <source> staticinvoke &lt;android.os.Environment: java.io.File getExternalStorageDirectory()&gt;() </source>
+                    <sourceCalledAt>com.android.lolcat.LolcatActivity: void saveImageInternal()</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;("LolcatActivity", $r9) </sink>
+                    <sinkCalledAt>com.android.lolcat.LolcatActivity: void saveImageInternal()</sinkCalledAt>
+                    <source> staticinvoke &lt;android.os.Environment: java.io.File getExternalStorageDirectory()&gt;() </source>
+                    <sourceCalledAt>com.android.lolcat.LolcatActivity: void saveImageInternal()</sourceCalledAt>
+                    <sinkDomain>LOG</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;("LolcatActivity", $r5) </sink>
+                    <sinkCalledAt>com.android.lolcat.LolcatActivity: void saveImageInternal()</sinkCalledAt>
+                    <source> staticinvoke &lt;android.os.Environment: java.io.File getExternalStorageDirectory()&gt;() </source>
+                    <sourceCalledAt>com.android.lolcat.LolcatActivity: void saveImageInternal()</sourceCalledAt>
+                    <sinkDomain>LOG</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;("LolcatActivity", $r9) </sink>
+                    <sinkCalledAt>com.android.lolcat.LolcatActivity: void restoreStateFromIcicle(android.os.Bundle)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.os.Bundle: java.lang.String getString(java.lang.String)&gt;("bottom_caption") </source>
+                    <sourceCalledAt>com.android.lolcat.LolcatActivity: void restoreStateFromIcicle(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>LOG</sinkDomain>
+                    <sourceDomain>BUNDLE</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;("LolcatActivity", $r9) </sink>
+                    <sinkCalledAt>com.android.lolcat.LolcatActivity: void restoreStateFromIcicle(android.os.Bundle)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.os.Bundle: java.lang.String getString(java.lang.String)&gt;("top_caption") </source>
+                    <sourceCalledAt>com.android.lolcat.LolcatActivity: void restoreStateFromIcicle(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>LOG</sinkDomain>
+                    <sourceDomain>BUNDLE</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;("LolcatActivity", $r9) </sink>
+                    <sinkCalledAt>com.android.lolcat.LolcatActivity: void updateCaptionsFromDialog()</sinkCalledAt>
+                    <source> virtualinvoke $r5.&lt;android.widget.EditText: android.text.Editable getText()&gt;() </source>
+                    <sourceCalledAt>com.android.lolcat.LolcatActivity: void updateCaptionsFromDialog()</sourceCalledAt>
+                    <sinkDomain>LOG</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;("LolcatActivity", $r4) </sink>
+                    <sinkCalledAt>com.android.lolcat.LolcatActivity: void loadPhoto(android.net.Uri)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.os.Bundle: android.os.Parcelable getParcelable(java.lang.String)&gt;("photo_uri") </source>
+                    <sourceCalledAt>com.android.lolcat.LolcatActivity: void restoreStateFromIcicle(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>LOG</sinkDomain>
+                    <sourceDomain>BUNDLE</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;("LolcatActivity", $r4) </sink>
+                    <sinkCalledAt>com.android.lolcat.LolcatActivity: void loadPhoto(android.net.Uri)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.content.Intent: android.net.Uri getData()&gt;() </source>
+                    <sourceCalledAt>com.android.lolcat.LolcatActivity: void onActivityResult(int,int,android.content.Intent)</sourceCalledAt>
+                    <sinkDomain>LOG</sinkDomain>
+                    <sourceDomain>IPC</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.os.Bundle: void putParcelable(java.lang.String,android.os.Parcelable)&gt;("saved_image_uri", $r4) </sink>
+                    <sinkCalledAt>com.android.lolcat.LolcatActivity: void onSaveInstanceState(android.os.Bundle)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.os.Bundle: android.os.Parcelable getParcelable(java.lang.String)&gt;("saved_image_uri") </source>
+                    <sourceCalledAt>com.android.lolcat.LolcatActivity: void restoreStateFromIcicle(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>BUNDLE</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.util.Log: int w(java.lang.String,java.lang.String)&gt;("LolcatActivity", $r5) </sink>
+                    <sinkCalledAt>com.android.lolcat.LolcatActivity: void saveImageInternal()</sinkCalledAt>
+                    <source> staticinvoke &lt;android.os.Environment: java.io.File getExternalStorageDirectory()&gt;() </source>
+                    <sourceCalledAt>com.android.lolcat.LolcatActivity: void saveImageInternal()</sourceCalledAt>
+                    <sinkDomain>LOG</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;("LolcatActivity", $r5) </sink>
+                    <sinkCalledAt>com.android.lolcat.LolcatActivity: void restoreStateFromIcicle(android.os.Bundle)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.os.Bundle: android.os.Parcelable getParcelable(java.lang.String)&gt;("photo_uri") </source>
+                    <sourceCalledAt>com.android.lolcat.LolcatActivity: void restoreStateFromIcicle(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>LOG</sinkDomain>
+                    <sourceDomain>BUNDLE</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;("LolcatActivity", $r5) </sink>
+                    <sinkCalledAt>com.android.lolcat.LolcatActivity: void onClick(android.view.View)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.view.View: int getId()&gt;() </source>
+                    <sourceCalledAt>com.android.lolcat.LolcatActivity: void onClick(android.view.View)</sourceCalledAt>
+                    <sinkDomain>LOG</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.app.Activity: void onCreate(android.os.Bundle)&gt;($r1) on line 113 </sink>
+                    <sinkCalledAt>com.android.lolcat.LolcatActivity: void onCreate(android.os.Bundle)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.os.Bundle: java.lang.String getString(java.lang.String)&gt;("saved_image_filename") </source>
+                    <sourceCalledAt>com.android.lolcat.LolcatActivity: void restoreStateFromIcicle(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>BUNDLE</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.app.Activity: void onCreate(android.os.Bundle)&gt;($r1) on line 113 </sink>
+                    <sinkCalledAt>com.android.lolcat.LolcatActivity: void onCreate(android.os.Bundle)</sinkCalledAt>
+                    <source> virtualinvoke $r1.&lt;android.os.Bundle: android.os.Parcelable getParcelable(java.lang.String)&gt;("saved_image_uri") </source>
+                    <sourceCalledAt>com.android.lolcat.LolcatActivity: void restoreStateFromIcicle(android.os.Bundle)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>BUNDLE</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.content.Intent: android.content.Intent createChooser(android.content.Intent,java.lang.CharSequence)&gt;($r3, $r6) on line 796 </sink>
+                    <sinkCalledAt>com.android.lolcat.LolcatActivity: void shareSavedImage(android.net.Uri)</sinkCalledAt>
+                    <source> virtualinvoke $r7.&lt;android.content.res.Resources: java.lang.String getString(int)&gt;(2130968597) </source>
+                    <sourceCalledAt>com.android.lolcat.LolcatActivity: void shareSavedImage(android.net.Uri)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+                <Flow>
+                    <sink>&lt;android.content.Intent: android.content.Intent createChooser(android.content.Intent,java.lang.CharSequence)&gt;($r3, $r6) on line 796 </sink>
+                    <sinkCalledAt>com.android.lolcat.LolcatActivity: void shareSavedImage(android.net.Uri)</sinkCalledAt>
+                    <source> virtualinvoke $r7.&lt;android.content.res.Resources: java.lang.String getString(int)&gt;(2130968597) </source>
+                    <sourceCalledAt>com.android.lolcat.LolcatActivity: void shareSavedImage(android.net.Uri)</sourceCalledAt>
+                    <sinkDomain>NO_CATEGORY</sinkDomain>
+                    <sourceDomain>NO_CATEGORY</sourceDomain>
+                </Flow>
+            </sensitiveFlows>
+        </Component>
+    </components>
+    <newIntents>
+        <Intent>
+            <calledAt>com.android.lolcat.LolcatActivity: void shareSavedImage(android.net.Uri)</calledAt>
+            <sender>com.android.lolcat.LolcatActivity</sender>
+            <component></component>
+            <action></action>
+            <dataType></dataType>
+            <scheme></scheme>
+            <extra>false</extra>
+            <sensitiveData>false</sensitiveData>
+            <consumerMethod>startActivity</consumerMethod>
+            <id>j659gt3k6i8obskl157l4ka5d6</id>
+            <random/>
+        </Intent>
+        <Intent>
+            <calledAt>com.android.lolcat.LolcatActivity: void shareSavedImage(android.net.Uri)</calledAt>
+            <sender>com.android.lolcat.LolcatActivity</sender>
+            <component></component>
+            <action></action>
+            <dataType></dataType>
+            <scheme></scheme>
+            <extra>false</extra>
+            <sensitiveData>false</sensitiveData>
+            <consumerMethod>startActivity</consumerMethod>
+            <id>9v1o26scggeqkcvsmkvrv95dvm</id>
+            <random/>
+        </Intent>
+        <Intent>
+            <calledAt>com.android.lolcat.LolcatActivity: void viewSavedImage(android.net.Uri)</calledAt>
+            <sender>com.android.lolcat.LolcatActivity</sender>
+            <component></component>
+            <action>"android.intent.action.VIEW"</action>
+            <dataType></dataType>
+            <scheme>hasValue</scheme>
+            <extra>false</extra>
+            <sensitiveData>false</sensitiveData>
+            <consumerMethod>startActivity</consumerMethod>
+            <id>p4ljli344lvkcstgra7k0mjgrf</id>
+            <random/>
+        </Intent>
+        <Intent>
+            <calledAt>com.android.lolcat.LolcatActivity: void onClick(android.view.View)</calledAt>
+            <sender>com.android.lolcat.LolcatActivity</sender>
+            <component></component>
+            <action>"android.intent.action.GET_CONTENT"</action>
+            <dataType>"image/*"</dataType>
+            <scheme>hasValue</scheme>
+            <extra>false</extra>
+            <sensitiveData>false</sensitiveData>
+            <consumerMethod>startActivityForResult</consumerMethod>
+            <id>ckbdlcmkk2dlg9mrla6a6tr808</id>
+            <random/>
+        </Intent>
+        <Intent>
+            <calledAt>com.android.lolcat.LolcatActivity: void shareSavedImage(android.net.Uri)</calledAt>
+            <sender>com.android.lolcat.LolcatActivity</sender>
+            <component></component>
+            <action></action>
+            <dataType></dataType>
+            <scheme></scheme>
+            <extra>false</extra>
+            <sensitiveData>false</sensitiveData>
+            <consumerMethod>startActivity</consumerMethod>
+            <id>e4je6s42hu26fevnrq3agliugu</id>
+            <random/>
+        </Intent>
+        <Intent>
+            <calledAt>com.android.lolcat.LolcatActivity: void viewSavedImage(android.net.Uri)</calledAt>
+            <sender>com.android.lolcat.LolcatActivity</sender>
+            <component></component>
+            <action>"android.intent.action.VIEW"</action>
+            <dataType></dataType>
+            <scheme>hasValue</scheme>
+            <extra>false</extra>
+            <sensitiveData>false</sensitiveData>
+            <consumerMethod>startActivity</consumerMethod>
+            <id>dsdrvqfij3oci22qne415qgtfb</id>
+            <random/>
+        </Intent>
+        <Intent>
+            <calledAt>com.android.lolcat.LolcatActivity: void onClick(android.view.View)</calledAt>
+            <sender>com.android.lolcat.LolcatActivity</sender>
+            <component></component>
+            <action>"android.intent.action.GET_CONTENT"</action>
+            <dataType>"image/*"</dataType>
+            <scheme>hasValue</scheme>
+            <extra>false</extra>
+            <sensitiveData>false</sensitiveData>
+            <consumerMethod>startActivityForResult</consumerMethod>
+            <id>onk6ni3luth61pvc0h25tsmn59</id>
+            <random/>
+        </Intent>
+        <Intent>
+            <calledAt>com.android.lolcat.LolcatActivity: void onClick(android.view.View)</calledAt>
+            <sender>com.android.lolcat.LolcatActivity</sender>
+            <component></component>
+            <action>"android.intent.action.GET_CONTENT"</action>
+            <dataType>"image/*"</dataType>
+            <scheme>hasValue</scheme>
+            <extra>false</extra>
+            <sensitiveData>false</sensitiveData>
+            <consumerMethod>startActivityForResult</consumerMethod>
+            <id>i1aiaunq3i3jjksld36udjqb4</id>
+            <random/>
+        </Intent>
+        <Intent>
+            <calledAt>com.android.lolcat.LolcatActivity: void viewSavedImage(android.net.Uri)</calledAt>
+            <sender>com.android.lolcat.LolcatActivity</sender>
+            <component></component>
+            <action>"android.intent.action.VIEW"</action>
+            <dataType></dataType>
+            <scheme>hasValue</scheme>
+            <extra>false</extra>
+            <sensitiveData>false</sensitiveData>
+            <consumerMethod>startActivity</consumerMethod>
+            <id>b4gihhlisb997mis3j2tej8t86</id>
+            <random/>
+        </Intent>
+        <Intent>
+            <calledAt>com.android.lolcat.LolcatActivity: void onClick(android.view.View)</calledAt>
+            <sender>com.android.lolcat.LolcatActivity</sender>
+            <component></component>
+            <action>"android.intent.action.GET_CONTENT"</action>
+            <dataType>"image/*"</dataType>
+            <scheme>hasValue</scheme>
+            <extra>false</extra>
+            <sensitiveData>false</sensitiveData>
+            <consumerMethod>startActivityForResult</consumerMethod>
+            <id>30tsb09ro3v2ruvrp8hdne5pep</id>
+            <random/>
+        </Intent>
+        <Intent>
+            <calledAt>com.android.lolcat.LolcatActivity: void viewSavedImage(android.net.Uri)</calledAt>
+            <sender>com.android.lolcat.LolcatActivity</sender>
+            <component></component>
+            <action>"android.intent.action.VIEW"</action>
+            <dataType></dataType>
+            <scheme>hasValue</scheme>
+            <extra>false</extra>
+            <sensitiveData>false</sensitiveData>
+            <consumerMethod>startActivity</consumerMethod>
+            <id>5sthfe9cf41k0qpof54sh41kf0</id>
+            <random/>
+        </Intent>
+        <Intent>
+            <calledAt>com.android.lolcat.LolcatActivity: void shareSavedImage(android.net.Uri)</calledAt>
+            <sender>com.android.lolcat.LolcatActivity</sender>
+            <component></component>
+            <action></action>
+            <dataType></dataType>
+            <scheme></scheme>
+            <extra>false</extra>
+            <sensitiveData>false</sensitiveData>
+            <consumerMethod>startActivity</consumerMethod>
+            <id>nge6i4ec0j1b6dutp3kl0d2fm3</id>
+            <random/>
+        </Intent>
+    </newIntents>
+    <ContentProviders/>
+    <usesPermissions/>
+    <actuallyUsesPermissions/>
+    <requiredPermissions/>
+    <apkFile>../../../app_repo/johnsonapps/LolcatBuilder.apk</apkFile>
+    <name>LolcatBuilder</name>
+</application>

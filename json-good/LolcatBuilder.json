@@ -1,0 +1,41 @@
+{
+    "myIntents": [
+        {
+            "dataType": "\"image/*\"", 
+            "consumerMethod": "startActivityForResult", 
+            "action": "android.intent.action.GET_CONTENT", 
+            "sender": "com.android.lolcat.LolcatActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.android.lolcat.LolcatActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "action": null, 
+            "sender": "com.android.lolcat.LolcatActivity"
+        }
+    ], 
+    "packageName": "com.android.lolcat", 
+    "myComponents": [
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.LAUNCHER"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "com.android.lolcat.LolcatActivity"
+        }
+    ], 
+    "name": "LolcatBuilder"
+}

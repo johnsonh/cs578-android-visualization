@@ -1,0 +1,545 @@
+{
+    "myIntents": [
+        {
+            "dataType": null, 
+            "consumerMethod": "bindService", 
+            "action": null, 
+            "sender": "com.google.android.gms.internal.ba"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "binder", 
+            "action": null, 
+            "sender": "com.google.android.gms.internal.u"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "binder", 
+            "action": null, 
+            "sender": "com.google.android.syncadapters.calendar.CalendarSyncAdapterService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "action": null, 
+            "sender": "com.google.android.syncadapters.calendar.CalendarSyncAdapterBroadcastReceiver"
+        }
+    ], 
+    "packageName": "com.google.android.calendar", 
+    "myComponents": [
+        {
+            "filter": [
+                {
+                    "data": [
+                        {
+                            "mimeType": "time/epoch", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "com.android.calendar", 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.LAUNCHER", 
+                        "android.intent.category.APP_CALENDAR", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN", 
+                        "android.intent.action.VIEW"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": "time/epoch", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "com.android.calendar", 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.LAUNCHER", 
+                        "android.intent.category.APP_CALENDAR", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN", 
+                        "android.intent.action.VIEW"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "com.android.calendar.AllInOneActivity"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [
+                        {
+                            "mimeType": "vnd.android.cursor.item/event", 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": "vnd.android.cursor.item/event", 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.VIEW"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "com.android.calendar.EventInfoActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.android.calendar.event.EditEventActivity"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": "www.google.com", 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "www.google.com", 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "www.google.com", 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "www.google.com", 
+                            "scheme": "https"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT", 
+                        "android.intent.category.BROWSABLE"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "com.android.calendar.GoogleCalendarUriIntentFilter"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.android.calendar.selectcalendars.SelectVisibleCalendarsActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.android.calendar.selectcalendars.SelectSyncedCalendarsMultiAccountActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.android.calendar.CalendarSettingsActivity"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.intent.action.SEARCH"
+                    ]
+                }
+            ], 
+            "type": "activity", 
+            "name": "com.android.calendar.SearchActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.android.calendar.alerts.AlertActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.android.calendar.alerts.QuickResponseActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.android.calendar.extensions.AboutActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.android.calendar.extensions.LicenseActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "activity", 
+            "name": "com.google.android.syncadapters.calendar.AuthNotificationActivity"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "com.android.calendar.alerts.AlertService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "com.android.calendar.alerts.DismissAlarmsService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "com.android.calendar.alerts.SnoozeAlarmsService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "com.android.calendar.alerts.InitAlarmsService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "com.android.calendar.widget.CalendarAppWidgetService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "com.android.calendar.AsyncQueryServiceHelper"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.content.SyncAdapter"
+                    ]
+                }
+            ], 
+            "type": "service", 
+            "name": "com.google.android.syncadapters.calendar.CalendarSyncAdapterService"
+        }, 
+        {
+            "filter": [], 
+            "type": "service", 
+            "name": "com.google.android.syncadapters.calendar.CalendarSyncAdapterIntentService"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "com.android.calendar", 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [], 
+                    "actions": [
+                        "android.intent.action.EVENT_REMINDER", 
+                        "android.intent.action.TIME_SET", 
+                        "android.intent.action.BOOT_COMPLETED", 
+                        "android.intent.action.LOCALE_CHANGED", 
+                        "android.intent.action.PROVIDER_CHANGED"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "com.android.calendar", 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [], 
+                    "actions": [
+                        "android.intent.action.EVENT_REMINDER", 
+                        "android.intent.action.TIME_SET", 
+                        "android.intent.action.BOOT_COMPLETED", 
+                        "android.intent.action.LOCALE_CHANGED", 
+                        "android.intent.action.PROVIDER_CHANGED"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "com.android.calendar", 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [], 
+                    "actions": [
+                        "android.intent.action.EVENT_REMINDER", 
+                        "android.intent.action.TIME_SET", 
+                        "android.intent.action.BOOT_COMPLETED", 
+                        "android.intent.action.LOCALE_CHANGED", 
+                        "android.intent.action.PROVIDER_CHANGED"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "com.android.calendar", 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [], 
+                    "actions": [
+                        "android.intent.action.EVENT_REMINDER", 
+                        "android.intent.action.TIME_SET", 
+                        "android.intent.action.BOOT_COMPLETED", 
+                        "android.intent.action.LOCALE_CHANGED", 
+                        "android.intent.action.PROVIDER_CHANGED"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "com.android.calendar.alerts.AlertReceiver"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.appwidget.action.APPWIDGET_UPDATE", 
+                        "com.google.android.calendar.APPWIDGET_UPDATE"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "com.android.calendar.widget.CalendarAppWidgetProvider"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "com.android.calendar", 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "com.android.calendar", 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "vnd.android.data/update", 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [], 
+                    "actions": [
+                        "android.intent.action.TIMEZONE_CHANGED", 
+                        "android.intent.action.DATE_CHANGED", 
+                        "android.intent.action.TIME_SET", 
+                        "android.intent.action.LOCALE_CHANGED", 
+                        "android.intent.action.PROVIDER_CHANGED", 
+                        "com.google.android.calendar.APPWIDGET_SCHEDULED_UPDATE"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "com.android.calendar", 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "com.android.calendar", 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "vnd.android.data/update", 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [], 
+                    "actions": [
+                        "android.intent.action.TIMEZONE_CHANGED", 
+                        "android.intent.action.DATE_CHANGED", 
+                        "android.intent.action.TIME_SET", 
+                        "android.intent.action.LOCALE_CHANGED", 
+                        "android.intent.action.PROVIDER_CHANGED", 
+                        "com.google.android.calendar.APPWIDGET_SCHEDULED_UPDATE"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "com.android.calendar", 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "content"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "com.android.calendar", 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "vnd.android.data/update", 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [], 
+                    "actions": [
+                        "android.intent.action.TIMEZONE_CHANGED", 
+                        "android.intent.action.DATE_CHANGED", 
+                        "android.intent.action.TIME_SET", 
+                        "android.intent.action.LOCALE_CHANGED", 
+                        "android.intent.action.PROVIDER_CHANGED", 
+                        "com.google.android.calendar.APPWIDGET_SCHEDULED_UPDATE"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "com.android.calendar.widget.CalendarAppWidgetService$CalendarFactory"
+        }, 
+        {
+            "filter": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.accounts.LOGIN_ACCOUNTS_CHANGED"
+                    ]
+                }
+            ], 
+            "type": "receiver", 
+            "name": "com.google.android.syncadapters.calendar.CalendarSyncAdapterBroadcastReceiver"
+        }, 
+        {
+            "filter": [], 
+            "type": "provider", 
+            "name": "com.android.calendar.CalendarRecentSuggestionsProvider"
+        }
+    ], 
+    "name": "Google Calendar"
+}
