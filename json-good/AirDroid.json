@@ -2,591 +2,696 @@
     "myIntents": [
         {
             "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.action.location.alarm", 
-            "sender": "com.sand.push.LocationMsg"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": "android.intent.action.VIEW", 
-            "sender": "com.sand.airdroid.el"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "bindService", 
+            "consumerMethod": "setIntent", 
+            "component": null, 
             "action": null, 
-            "sender": "com.sand.airdroid.ServerStateActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": null, 
-            "sender": "com.sand.airdroid.da"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.action.push.Config_URL", 
-            "sender": "com.sand.push.ai"
+            "sender": "com.sand.airdroid.FacebookRegisterActivity"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "setIntent", 
-            "action": null, 
-            "sender": "com.sand.push.MsgDialog2Activity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.forward.start", 
-            "sender": "com.sand.airdroid.ServerStateActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivityForResult", 
-            "action": null, 
-            "sender": "com.sand.airdroid.main.UsbApConnectionActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.action.server_start", 
-            "sender": "com.sand.airdroid.u"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.forward.start", 
-            "sender": "com.sand.third.bind.BindResult"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.action.server_start", 
-            "sender": "com.sand.airdroid.main.bj"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivityForResult", 
-            "action": null, 
-            "sender": "com.sand.airdroid.TwitterRegisterActivity_"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": null, 
-            "sender": "com.sand.airdroid.AppManagerActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "sendBroadcast", 
-            "action": "com.sand.airdroid.forward.state", 
-            "sender": "com.sand.airdroid.ForwardService"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.action.server_disconnect", 
-            "sender": "com.sand.airdroid.main.g"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": "android.intent.action.VIEW", 
-            "sender": "com.sand.airdroid.AboutActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "sendBroadcast", 
-            "action": "com.sand.airdroid.new_request", 
-            "sender": "com.sand.airdroid.NewRequestReceiver"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.forward.start", 
-            "sender": "com.sand.push.Wakeup2Msg"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "sendBroadcast", 
-            "action": "com.sand.airdroid.action.server_stopped", 
-            "sender": "com.sand.airdroid.de"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.action.server_disconnect", 
-            "sender": "com.sand.airdroid.main.bl"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "setResult", 
-            "action": null, 
-            "sender": "com.sand.third.bind.ag"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": null, 
-            "sender": "com.sand.airdroid.AboutActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.forward.stop", 
-            "sender": "com.sand.a.f"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.action.server_stop", 
-            "sender": "com.sand.airdroid.LocalConnectionStateReceiver"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": null, 
-            "sender": "com.sand.camera.TakePicActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivityForResult", 
-            "action": "android.app.action.ADD_DEVICE_ADMIN", 
-            "sender": "com.sand.airdroid.v"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivityForResult", 
-            "action": null, 
-            "sender": "com.sand.airdroid.gu"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.action.push.restart", 
-            "sender": "com.sand.push.ai"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.forward.start", 
-            "sender": "com.sand.push.WakeupMsg"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.forward.stop", 
-            "sender": "com.sand.airdroid.n"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.action.server_start", 
-            "sender": "com.sand.airdroid.main.bi"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "setIntent", 
-            "action": null, 
-            "sender": "com.sand.airdroid.FacebookRegisterActivity_"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "setIntent", 
+            "component": null, 
             "action": null, 
             "sender": "com.sand.airdroid.Guide2Activity_"
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startActivityForResult", 
-            "action": null, 
-            "sender": "com.sand.airdroid.a"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.forward.wake_up", 
-            "sender": "com.sand.push.Wakeup2Msg"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.forward.stop", 
-            "sender": "com.sand.push.StopMsg"
-        }, 
-        {
-            "dataType": "\"*/*\"", 
-            "consumerMethod": "startActivity", 
-            "action": "android.intent.action.SEND", 
-            "sender": "com.sand.airdroid.FileManagerActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": null, 
-            "sender": "com.sand.push.PlaySoundMsg"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.action.server_stop", 
-            "sender": "com.sand.push.StopMsg"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.forward.stop", 
-            "sender": "com.sand.airdroid.main.v"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": "android.settings.WIFI_SETTINGS", 
-            "sender": "com.sand.airdroid.u"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": "android.intent.action.VIEW", 
-            "sender": "com.sand.airdroid.gf"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.action.push.Start", 
-            "sender": "com.sand.push.ai"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "bindService", 
-            "action": null, 
-            "sender": "com.sand.airdroid.ex"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.forward.wake_up", 
-            "sender": "com.sand.push.WakeupMsg"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": null, 
-            "sender": "com.sand.push.Lock2Msg"
-        }, 
-        {
-            "dataType": null, 
             "consumerMethod": "setIntent", 
+            "component": null, 
             "action": null, 
             "sender": "com.sand.airdroid.RegisterActivity"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "startService", 
-            "action": "KEEP_RUNNING", 
-            "sender": "com.sand.airdroid.LocalService"
+            "component": null, 
+            "action": "com.sand.airdroid.action.server_stop", 
+            "sender": "com.sand.push.StopMsg"
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "sendBroadcast", 
-            "action": "com.sand.airdroid.action.server_running", 
-            "sender": "com.sand.airdroid.de"
+            "consumerMethod": "bindService", 
+            "component": null, 
+            "action": "com.sand.airdroid.action.server_start", 
+            "sender": "com.sand.push.Wakeup2Msg"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "setIntent", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.sand.airdroid.GoogleRegisterActivity_"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setIntent", 
+            "component": null, 
             "action": null, 
             "sender": "com.sand.airdroid.TwitterRegisterActivity_"
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.action.server_disconnect", 
-            "sender": "com.sand.airdroid.main.au"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.action.server_stop", 
-            "sender": "com.sand.airdroid.main.v"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.forward.stop", 
-            "sender": "com.sand.airdroid.LocalConnectionStateReceiver"
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.sand.airdroid.AboutActivity"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "startActivity", 
-            "action": "com.sand.airdroid.action.connection", 
-            "sender": "com.sand.airdroid.view.TitleView"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "setIntent", 
-            "action": null, 
-            "sender": "com.sand.push.PlaySoundDialogActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivityForResult", 
-            "action": null, 
-            "sender": "com.sand.third.bind.GetGoogleIdTask"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivityForResult", 
-            "action": null, 
-            "sender": "com.sand.third.bind.q"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": "com.sand.airdroid.action.connection", 
-            "sender": "com.sand.airdroid.u"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.action.push.Config", 
-            "sender": "com.sand.push.ai"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.forward.stop", 
-            "sender": "com.sand.airdroid.main.UsbApConnectionActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": "com.sand.airdroid.action.connection", 
-            "sender": "com.sand.airdroid.MessageListActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "setIntent", 
-            "action": null, 
-            "sender": "com.sand.airdroid.FacebookRegisterActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
+            "component": "com.sand.airdroid.RequestDeviceAdminDlg", 
             "action": null, 
             "sender": "com.sand.airdroid.RequestDeviceAdminDlg"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.action.server_start", 
-            "sender": "com.sand.airdroid.main.bk"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "setIntent", 
-            "action": null, 
-            "sender": "com.sand.airdroid.NoticeContentActivity_"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivityForResult", 
-            "action": null, 
-            "sender": "com.sand.third.bind.i"
+            "component": null, 
+            "action": "com.sand.airdroid.forward.wake_up", 
+            "sender": "com.sand.push.WakeupMsg"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "startActivity", 
+            "component": null, 
             "action": null, 
-            "sender": "com.sand.airdroid.a"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "setIntent", 
-            "action": null, 
-            "sender": "com.sand.airdroid.GoogleRegisterActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": "android.intent.action.VIEW", 
-            "sender": "com.sand.third.bind.p"
+            "sender": "com.sand.push.Lock2Msg"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.forward.start", 
-            "sender": "com.sand.airdroid.main.bk"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.action.push.Stop", 
-            "sender": "com.sand.push.ai"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
+            "component": null, 
             "action": "com.sand.airdroid.forward.start", 
             "sender": "com.sand.airdroid.main.aa"
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.forward.stop", 
-            "sender": "com.sand.airdroid.main.k"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.action.push.Start", 
-            "sender": "com.sand.push.PushService"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.action.server_stop", 
-            "sender": "com.sand.airdroid.main.UsbApConnectionActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.action.server_start", 
-            "sender": "com.sand.push.WakeupMsg"
-        }, 
-        {
-            "dataType": null, 
             "consumerMethod": "setResult", 
+            "component": null, 
             "action": null, 
             "sender": "com.sand.third.bind.z"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.forward.stop", 
+            "sender": "com.sand.a.f"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": "com.sand.third.bind.TwitterBindActivity", 
+            "action": null, 
+            "sender": "com.sand.airdroid.TwitterRegisterActivity_"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
             "action": "com.sand.airdroid.action.server_stop", 
             "sender": "com.sand.airdroid.main.k"
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.action.server_start", 
-            "sender": "com.sand.airdroid.ServerStateActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": "android.intent.action.VIEW", 
-            "sender": "com.sand.airdroid.view.SDWebView"
-        }, 
-        {
-            "dataType": "hasValue", 
-            "consumerMethod": "startActivity", 
-            "action": "android.intent.action.VIEW", 
-            "sender": "com.sand.airdroid.bb"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": "android.settings.APPLICATION_DETAILS_SETTINGS", 
-            "sender": "com.sand.airdroid.ProcessManagerActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": "android.intent.action.CALL", 
-            "sender": "com.sand.push.MsgDialog2Activity"
-        }, 
-        {
-            "dataType": null, 
             "consumerMethod": "startActivityForResult", 
+            "component": null, 
             "action": null, 
             "sender": "com.sand.airdroid.hq"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.sand.push.PlaySoundMsg"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
             "action": "android.settings.WIRELESS_SETTINGS", 
             "sender": "com.sand.airdroid.main.UsbApConnectionActivity"
         }, 
         {
-            "dataType": "\"*/*\"", 
-            "consumerMethod": "startActivity", 
-            "action": "android.intent.action.SEND_MULTIPLE", 
-            "sender": "com.sand.airdroid.FileManagerActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivityForResult", 
-            "action": null, 
-            "sender": "com.sand.airdroid.hr"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "setIntent", 
-            "action": null, 
-            "sender": "com.sand.push.MsgDialog2Activity_"
-        }, 
-        {
             "dataType": null, 
             "consumerMethod": "startActivity", 
+            "component": "com.sand.airdroid.LoginActivity", 
             "action": null, 
             "sender": "com.sand.airdroid.fv"
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "setIntent", 
-            "action": null, 
-            "sender": "com.sand.airdroid.GoogleRegisterActivity_"
-        }, 
-        {
-            "dataType": "\"*/*\"", 
-            "consumerMethod": "startActivity", 
-            "action": "android.intent.action.SEND", 
-            "sender": "com.sand.airdroid.aw"
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.forward.stop", 
+            "sender": "com.sand.airdroid.LocalConnectionStateReceiver"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.action.server_stop", 
-            "sender": "com.sand.airdroid.u"
+            "component": null, 
+            "action": "com.sand.action.push.Stop", 
+            "sender": "com.sand.push.ai"
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "bindService", 
+            "consumerMethod": "startService", 
+            "component": null, 
             "action": "com.sand.airdroid.action.server_start", 
+            "sender": "com.sand.airdroid.main.bi"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.sand.airdroid.LiteAuthDlg", 
+            "action": null, 
+            "sender": "com.sand.airdroid.da"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.forward.stop", 
+            "sender": "com.sand.airdroid.main.k"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setIntent", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.sand.airdroid.FacebookRegisterActivity_"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.forward.start", 
+            "sender": "com.sand.airdroid.ServerStateActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setIntent", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.sand.airdroid.NoticeContentActivity_"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": "com.sand.third.bind.TwitterBindActivity", 
+            "action": null, 
+            "sender": "com.sand.airdroid.gu"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.action.server_disconnect", 
+            "sender": "com.sand.airdroid.main.bl"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.action.server_start", 
+            "sender": "com.sand.airdroid.ServerStateActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": null, 
+            "action": "android.app.action.ADD_DEVICE_ADMIN", 
+            "sender": "com.sand.airdroid.v"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.sand.third.bind.p"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.forward.wake_up", 
             "sender": "com.sand.push.Wakeup2Msg"
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.action.server_pwd_reconfig", 
-            "sender": "com.sand.airdroid.SettingsActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "action": "com.sand.airdroid.action.server_start", 
-            "sender": "com.sand.airdroid.main.aa"
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.sand.airdroid.new_request", 
+            "sender": "com.sand.airdroid.NewRequestReceiver"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "setIntent", 
+            "component": null, 
             "action": null, 
-            "sender": "com.sand.airdroid.RegisterActivity_"
+            "sender": "com.sand.push.PlaySoundDialogActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.sand.camera.TakePicActivity", 
+            "action": null, 
+            "sender": "com.sand.camera.TakePicActivity"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "startService", 
+            "component": null, 
             "action": "com.sand.airdroid.action.server_stop", 
             "sender": "com.sand.a.k"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "com.sand.airdroid.action.connection", 
+            "sender": "com.sand.airdroid.u"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.action.push.Config", 
+            "sender": "com.sand.push.ai"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.forward.stop", 
+            "sender": "com.sand.airdroid.n"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.sand.airdroid.el"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setIntent", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.sand.airdroid.RegisterActivity_"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.action.push.Start", 
+            "sender": "com.sand.push.PushService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.sand.airdroid.forward.state", 
+            "sender": "com.sand.airdroid.ForwardService"
+        }, 
+        {
+            "dataType": "\"*/*\"", 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "android.intent.action.SEND", 
+            "sender": "com.sand.airdroid.aw"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.sand.airdroid.hr"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.action.server_start", 
+            "sender": "com.sand.airdroid.main.aa"
+        }, 
+        {
+            "dataType": "\"*/*\"", 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "android.intent.action.SEND_MULTIPLE", 
+            "sender": "com.sand.airdroid.FileManagerActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.sand.third.bind.ag"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.forward.start", 
+            "sender": "com.sand.airdroid.main.bk"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "android.settings.WIFI_SETTINGS", 
+            "sender": "com.sand.airdroid.u"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.forward.stop", 
+            "sender": "com.sand.push.StopMsg"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.forward.stop", 
+            "sender": "com.sand.airdroid.main.v"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "android.intent.action.CALL", 
+            "sender": "com.sand.push.MsgDialog2Activity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": "com.sand.airdroid.main.\"com.android.settings.TetherSettings\"", 
+            "action": null, 
+            "sender": "com.sand.airdroid.main.UsbApConnectionActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.action.server_start", 
+            "sender": "com.sand.push.WakeupMsg"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.sand.airdroid.ServerStateActivity", 
             "action": null, 
             "sender": "com.sand.airdroid.main.e"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.action.server_stop", 
+            "sender": "com.sand.airdroid.main.UsbApConnectionActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.sand.airdroid.view.SDWebView"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "bindService", 
+            "component": "com.sand.push.PushService", 
+            "action": null, 
+            "sender": "com.sand.airdroid.ex"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.action.server_disconnect", 
+            "sender": "com.sand.airdroid.main.au"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.sand.airdroid.a"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.forward.start", 
+            "sender": "com.sand.push.Wakeup2Msg"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.sand.airdroid.gf"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.sand.camera.TakePicActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setIntent", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.sand.push.MsgDialog2Activity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "com.sand.airdroid.action.connection", 
+            "sender": "com.sand.airdroid.view.TitleView"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.forward.stop", 
+            "sender": "com.sand.airdroid.main.UsbApConnectionActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.action.push.Config_URL", 
+            "sender": "com.sand.push.ai"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.action.server_start", 
+            "sender": "com.sand.airdroid.main.bk"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "android.settings.APPLICATION_DETAILS_SETTINGS", 
+            "sender": "com.sand.airdroid.ProcessManagerActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.action.server_pwd_reconfig", 
+            "sender": "com.sand.airdroid.SettingsActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "bindService", 
+            "component": "com.sand.push.PushService", 
+            "action": null, 
+            "sender": "com.sand.airdroid.ServerStateActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.action.server_disconnect", 
+            "sender": "com.sand.airdroid.main.g"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.action.push.Start", 
+            "sender": "com.sand.push.ai"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.action.server_start", 
+            "sender": "com.sand.airdroid.u"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.sand.airdroid.LocalService", 
+            "action": "KEEP_RUNNING", 
+            "sender": "com.sand.airdroid.LocalService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.forward.start", 
+            "sender": "com.sand.push.WakeupMsg"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": "com.sand.third.bind.\"com.facebook.katana.ProxyAuth\"", 
+            "action": null, 
+            "sender": "com.sand.third.bind.i"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": "com.sand.third.bind.GooglePlusBindActivity", 
+            "action": null, 
+            "sender": "com.sand.third.bind.q"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setIntent", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.sand.airdroid.GoogleRegisterActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.action.server_stop", 
+            "sender": "com.sand.airdroid.u"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.action.server_start", 
+            "sender": "com.sand.airdroid.main.bj"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.sand.airdroid.a"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.action.push.restart", 
+            "sender": "com.sand.push.ai"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.sand.airdroid.AboutActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.action.location.alarm", 
+            "sender": "com.sand.push.LocationMsg"
+        }, 
+        {
+            "dataType": "\"*/*\"", 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "android.intent.action.SEND", 
+            "sender": "com.sand.airdroid.FileManagerActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setIntent", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.sand.push.MsgDialog2Activity_"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.sand.airdroid.AppManagerActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.action.server_stop", 
+            "sender": "com.sand.airdroid.LocalConnectionStateReceiver"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.sand.airdroid.action.server_stopped", 
+            "sender": "com.sand.airdroid.de"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.sand.airdroid.action.server_running", 
+            "sender": "com.sand.airdroid.de"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "com.sand.airdroid.action.connection", 
+            "sender": "com.sand.airdroid.MessageListActivity"
+        }, 
+        {
+            "dataType": "hasValue", 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.sand.airdroid.bb"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.forward.start", 
+            "sender": "com.sand.third.bind.BindResult"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.sand.third.bind.GetGoogleIdTask"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.sand.airdroid.action.server_stop", 
+            "sender": "com.sand.airdroid.main.v"
         }
     ], 
     "packageName": "com.sand.airdroid", 

@@ -3,6 +3,7 @@
         {
             "dataType": null, 
             "consumerMethod": "startActivity", 
+            "component": null, 
             "action": "android.intent.action.MAIN", 
             "sender": "com.example.amazed.BatteryChangeReceiver"
         }

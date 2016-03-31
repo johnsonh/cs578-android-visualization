@@ -2,33 +2,38 @@
     "myIntents": [
         {
             "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": "com.clawdyvan.agendaestudantepro.Activities.CameraActivity", 
+            "action": null, 
+            "sender": "com.clawdyvan.agendaestudantepro.Activities.VisualizacaoFotoActivity"
+        }, 
+        {
+            "dataType": null, 
             "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.clawdyvan.agendaestudantepro.Activities.c"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": null, 
             "action": null, 
             "sender": "com.clawdyvan.agendaestudantepro.Activities.m"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "setResult", 
+            "component": null, 
             "action": null, 
             "sender": "com.clawdyvan.agendaestudantepro.Activities.l"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "startActivity", 
+            "component": "com.clawdyvan.agendaestudantepro.Activities.ContainerFragmentsActivity", 
             "action": null, 
             "sender": "com.clawdyvan.agendaestudantepro.Activities.ContainerFragmentsActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "setResult", 
-            "action": null, 
-            "sender": "com.clawdyvan.agendaestudantepro.Activities.c"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivityForResult", 
-            "action": null, 
-            "sender": "com.clawdyvan.agendaestudantepro.Activities.VisualizacaoFotoActivity"
         }
     ], 
     "packageName": "com.clawdyvan.agendadigitalaluno", 

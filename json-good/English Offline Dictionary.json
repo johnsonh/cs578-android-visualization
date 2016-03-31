@@ -3,56 +3,65 @@
         {
             "dataType": null, 
             "consumerMethod": "startActivity", 
-            "action": null, 
-            "sender": "livio.pack.lang.en_US.SelectBookmarks"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "setResult", 
+            "component": null, 
             "action": null, 
             "sender": "livio.pack.lang.en_US.SelectHistory"
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startActivity", 
+            "consumerMethod": "setResult", 
+            "component": null, 
             "action": null, 
-            "sender": "livio.pack.lang.en_US.DictionaryView"
+            "sender": "livio.pack.lang.en_US.k"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "setResult", 
+            "component": null, 
             "action": null, 
-            "sender": "livio.pack.lang.en_US.h"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": "android.intent.action.VIEW", 
-            "sender": "livio.pack.lang.en_US.e"
+            "sender": "livio.pack.lang.en_US.SelectBookmarks"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "setIntent", 
+            "component": null, 
             "action": null, 
             "sender": "livio.pack.lang.en_US.DictionarySearch"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "livio.pack.lang.en_US.SelectHistory"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
             "action": null, 
             "sender": "livio.pack.lang.en_US.SelectBookmarks"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "setResult", 
+            "component": null, 
             "action": null, 
-            "sender": "livio.pack.lang.en_US.k"
+            "sender": "livio.pack.lang.en_US.h"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "startActivity", 
+            "component": "livio.pack.lang.en_US.Redirect", 
             "action": null, 
-            "sender": "livio.pack.lang.en_US.SelectHistory"
+            "sender": "livio.pack.lang.en_US.DictionaryView"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "android.intent.action.VIEW", 
+            "sender": "livio.pack.lang.en_US.e"
         }
     ], 
     "packageName": "livio.pack.lang.en_US", 

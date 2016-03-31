@@ -76,7 +76,8 @@ class Application(CommonEqualityMixin):
 	def transformIntents(self, bsIntents):
 		myIntents = set()
 		for intent in bsIntents:
-			newIntent = Intent(intent.sender.string, StringHelper.stripQuotes(intent.action.string), 
+			newIntent = Intent(intent.sender.string, intent.component.string, 
+				StringHelper.stripQuotes(intent.action.string), 
 				intent.dataType.string, intent.consumerMethod.string)
 			myIntents.add(newIntent)
 			# jsonified = json.dumps(newIntent.__dict__)

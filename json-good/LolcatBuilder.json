@@ -1,20 +1,23 @@
 {
     "myIntents": [
         {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.android.lolcat.LolcatActivity"
+        }, 
+        {
             "dataType": "\"image/*\"", 
             "consumerMethod": "startActivityForResult", 
+            "component": null, 
             "action": "android.intent.action.GET_CONTENT", 
             "sender": "com.android.lolcat.LolcatActivity"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "startActivity", 
-            "action": "android.intent.action.VIEW", 
-            "sender": "com.android.lolcat.LolcatActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
+            "component": null, 
             "action": null, 
             "sender": "com.android.lolcat.LolcatActivity"
         }

@@ -3,12 +3,14 @@
         {
             "dataType": null, 
             "consumerMethod": "startService", 
+            "component": "com.twansoftware.pdfconverterpro.service.UploadAndConvertService", 
             "action": null, 
             "sender": "com.twansoftware.pdfconverterpro.service.UploadAndConvertService"
         }, 
         {
             "dataType": "\"application/msword\"", 
             "consumerMethod": "startActivity", 
+            "component": null, 
             "action": "android.intent.action.VIEW", 
             "sender": "com.twansoftware.pdfconverterpro.util.FileUtil"
         }

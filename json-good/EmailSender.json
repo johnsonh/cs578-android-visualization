@@ -3,6 +3,7 @@
         {
             "dataType": null, 
             "consumerMethod": "startActivity", 
+            "component": null, 
             "action": null, 
             "sender": "com.javacodegeeks.android.sendemailtest.MainActivity"
         }

@@ -24,6 +24,9 @@ def getApplications(directory):
 				# print(application)
 	return applications
 
+def determineConnectionsBetweenInternalComponents(application):
+	
+	pass
 
 def main():
 	checkCommandline()
@@ -31,6 +34,8 @@ def main():
 	directory = sys.argv[1]
 	applications = getApplications(directory)
 
+	for application in applications:
+		determineConnectionsBetweenInternalComponents(application)
 	# readAndWriteApplication(appXmlName)
 	
 

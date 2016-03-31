@@ -3,6 +3,7 @@
         {
             "dataType": null, 
             "consumerMethod": "sendBroadcast", 
+            "component": "com.example.hsiehj.gamekillbuttonapp.", 
             "action": null, 
             "sender": "com.example.hsiehj.gamekillbuttonapp.MainActivity"
         }

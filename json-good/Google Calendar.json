@@ -2,27 +2,31 @@
     "myIntents": [
         {
             "dataType": null, 
-            "consumerMethod": "bindService", 
-            "action": null, 
-            "sender": "com.google.android.gms.internal.ba"
-        }, 
-        {
-            "dataType": null, 
             "consumerMethod": "binder", 
+            "component": null, 
             "action": null, 
             "sender": "com.google.android.gms.internal.u"
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "binder", 
+            "consumerMethod": "bindService", 
+            "component": "com.google.android.gms.internal.", 
             "action": null, 
-            "sender": "com.google.android.syncadapters.calendar.CalendarSyncAdapterService"
+            "sender": "com.google.android.gms.internal.ba"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "startService", 
+            "component": "com.google.android.syncadapters.calendar.CalendarSyncAdapterIntentService", 
             "action": null, 
             "sender": "com.google.android.syncadapters.calendar.CalendarSyncAdapterBroadcastReceiver"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "binder", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.google.android.syncadapters.calendar.CalendarSyncAdapterService"
         }
     ], 
     "packageName": "com.google.android.calendar", 

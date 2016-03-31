@@ -3,37 +3,43 @@
         {
             "dataType": null, 
             "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.mobirix.util.JniMethods"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
             "action": null, 
             "sender": "com.mobirix.util.callShop"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "startActivity", 
-            "action": "android.intent.action.VIEW", 
-            "sender": "com.mobirix.util.JniMethods"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": null, 
-            "sender": "com.mobirix.util.JniMethods"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivityForResult", 
-            "action": null, 
-            "sender": "com.mobirix.slideking.MxPlayGameMultiListener"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
+            "component": null, 
             "action": "android.intent.action.SEND", 
             "sender": "com.mobirix.util.KakaoLink"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "startActivityForResult", 
+            "component": null, 
             "action": null, 
+            "sender": "com.mobirix.util.JniMethods"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.mobirix.slideking.MxPlayGameMultiListener"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "android.intent.action.VIEW", 
             "sender": "com.mobirix.util.JniMethods"
         }
     ], 

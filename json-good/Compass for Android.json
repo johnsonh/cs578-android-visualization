@@ -3,50 +3,58 @@
         {
             "dataType": null, 
             "consumerMethod": "startActivity", 
-            "action": null, 
-            "sender": "tntstudio.supercompass.MainActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": "android.intent.action.VIEW", 
-            "sender": "tntstudio.supercompass.MainActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
+            "component": null, 
             "action": "android.intent.action.VIEW", 
             "sender": "tntstudio.supercompass.AdsActivity"
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "setResult", 
-            "action": null, 
-            "sender": "tntstudio.supercompass.h"
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "android.intent.action.VIEW", 
+            "sender": "tntstudio.supercompass.MainActivity"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "setResult", 
+            "component": null, 
             "action": null, 
             "sender": "tntstudio.supercompass.i"
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "action": "android.intent.action.VIEW", 
-            "sender": "tntstudio.supercompass.k"
+            "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "tntstudio.supercompass.f"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "setResult", 
+            "component": null, 
             "action": null, 
             "sender": "tntstudio.supercompass.g"
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "setResult", 
+            "consumerMethod": "startActivity", 
+            "component": "tntstudio.supercompass.AdsActivity", 
             "action": null, 
-            "sender": "tntstudio.supercompass.f"
+            "sender": "tntstudio.supercompass.MainActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "tntstudio.supercompass.h"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "android.intent.action.VIEW", 
+            "sender": "tntstudio.supercompass.k"
         }
     ], 
     "packageName": "tntstudio.supercompass", 
