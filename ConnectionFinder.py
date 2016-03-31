@@ -3,6 +3,7 @@ import os
 import json
 
 from Application import Application
+from ApplicationGraph import ApplicationGraph
 
 # python ConnectionFinder.py /Users/hsiehj/Documents/covert_dist/python/json-good
 
@@ -25,8 +26,11 @@ def getApplications(directory):
 	return applications
 
 def determineConnectionsBetweenInternalComponents(application):
-	
-	pass
+	intents = application.myIntents
+	for intent in intents:
+		if intent["component"] and intent["action"]:
+			print(intent)
+
 
 def main():
 	checkCommandline()
@@ -34,9 +38,35 @@ def main():
 	directory = sys.argv[1]
 	applications = getApplications(directory)
 
+	print("!!!!!!")
+	print(len(applications))
+
+	graph = ApplicationGraph(applications)
+
+	nodes1 = set()
+	nodes2 = graph.getAllComponents(nodes1)
+	print(nodes2)
+
+
 	for application in applications:
 		determineConnectionsBetweenInternalComponents(application)
 	# readAndWriteApplication(appXmlName)
 	
 
 main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -25,7 +25,9 @@
     "packageName": "com.android.lolcat", 
     "myComponents": [
         {
-            "filter": [
+            "type": "activity", 
+            "name": "com.android.lolcat.LolcatActivity", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [
@@ -35,9 +37,7 @@
                         "android.intent.action.MAIN"
                     ]
                 }
-            ], 
-            "type": "activity", 
-            "name": "com.android.lolcat.LolcatActivity"
+            ]
         }
     ], 
     "name": "LolcatBuilder"

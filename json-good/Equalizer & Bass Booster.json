@@ -3,7 +3,9 @@
     "packageName": "music.bassbooster.equalizer", 
     "myComponents": [
         {
-            "filter": [
+            "type": "activity", 
+            "name": "kx.com.app.equalizer.LauncherActivity", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [
@@ -13,12 +15,12 @@
                         "android.intent.action.MAIN"
                     ]
                 }
-            ], 
-            "type": "activity", 
-            "name": "kx.com.app.equalizer.LauncherActivity"
+            ]
         }, 
         {
-            "filter": [
+            "type": "activity", 
+            "name": "kx.com.app.equalizer.EQActivity", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [
@@ -28,29 +30,27 @@
                         "music.bassbooster.equalizer.EQActivity"
                     ]
                 }
-            ], 
-            "type": "activity", 
-            "name": "kx.com.app.equalizer.EQActivity"
+            ]
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "kx.com.app.equalizer.SettingsActivity"
+            "name": "kx.com.app.equalizer.SettingsActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "net.coocent.android.xmlparser.GiftActivity"
+            "name": "net.coocent.android.xmlparser.GiftActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.google.android.gms.ads.AdActivity"
+            "name": "com.google.android.gms.ads.AdActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "kx.com.app.equalizer.EQService"
+            "name": "kx.com.app.equalizer.EQService", 
+            "filters": []
         }
     ], 
     "name": "Equalizer & Bass Booster"

@@ -3,7 +3,9 @@
     "packageName": "info.percentagecalculator.v1", 
     "myComponents": [
         {
-            "filter": [
+            "type": "activity", 
+            "name": "info.percentagecalculator.v1.PercentageCalculator", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [
@@ -13,14 +15,12 @@
                         "android.intent.action.MAIN"
                     ]
                 }
-            ], 
-            "type": "activity", 
-            "name": "info.percentagecalculator.v1.PercentageCalculator"
+            ]
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.google.android.gms.ads.AdActivity"
+            "name": "com.google.android.gms.ads.AdActivity", 
+            "filters": []
         }
     ], 
     "name": "Percentage Calculator v1"

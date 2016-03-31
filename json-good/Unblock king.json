@@ -46,7 +46,9 @@
     "packageName": "com.mobirix.slideking", 
     "myComponents": [
         {
-            "filter": [
+            "type": "activity", 
+            "name": "com.mobirix.slideking.SlideKing", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [
@@ -56,49 +58,47 @@
                         "android.intent.action.MAIN"
                     ]
                 }
-            ], 
-            "type": "activity", 
-            "name": "com.mobirix.slideking.SlideKing"
+            ]
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.google.android.gms.ads.AdActivity"
+            "name": "com.google.android.gms.ads.AdActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.mobirix.payment.sk.SkPayment"
+            "name": "com.mobirix.payment.sk.SkPayment", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.mobirix.payment.google.GooglePayment"
+            "name": "com.mobirix.payment.google.GooglePayment", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.mobirix.payment.kt.KTPayment"
+            "name": "com.mobirix.payment.kt.KTPayment", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.mobirix.payment.lg.LGPayment"
+            "name": "com.mobirix.payment.lg.LGPayment", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.mobirix.payment.sa.SamsungPayment"
+            "name": "com.mobirix.payment.sa.SamsungPayment", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.mobirix.payment.na.NaverPayment"
+            "name": "com.mobirix.payment.na.NaverPayment", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.feelingk.lguiab.manager.gui.InAppLockActivity"
+            "name": "com.feelingk.lguiab.manager.gui.InAppLockActivity", 
+            "filters": []
         }
     ], 
     "name": "Unblock king"

@@ -3,7 +3,9 @@
     "packageName": "com.android.chrome", 
     "myComponents": [
         {
-            "filter": [
+            "type": "activity", 
+            "name": "com.google.android.apps.chrome.Main", 
+            "filters": [
                 {
                     "data": [
                         {
@@ -788,17 +790,17 @@
                         "android.intent.action.MAIN"
                     ]
                 }
-            ], 
-            "type": "activity", 
-            "name": "com.google.android.apps.chrome.Main"
+            ]
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.google.android.apps.chrome.sync.ui.PassphraseActivity"
+            "name": "com.google.android.apps.chrome.sync.ui.PassphraseActivity", 
+            "filters": []
         }, 
         {
-            "filter": [
+            "type": "activity", 
+            "name": "com.google.android.apps.chrome.ManageBookmarkActivity", 
+            "filters": [
                 {
                     "data": [
                         {
@@ -833,47 +835,47 @@
                         "com.android.chrome.ADDBOOKMARK"
                     ]
                 }
-            ], 
-            "type": "activity", 
-            "name": "com.google.android.apps.chrome.ManageBookmarkActivity"
+            ]
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity"
+            "name": "com.google.android.apps.chrome.firstrun.FirstRunExperienceActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.google.android.apps.chrome.firstrun.FirstRunExperienceActivityPhone"
+            "name": "com.google.android.apps.chrome.firstrun.FirstRunExperienceActivityPhone", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.google.android.apps.chrome.firstrun.FirstRunExperienceActivityTablet"
+            "name": "com.google.android.apps.chrome.firstrun.FirstRunExperienceActivityTablet", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.google.android.apps.chrome.preferences.PreferenceHeaders"
+            "name": "com.google.android.apps.chrome.preferences.PreferenceHeaders", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.google.android.apps.chrome.EmbedContentViewActivity"
+            "name": "com.google.android.apps.chrome.EmbedContentViewActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.google.android.apps.chrome.prerender.PrerenderAPITestActivity"
+            "name": "com.google.android.apps.chrome.prerender.PrerenderAPITestActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.google.android.apps.chrome.fullscreenmedia.FullScreenMediaActivity"
+            "name": "com.google.android.apps.chrome.fullscreenmedia.FullScreenMediaActivity", 
+            "filters": []
         }, 
         {
-            "filter": [
+            "type": "activity", 
+            "name": "com.google.android.apps.chrome.ShortcutActivity", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [
@@ -883,12 +885,12 @@
                         "android.intent.action.CREATE_SHORTCUT"
                     ]
                 }
-            ], 
-            "type": "activity", 
-            "name": "com.google.android.apps.chrome.ShortcutActivity"
+            ]
         }, 
         {
-            "filter": [
+            "type": "service", 
+            "name": "com.google.android.apps.chrome.sync.ChromeBrowserSyncAdapterService", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [], 
@@ -896,22 +898,22 @@
                         "android.content.SyncAdapter"
                     ]
                 }
-            ], 
-            "type": "service", 
-            "name": "com.google.android.apps.chrome.sync.ChromeBrowserSyncAdapterService"
+            ]
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetService"
+            "name": "com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetService", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "com.google.ipc.invalidation.external.client.contrib.MultiplexingGcmListener"
+            "name": "com.google.ipc.invalidation.external.client.contrib.MultiplexingGcmListener", 
+            "filters": []
         }, 
         {
-            "filter": [
+            "type": "service", 
+            "name": "org.chromium.sync.notifier.InvalidationService", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [], 
@@ -919,147 +921,147 @@
                         "com.google.ipc.invalidation.AUTH_TOKEN_REQUEST"
                     ]
                 }
-            ], 
-            "type": "service", 
-            "name": "org.chromium.sync.notifier.InvalidationService"
+            ]
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "com.google.ipc.invalidation.ticl.android2.TiclService"
+            "name": "com.google.ipc.invalidation.ticl.android2.TiclService", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService"
+            "name": "com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageReceiverService"
+            "name": "com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageReceiverService", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "com.google.android.apps.chrome.snapshot.SnapshotArchiveManager"
+            "name": "com.google.android.apps.chrome.snapshot.SnapshotArchiveManager", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "com.google.android.apps.chrome.ChromeBrowserPrerenderService"
+            "name": "com.google.android.apps.chrome.ChromeBrowserPrerenderService", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "com.google.android.apps.chrome.snapshot.cloudprint.CloudPrintService"
+            "name": "com.google.android.apps.chrome.snapshot.cloudprint.CloudPrintService", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "com.google.android.apps.chrome.crash.MinidumpUploadService"
+            "name": "com.google.android.apps.chrome.crash.MinidumpUploadService", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "com.google.android.apps.chrome.omaha.OmahaClient"
+            "name": "com.google.android.apps.chrome.omaha.OmahaClient", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "com.google.android.apps.chrome.snapshot.gcm.GcmReceiver"
+            "name": "com.google.android.apps.chrome.snapshot.gcm.GcmReceiver", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "org.chromium.content.app.SandboxedProcessService0"
+            "name": "org.chromium.content.app.SandboxedProcessService0", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "org.chromium.content.app.SandboxedProcessService1"
+            "name": "org.chromium.content.app.SandboxedProcessService1", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "org.chromium.content.app.SandboxedProcessService2"
+            "name": "org.chromium.content.app.SandboxedProcessService2", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "org.chromium.content.app.SandboxedProcessService3"
+            "name": "org.chromium.content.app.SandboxedProcessService3", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "org.chromium.content.app.SandboxedProcessService4"
+            "name": "org.chromium.content.app.SandboxedProcessService4", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "org.chromium.content.app.SandboxedProcessService5"
+            "name": "org.chromium.content.app.SandboxedProcessService5", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "org.chromium.content.app.SandboxedProcessService6"
+            "name": "org.chromium.content.app.SandboxedProcessService6", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "org.chromium.content.app.SandboxedProcessService7"
+            "name": "org.chromium.content.app.SandboxedProcessService7", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "org.chromium.content.app.SandboxedProcessService8"
+            "name": "org.chromium.content.app.SandboxedProcessService8", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "org.chromium.content.app.SandboxedProcessService9"
+            "name": "org.chromium.content.app.SandboxedProcessService9", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "org.chromium.content.app.SandboxedProcessService10"
+            "name": "org.chromium.content.app.SandboxedProcessService10", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "org.chromium.content.app.SandboxedProcessService11"
+            "name": "org.chromium.content.app.SandboxedProcessService11", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "org.chromium.content.app.SandboxedProcessService12"
+            "name": "org.chromium.content.app.SandboxedProcessService12", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "org.chromium.content.app.PrivilegedProcessService0"
+            "name": "org.chromium.content.app.PrivilegedProcessService0", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "org.chromium.content.app.PrivilegedProcessService1"
+            "name": "org.chromium.content.app.PrivilegedProcessService1", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "org.chromium.content.app.PrivilegedProcessService2"
+            "name": "org.chromium.content.app.PrivilegedProcessService2", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "com.google.android.apps.chrome.videofling.NotificationTransportControl$ListenerService"
+            "name": "com.google.android.apps.chrome.videofling.NotificationTransportControl$ListenerService", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "com.google.android.apps.chrome.MediaCaptureNotificationService"
+            "name": "com.google.android.apps.chrome.MediaCaptureNotificationService", 
+            "filters": []
         }, 
         {
-            "filter": [
+            "type": "receiver", 
+            "name": "com.google.android.apps.chrome.services.AccountsChangedReceiver", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [], 
@@ -1067,12 +1069,12 @@
                         "android.accounts.LOGIN_ACCOUNTS_CHANGED"
                     ]
                 }
-            ], 
-            "type": "receiver", 
-            "name": "com.google.android.apps.chrome.services.AccountsChangedReceiver"
+            ]
         }, 
         {
-            "filter": [
+            "type": "receiver", 
+            "name": "com.google.android.apps.chrome.ToSAckedReceiver", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [], 
@@ -1080,12 +1082,12 @@
                         "com.android.chrome.TOS_ACKED"
                     ]
                 }
-            ], 
-            "type": "receiver", 
-            "name": "com.google.android.apps.chrome.ToSAckedReceiver"
+            ]
         }, 
         {
-            "filter": [
+            "type": "receiver", 
+            "name": "com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [], 
@@ -1094,17 +1096,17 @@
                         "android.appwidget.action.APPWIDGET_UPDATE"
                     ]
                 }
-            ], 
-            "type": "receiver", 
-            "name": "com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider"
+            ]
         }, 
         {
-            "filter": [], 
             "type": "receiver", 
-            "name": "com.google.android.apps.chrome.appwidget.bookmarks.BookmarkWidgetProxy"
+            "name": "com.google.android.apps.chrome.appwidget.bookmarks.BookmarkWidgetProxy", 
+            "filters": []
         }, 
         {
-            "filter": [
+            "type": "receiver", 
+            "name": "com.google.ipc.invalidation.external.client.contrib.MultiplexingGcmListener$GCMReceiver", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [
@@ -1115,22 +1117,22 @@
                         "com.google.android.c2dm.intent.RECEIVE"
                     ]
                 }
-            ], 
-            "type": "receiver", 
-            "name": "com.google.ipc.invalidation.external.client.contrib.MultiplexingGcmListener$GCMReceiver"
+            ]
         }, 
         {
-            "filter": [], 
             "type": "receiver", 
-            "name": "com.google.ipc.invalidation.ticl.android2.AndroidInternalScheduler$AlarmReceiver"
+            "name": "com.google.ipc.invalidation.ticl.android2.AndroidInternalScheduler$AlarmReceiver", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "receiver", 
-            "name": "com.google.ipc.invalidation.external.client2.contrib.AndroidListener$AlarmReceiver"
+            "name": "com.google.ipc.invalidation.external.client2.contrib.AndroidListener$AlarmReceiver", 
+            "filters": []
         }, 
         {
-            "filter": [
+            "type": "receiver", 
+            "name": "com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageReceiverService$Receiver", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [], 
@@ -1138,12 +1140,12 @@
                         "com.google.ipc.invalidation.gcmmplex.EVENT"
                     ]
                 }
-            ], 
-            "type": "receiver", 
-            "name": "com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageReceiverService$Receiver"
+            ]
         }, 
         {
-            "filter": [
+            "type": "receiver", 
+            "name": "com.google.android.apps.chrome.snapshot.SnapshotDownloadReceiver", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [], 
@@ -1151,12 +1153,12 @@
                         "android.intent.action.DOWNLOAD_COMPLETE"
                     ]
                 }
-            ], 
-            "type": "receiver", 
-            "name": "com.google.android.apps.chrome.snapshot.SnapshotDownloadReceiver"
+            ]
         }, 
         {
-            "filter": [
+            "type": "receiver", 
+            "name": "com.google.android.apps.chrome.snapshot.gcm.GcmReceiver$Receiver", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [], 
@@ -1164,12 +1166,12 @@
                         "com.google.ipc.invalidation.gcmmplex.EVENT"
                     ]
                 }
-            ], 
-            "type": "receiver", 
-            "name": "com.google.android.apps.chrome.snapshot.gcm.GcmReceiver$Receiver"
+            ]
         }, 
         {
-            "filter": [
+            "type": "receiver", 
+            "name": "com.google.android.apps.chrome.OpenDownloadReceiver", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [], 
@@ -1177,12 +1179,12 @@
                         "android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"
                     ]
                 }
-            ], 
-            "type": "receiver", 
-            "name": "com.google.android.apps.chrome.OpenDownloadReceiver"
+            ]
         }, 
         {
-            "filter": [
+            "type": "receiver", 
+            "name": "org.chromium.base.PowerStatusReceiver", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [], 
@@ -1191,12 +1193,12 @@
                         "android.intent.action.ACTION_POWER_CONNECTED"
                     ]
                 }
-            ], 
-            "type": "receiver", 
-            "name": "org.chromium.base.PowerStatusReceiver"
+            ]
         }, 
         {
-            "filter": [
+            "type": "receiver", 
+            "name": "com.no.real.class.needed.receiver", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [], 
@@ -1204,29 +1206,27 @@
                         "com.google.android.gms.wallet.ENABLE_WALLET_OPTIMIZATION"
                     ]
                 }
-            ], 
-            "type": "receiver", 
-            "name": "com.no.real.class.needed.receiver"
+            ]
         }, 
         {
-            "filter": [], 
             "type": "provider", 
-            "name": "com.google.android.apps.chrome.snapshot.SnapshotProvider"
+            "name": "com.google.android.apps.chrome.snapshot.SnapshotProvider", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "provider", 
-            "name": "com.google.android.apps.chrome.ChromeBrowserProvider"
+            "name": "com.google.android.apps.chrome.ChromeBrowserProvider", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "provider", 
-            "name": "com.google.android.apps.chrome.icing.IcingProvider"
+            "name": "com.google.android.apps.chrome.icing.IcingProvider", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "provider", 
-            "name": "com.google.android.apps.chrome.AutofillDataProvider"
+            "name": "com.google.android.apps.chrome.AutofillDataProvider", 
+            "filters": []
         }
     ], 
     "name": "Chrome"

@@ -67,7 +67,9 @@
     "packageName": "livio.pack.lang.en_US", 
     "myComponents": [
         {
-            "filter": [
+            "type": "activity", 
+            "name": "livio.pack.lang.en_US.DictionaryView", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [
@@ -77,12 +79,12 @@
                         "android.intent.action.MAIN"
                     ]
                 }
-            ], 
-            "type": "activity", 
-            "name": "livio.pack.lang.en_US.DictionaryView"
+            ]
         }, 
         {
-            "filter": [
+            "type": "activity", 
+            "name": "livio.pack.lang.en_US.DictionarySearch", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [
@@ -103,47 +105,47 @@
                         "colordict.intent.action.SEARCH"
                     ]
                 }
-            ], 
-            "type": "activity", 
-            "name": "livio.pack.lang.en_US.DictionarySearch"
+            ]
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "livio.pack.lang.en_US.DictionaryWidget"
+            "name": "livio.pack.lang.en_US.DictionaryWidget", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "livio.pack.lang.en_US.PreferencesFromXML"
+            "name": "livio.pack.lang.en_US.PreferencesFromXML", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "livio.pack.lang.en_US.PreferencesFragXML"
+            "name": "livio.pack.lang.en_US.PreferencesFragXML", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "livio.pack.lang.en_US.SelectHistory"
+            "name": "livio.pack.lang.en_US.SelectHistory", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "livio.pack.lang.en_US.SelectBookmarks"
+            "name": "livio.pack.lang.en_US.SelectBookmarks", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "livio.pack.lang.en_US.CustomizeView"
+            "name": "livio.pack.lang.en_US.CustomizeView", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "livio.pack.lang.en_US.Redirect"
+            "name": "livio.pack.lang.en_US.Redirect", 
+            "filters": []
         }, 
         {
-            "filter": [
+            "type": "receiver", 
+            "name": "livio.pack.lang.en_US.BasicWidget", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [], 
@@ -151,12 +153,12 @@
                         "android.appwidget.action.APPWIDGET_UPDATE"
                     ]
                 }
-            ], 
-            "type": "receiver", 
-            "name": "livio.pack.lang.en_US.BasicWidget"
+            ]
         }, 
         {
-            "filter": [
+            "type": "receiver", 
+            "name": "livio.pack.lang.en_US.BasicWidgetXL", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [], 
@@ -164,14 +166,12 @@
                         "android.appwidget.action.APPWIDGET_UPDATE"
                     ]
                 }
-            ], 
-            "type": "receiver", 
-            "name": "livio.pack.lang.en_US.BasicWidgetXL"
+            ]
         }, 
         {
-            "filter": [], 
             "type": "provider", 
-            "name": "livio.pack.lang.en_US.DictionaryProvider"
+            "name": "livio.pack.lang.en_US.DictionaryProvider", 
+            "filters": []
         }
     ], 
     "name": "English Offline Dictionary"

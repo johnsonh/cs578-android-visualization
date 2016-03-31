@@ -39,7 +39,9 @@
     "packageName": "com.clawdyvan.agendadigitalaluno", 
     "myComponents": [
         {
-            "filter": [
+            "type": "activity", 
+            "name": "com.clawdyvan.agendaestudantepro.Activities.MainActivity", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [
@@ -49,32 +51,32 @@
                         "android.intent.action.MAIN"
                     ]
                 }
-            ], 
-            "type": "activity", 
-            "name": "com.clawdyvan.agendaestudantepro.Activities.MainActivity"
+            ]
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.clawdyvan.agendaestudantepro.Activities.CameraActivity"
+            "name": "com.clawdyvan.agendaestudantepro.Activities.CameraActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.clawdyvan.agendaestudantepro.Activities.VisualizacaoFotoActivity"
+            "name": "com.clawdyvan.agendaestudantepro.Activities.VisualizacaoFotoActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.clawdyvan.agendaestudantepro.Activities.ContainerFragmentsActivity"
+            "name": "com.clawdyvan.agendaestudantepro.Activities.ContainerFragmentsActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.google.android.gms.ads.AdActivity"
+            "name": "com.google.android.gms.ads.AdActivity", 
+            "filters": []
         }, 
         {
-            "filter": [
+            "type": "receiver", 
+            "name": "com.clawdyvan.agendaestudantepro.Util.AlarmReceiver", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [
@@ -95,12 +97,12 @@
                         "AlarmReceiver"
                     ]
                 }
-            ], 
-            "type": "receiver", 
-            "name": "com.clawdyvan.agendaestudantepro.Util.AlarmReceiver"
+            ]
         }, 
         {
-            "filter": [
+            "type": "receiver", 
+            "name": "com.clawdyvan.agendaestudantepro.Util.ReceiverReativaAlarmReboot", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [], 
@@ -108,9 +110,7 @@
                         "android.intent.action.BOOT_COMPLETED"
                     ]
                 }
-            ], 
-            "type": "receiver", 
-            "name": "com.clawdyvan.agendaestudantepro.Util.ReceiverReativaAlarmReboot"
+            ]
         }
     ], 
     "name": "Student Agenda"

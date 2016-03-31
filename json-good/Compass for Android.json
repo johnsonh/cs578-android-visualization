@@ -60,7 +60,9 @@
     "packageName": "tntstudio.supercompass", 
     "myComponents": [
         {
-            "filter": [
+            "type": "activity", 
+            "name": "tntstudio.supercompass.MainActivity", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [
@@ -70,24 +72,22 @@
                         "android.intent.action.MAIN"
                     ]
                 }
-            ], 
-            "type": "activity", 
-            "name": "tntstudio.supercompass.MainActivity"
+            ]
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "tntstudio.supercompass.Compass_type"
+            "name": "tntstudio.supercompass.Compass_type", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "tntstudio.supercompass.AdsActivity"
+            "name": "tntstudio.supercompass.AdsActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.google.android.gms.ads.AdActivity"
+            "name": "com.google.android.gms.ads.AdActivity", 
+            "filters": []
         }
     ], 
     "name": "Compass for Android"

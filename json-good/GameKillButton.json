@@ -11,7 +11,9 @@
     "packageName": "com.example.hsiehj.gamekillbuttonapp", 
     "myComponents": [
         {
-            "filter": [
+            "type": "activity", 
+            "name": "com.example.hsiehj.gamekillbuttonapp.MainActivity", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [
@@ -21,9 +23,7 @@
                         "android.intent.action.MAIN"
                     ]
                 }
-            ], 
-            "type": "activity", 
-            "name": "com.example.hsiehj.gamekillbuttonapp.MainActivity"
+            ]
         }
     ], 
     "name": "GameKillButton"

@@ -66,6 +66,13 @@
         {
             "dataType": null, 
             "consumerMethod": "startActivity", 
+            "component": "com.maral.cycledroid.activity.trip.TripActivity", 
+            "action": null, 
+            "sender": "com.maral.cycledroid.activity.tripslist.SummarySelectActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
             "component": "com.maral.cycledroid.activity.DonateActivity", 
             "action": null, 
             "sender": "com.maral.cycledroid.activity.tripslist.TripsListActivity"
@@ -146,13 +153,6 @@
             "component": "com.maral.cycledroid.activity.settings.SettingsActivity", 
             "action": null, 
             "sender": "com.maral.cycledroid.activity.file.ChooseFileActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "component": "com.maral.cycledroid.activity.trip.TripActivity", 
-            "action": null, 
-            "sender": "com.maral.cycledroid.activity.tripslist.SummarySelectActivity"
         }, 
         {
             "dataType": null, 
@@ -249,7 +249,9 @@
     "packageName": "com.maral.cycledroid", 
     "myComponents": [
         {
-            "filter": [
+            "type": "activity", 
+            "name": "activity.tripslist.TripsListActivity", 
+            "filters": [
                 {
                     "data": [], 
                     "categories": [
@@ -259,74 +261,72 @@
                         "android.intent.action.MAIN"
                     ]
                 }
-            ], 
-            "type": "activity", 
-            "name": "activity.tripslist.TripsListActivity"
+            ]
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "activity.tripslist.SummarySelectActivity"
+            "name": "activity.tripslist.SummarySelectActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "activity.tripslist.MultiDeleteActivity"
+            "name": "activity.tripslist.MultiDeleteActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "activity.tripslist.MultiExportActivity"
+            "name": "activity.tripslist.MultiExportActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "activity.TripEditActivity"
+            "name": "activity.TripEditActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "activity.trip.TripActivity"
+            "name": "activity.trip.TripActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.maral.cycledroid.activity.settings.SettingsActivity"
+            "name": "com.maral.cycledroid.activity.settings.SettingsActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "activity.graph.GraphActivity"
+            "name": "activity.graph.GraphActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "activity.file.ChooseFileActivity"
+            "name": "activity.file.ChooseFileActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.maral.cycledroid.activity.facebook.FacebookActivity"
+            "name": "com.maral.cycledroid.activity.facebook.FacebookActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "activity.map.MapActivity"
+            "name": "activity.map.MapActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "activity.HelpActivity"
+            "name": "activity.HelpActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "com.maral.cycledroid.activity.DonateActivity"
+            "name": "com.maral.cycledroid.activity.DonateActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "com.maral.cycledroid.service.TripService"
+            "name": "com.maral.cycledroid.service.TripService", 
+            "filters": []
         }
     ], 
     "name": "CycleDroid"

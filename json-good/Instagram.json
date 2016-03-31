@@ -38,13 +38,6 @@
         {
             "dataType": null, 
             "consumerMethod": "startActivity", 
-            "component": "com.instagram.android.activity.MainTabActivity", 
-            "action": null, 
-            "sender": "com.instagram.android.nux.ao"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
             "component": null, 
             "action": "android.intent.action.VIEW", 
             "sender": "com.instagram.android.widget.y"
@@ -212,6 +205,13 @@
         }, 
         {
             "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.instagram.android.activity.MainTabActivity", 
+            "action": null, 
+            "sender": "com.instagram.android.nux.ao"
+        }, 
+        {
+            "dataType": null, 
             "consumerMethod": "setResult", 
             "component": null, 
             "action": null, 
@@ -319,7 +319,9 @@
     "packageName": "com.instagram.android", 
     "myComponents": [
         {
-            "filter": [
+            "type": "activity", 
+            "name": "activity.MainTabActivity", 
+            "filters": [
                 {
                     "data": [
                         {
@@ -364,12 +366,12 @@
                         "android.intent.action.SEND"
                     ]
                 }
-            ], 
-            "type": "activity", 
-            "name": "activity.MainTabActivity"
+            ]
         }, 
         {
-            "filter": [
+            "type": "activity", 
+            "name": "login.PasswordResetActivity", 
+            "filters": [
                 {
                     "data": [
                         {
@@ -442,57 +444,57 @@
                         "android.intent.action.VIEW"
                     ]
                 }
-            ], 
-            "type": "activity", 
-            "name": "login.PasswordResetActivity"
+            ]
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "nux.SignedOutFragmentActivity"
+            "name": "nux.SignedOutFragmentActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "creation.activity.MediaCaptureActivity"
+            "name": "creation.activity.MediaCaptureActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "rageshake.RageShakeActivity"
+            "name": "rageshake.RageShakeActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "activity.TwitterAuthActivity"
+            "name": "activity.TwitterAuthActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "activity.FoursquareAuthActivity"
+            "name": "activity.FoursquareAuthActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "activity.FlickrAuthActivity"
+            "name": "activity.FlickrAuthActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "activity.TumblrAuthActivity"
+            "name": "activity.TumblrAuthActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "activity.VkontakteAuthActivity"
+            "name": "activity.VkontakteAuthActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "activity.ActivityInTab"
+            "name": "activity.ActivityInTab", 
+            "filters": []
         }, 
         {
-            "filter": [
+            "type": "activity", 
+            "name": "activity.UrlHandlerActivity", 
+            "filters": [
                 {
                     "data": [
                         {
@@ -534,115 +536,113 @@
                         "android.intent.action.VIEW"
                     ]
                 }
-            ], 
+            ]
+        }, 
+        {
             "type": "activity", 
-            "name": "activity.UrlHandlerActivity"
+            "name": "activity.NewsActivityInTab", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "activity.NewsActivityInTab"
+            "name": "maps.DedicatedMapActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "maps.DedicatedMapActivity"
+            "name": "activity.ArbitraryFragmentActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "activity.ArbitraryFragmentActivity"
+            "name": "support.camera.CropActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "support.camera.CropActivity"
+            "name": "maps.PhotoMapsActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "maps.PhotoMapsActivity"
+            "name": "people.activity.PeopleTagActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "activity", 
-            "name": "people.activity.PeopleTagActivity"
+            "name": "activity.SimpleWebViewActivity", 
+            "filters": []
         }, 
         {
-            "filter": [], 
-            "type": "activity", 
-            "name": "activity.SimpleWebViewActivity"
-        }, 
-        {
-            "filter": [], 
             "type": "service", 
-            "name": "service.PendingMediaService"
+            "name": "service.PendingMediaService", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "service.MediaService"
+            "name": "service.MediaService", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "service.TumblrService"
+            "name": "service.TumblrService", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "service.UserService"
+            "name": "service.UserService", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "service.AutoCompleteHashtagService"
+            "name": "service.AutoCompleteHashtagService", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "rageshake.RageShakeService"
+            "name": "rageshake.RageShakeService", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "foursquare.NearbyVenuesService"
+            "name": "foursquare.NearbyVenuesService", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "receiver.C2DMReceiver"
+            "name": "receiver.C2DMReceiver", 
+            "filters": []
         }, 
         {
-            "filter": [], 
             "type": "service", 
-            "name": "service.PushRegistrationService"
+            "name": "service.PushRegistrationService", 
+            "filters": []
         }, 
         {
-            "filter": [
-                {
-                    "data": [], 
-                    "categories": [
-                        "com.instagram.android"
-                    ], 
-                    "actions": [
-                        "com.google.android.c2dm.intent.REGISTRATION", 
-                        "com.google.android.c2dm.intent.RECEIVE"
-                    ]
-                }, 
-                {
-                    "data": [], 
-                    "categories": [
-                        "com.instagram.android"
-                    ], 
-                    "actions": [
-                        "com.google.android.c2dm.intent.REGISTRATION", 
-                        "com.google.android.c2dm.intent.RECEIVE"
-                    ]
-                }
-            ], 
             "type": "receiver", 
-            "name": "c2dm.C2DMBroadcastReceiver"
+            "name": "c2dm.C2DMBroadcastReceiver", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "com.instagram.android"
+                    ], 
+                    "actions": [
+                        "com.google.android.c2dm.intent.REGISTRATION", 
+                        "com.google.android.c2dm.intent.RECEIVE"
+                    ]
+                }, 
+                {
+                    "data": [], 
+                    "categories": [
+                        "com.instagram.android"
+                    ], 
+                    "actions": [
+                        "com.google.android.c2dm.intent.REGISTRATION", 
+                        "com.google.android.c2dm.intent.RECEIVE"
+                    ]
+                }
+            ]
         }
     ], 
     "name": "Instagram"

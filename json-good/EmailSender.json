@@ -11,7 +11,9 @@
     "packageName": "com.javacodegeeks.android.sendemailtest", 
     "myComponents": [
         {
-            "filter": [
+            "type": "activity", 
+            "name": "com.javacodegeeks.android.sendemailtest.MainActivity", 
+            "filters": [
                 {
                     "data": [
                         {
@@ -106,9 +108,7 @@
                         "android.intent.action.SEND"
                     ]
                 }
-            ], 
-            "type": "activity", 
-            "name": "com.javacodegeeks.android.sendemailtest.MainActivity"
+            ]
         }
     ], 
     "name": "EmailSender"

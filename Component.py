@@ -7,8 +7,7 @@ class Component(CommonEqualityMixin):
 		self.filters = filters
 
 	def reprJSON(self):	
-		return dict(type=self.type, name=self.name, filter=self.filters) 
-
+		return dict(type=self.type, name=self.name, filters=self.filters) 
 
 class Filter(CommonEqualityMixin):
 	def __init__(self, actions, categories, data):
