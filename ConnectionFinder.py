@@ -25,11 +25,11 @@ def getApplications(directory):
 				# print(application)
 	return applications
 
-def determineConnectionsBetweenInternalComponents(application):
-	intents = application.myIntents
-	for intent in intents:
-		if intent["component"] and intent["action"]:
-			print(intent)
+# def determineConnectionsBetweenInternalComponents(application):
+# 	intents = application.myIntents
+# 	for intent in intents:
+# 		if intent["component"] and intent["action"]:
+# 			print(intent)
 
 
 def main():
@@ -43,13 +43,11 @@ def main():
 
 	graph = ApplicationGraph(applications)
 
-	nodes1 = set()
-	nodes2 = graph.getAllComponents(nodes1)
-	print(nodes2)
+	nodesList = graph.getAllComponents()
+	print("num nodes = ")
+	print(len(nodesList))
 
-
-	for application in applications:
-		determineConnectionsBetweenInternalComponents(application)
+	graph.determineConnections(nodesList)
 	# readAndWriteApplication(appXmlName)
 	
 
