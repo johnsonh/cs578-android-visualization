@@ -141,15 +141,13 @@ function drawCluster(d) {
 
 // --------------------------------------------------------
 
-console.log("aoisdjfid");
-
 var body = d3.select("body");
 
 var vis = body.append("svg")
    .attr("width", width)
    .attr("height", height);
 
-d3.json("graph.json", function(json) {
+d3.json("https://raw.githubusercontent.com/johnsonh/cs578-android-visualization/master/d3/graph.json", function(json) {
   console.log(json);
   data = json;
   for (var i=0; i<data.links.length; ++i) {
@@ -162,8 +160,6 @@ d3.json("graph.json", function(json) {
   linkg = vis.append("g");
   nodeg = vis.append("g");
 
-  console.log("asdfsdf");
-
   init();
 
   vis.attr("opacity", 1e-6)
@@ -173,10 +169,8 @@ d3.json("graph.json", function(json) {
 });
 
 function init() {
-	console.log("iububu");
   if (force) force.stop();
 
-  console.log("asdfasdf");
   net = network(data, net, getGroup, expand);
 
   force = d3.layout.force()
