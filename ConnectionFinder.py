@@ -2,6 +2,7 @@ import sys
 import os
 import json
 
+from StringHelper import StringHelper
 from Application import Application
 from ApplicationGraph import ApplicationGraph
 
@@ -25,11 +26,13 @@ def getApplications(directory):
 				# print(application)
 	return applications
 
-# def determineConnectionsBetweenInternalComponents(application):
-# 	intents = application.myIntents
-# 	for intent in intents:
-# 		if intent["component"] and intent["action"]:
-# 			print(intent)
+def writeToJson(objectList, fileName):
+	jsonified = StringHelper.dumpJSON(objectList)
+	print(jsonified)
+
+	f = open(fileName, 'w')
+	f.write(jsonified)
+	f.close()
 
 
 def main():
@@ -38,7 +41,7 @@ def main():
 	directory = sys.argv[1]
 	applications = getApplications(directory)
 
-	print("!!!!!!")
+	print("num applications = ")
 	print(len(applications))
 
 	graph = ApplicationGraph(applications)
@@ -47,9 +50,13 @@ def main():
 	print("num nodes = ")
 	print(len(nodesList))
 
-	graph.determineConnections(nodesList)
-	# readAndWriteApplication(appXmlName)
+	links = graph.determineConnections(nodesList)
+	print("num links = ")
+	print(len(links))
 	
+	writeToJson(nodesList, "nodes.json")
+	writeToJson(links, "links.json")
+
 
 main()
 

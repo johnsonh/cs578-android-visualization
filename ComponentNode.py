@@ -8,8 +8,6 @@ class ComponentNode(object):
 		self.filters = componentDict["filters"]
 		self.parentApp = parentApp
 
-		self.edges = []
-
 	def reprJSON(self):	
 		return dict(type=self.type, name=self.name, filter=self.filters, parentApp=self.parentApp) 
 
@@ -21,6 +19,3 @@ class ComponentNode(object):
 
 	def __hash__(self):
 		return hash((self.name))
-
-	def addEdge(self, intentDict):
-		pass

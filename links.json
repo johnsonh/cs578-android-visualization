@@ -1,0 +1,458 @@
+[
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 112, 
+        "source": 112
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "bindService", 
+        "target": 383, 
+        "source": 166
+    }, 
+    {
+        "action": "KEEP_RUNNING", 
+        "consumerMethod": "startService", 
+        "target": 358, 
+        "source": 358
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 39, 
+        "source": 39
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivityForResult", 
+        "target": 83, 
+        "source": 253
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 106, 
+        "source": 102
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 55, 
+        "source": 321
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 321, 
+        "source": 55
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 3, 
+        "source": 319
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startService", 
+        "target": 29, 
+        "source": 336
+    }, 
+    {
+        "action": "com.evernote.billing.GET_PURCHASE_INFORMATION", 
+        "consumerMethod": "startService", 
+        "target": 124, 
+        "source": 351
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 278, 
+        "source": 214
+    }, 
+    {
+        "action": "com.evernote.action.CLEAN_SHARE_DIR", 
+        "consumerMethod": "startService", 
+        "target": 29, 
+        "source": 302
+    }, 
+    {
+        "action": "com.evernote.action.LOG_IN", 
+        "consumerMethod": "startService", 
+        "target": 29, 
+        "source": 367
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 366, 
+        "source": 366
+    }, 
+    {
+        "action": "com.evernote.action.FULL_SYNC", 
+        "consumerMethod": "startService", 
+        "target": 302, 
+        "source": 4
+    }, 
+    {
+        "action": "com.android.vending.billing.RESPONSE_CODE", 
+        "consumerMethod": "startService", 
+        "target": 124, 
+        "source": 351
+    }, 
+    {
+        "action": "com.evernote.action.FULL_SYNC", 
+        "consumerMethod": "startService", 
+        "target": 302, 
+        "source": 43
+    }, 
+    {
+        "action": "com.evernote.action.START_SEARCH_INDEXING", 
+        "consumerMethod": "startService", 
+        "target": 29, 
+        "source": 311
+    }, 
+    {
+        "action": "com.evernote.action.START_SEARCH_INDEXING", 
+        "consumerMethod": "startService", 
+        "target": 29, 
+        "source": 4
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 26, 
+        "source": 81
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startService", 
+        "target": 29, 
+        "source": 26
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startService", 
+        "target": 94, 
+        "source": 35
+    }, 
+    {
+        "action": "ACTION_LINK_NOTEBOOK", 
+        "consumerMethod": "startActivity", 
+        "target": 318, 
+        "source": 25
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startService", 
+        "target": 29, 
+        "source": 18
+    }, 
+    {
+        "action": "com.evernote.action.STOP_SEARCH_INDEXING", 
+        "consumerMethod": "startService", 
+        "target": 29, 
+        "source": 311
+    }, 
+    {
+        "action": "com.evernote.action.RECOVER_NOTE", 
+        "consumerMethod": "startService", 
+        "target": 29, 
+        "source": 302
+    }, 
+    {
+        "action": "com.evernote.action.CLEAR_CACHE", 
+        "consumerMethod": "startService", 
+        "target": 29, 
+        "source": 4
+    }, 
+    {
+        "action": "com.evernote.action.FULL_SYNC", 
+        "consumerMethod": "startService", 
+        "target": 302, 
+        "source": 29
+    }, 
+    {
+        "action": "hasValue", 
+        "consumerMethod": "startActivity", 
+        "target": 18, 
+        "source": 18
+    }, 
+    {
+        "action": "com.evernote.action.UPDATE_NOTE_TAGS", 
+        "consumerMethod": "startService", 
+        "target": 29, 
+        "source": 158
+    }, 
+    {
+        "action": "com.android.vending.billing.PURCHASE_STATE_CHANGED", 
+        "consumerMethod": "startService", 
+        "target": 124, 
+        "source": 351
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 82, 
+        "source": 82
+    }, 
+    {
+        "action": "com.evernote.action.FULL_SYNC", 
+        "consumerMethod": "startService", 
+        "target": 302, 
+        "source": 336
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startService", 
+        "target": 153, 
+        "source": 57
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 33, 
+        "source": 110
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 262, 
+        "source": 24
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 24, 
+        "source": 120
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 262, 
+        "source": 368
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 262, 
+        "source": 120
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 24, 
+        "source": 368
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 368, 
+        "source": 377
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 262, 
+        "source": 323
+    }, 
+    {
+        "action": "android.intent.action.INSERT", 
+        "consumerMethod": "startActivity", 
+        "target": 110, 
+        "source": 368
+    }, 
+    {
+        "action": "android.intent.action.INSERT", 
+        "consumerMethod": "startActivity", 
+        "target": 110, 
+        "source": 110
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 120, 
+        "source": 368
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 262, 
+        "source": 110
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 377, 
+        "source": 110
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 24, 
+        "source": 268
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startService", 
+        "target": 268, 
+        "source": 24
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 24, 
+        "source": 110
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 133, 
+        "source": 133
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 53, 
+        "source": 53
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 256, 
+        "source": 256
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 371, 
+        "source": 371
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 48, 
+        "source": 48
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startService", 
+        "target": 314, 
+        "source": 314
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 51, 
+        "source": 51
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivityForResult", 
+        "target": 322, 
+        "source": 193
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 98, 
+        "source": 80
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "setIntent", 
+        "target": 199, 
+        "source": 21
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivityForResult", 
+        "target": 209, 
+        "source": 279
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 19, 
+        "source": 279
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 363, 
+        "source": 98
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 209, 
+        "source": 80
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 200, 
+        "source": 375
+    }, 
+    {
+        "action": "android.intent.action.VIEW", 
+        "consumerMethod": "startActivity", 
+        "target": 80, 
+        "source": 80
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 130, 
+        "source": 375
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "setIntent", 
+        "target": 67, 
+        "source": 21
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "setIntent", 
+        "target": 21, 
+        "source": 363
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 98, 
+        "source": 375
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "setResult", 
+        "target": 123, 
+        "source": 78
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 199, 
+        "source": 98
+    }, 
+    {
+        "action": "android.intent.action.PICK", 
+        "consumerMethod": "startActivityForResult", 
+        "target": 78, 
+        "source": 123
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "setIntent", 
+        "target": 21, 
+        "source": 279
+    }, 
+    {
+        "action": null, 
+        "consumerMethod": "startActivity", 
+        "target": 363, 
+        "source": 334
+    }
+]

@@ -47,6 +47,7 @@ var links = [
 import json
 
 from ComponentNode import ComponentNode
+from Link import Link
 
 class ApplicationGraph(object):
 	def __init__(self, applications):
@@ -129,16 +130,6 @@ class ApplicationGraph(object):
 			else:
 				nameIdxMap[componentNode.name] = idx
 		return nameIdxMap
-
-
-
-class Link(object):
-	def __init__(self, intentDict, componentNameToIdxMap):
-		self.source = componentNameToIdxMap[intentDict["sender"]]
-		self.target = componentNameToIdxMap[intentDict["component"]]
-
-		self.consumerMethod = intentDict["consumerMethod"]
-		self.action = intentDict["action"]
 
 
 
