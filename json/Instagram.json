@@ -46,6 +46,13 @@
             "dataType": null, 
             "consumerMethod": "startActivity", 
             "component": null, 
+            "action": null, 
+            "sender": "com.instagram.android.util.e"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
             "action": "android.intent.action.VIEW", 
             "sender": "com.instagram.android.people.c.l"
         }, 
@@ -234,13 +241,6 @@
         {
             "dataType": null, 
             "consumerMethod": "startActivity", 
-            "component": "com.instagram.android.maps.DedicatedMapActivity", 
-            "action": "hasValue", 
-            "sender": "com.instagram.android.maps.f.a"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
             "component": "com.instagram.android.nux.SignedOutFragmentActivity", 
             "action": null, 
             "sender": "com.instagram.android.activity.UrlHandlerActivity"
@@ -311,9 +311,9 @@
         {
             "dataType": null, 
             "consumerMethod": "startActivity", 
-            "component": null, 
-            "action": null, 
-            "sender": "com.instagram.android.util.e"
+            "component": "com.instagram.android.maps.DedicatedMapActivity", 
+            "action": "hasValue", 
+            "sender": "com.instagram.android.maps.f.a"
         }
     ], 
     "packageName": "com.instagram.android", 

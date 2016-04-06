@@ -65,10 +65,10 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "setResult", 
+            "consumerMethod": "sendBroadcast", 
             "component": null, 
-            "action": null, 
-            "sender": "com.workpail.inkpad.notepad.notes.NotesLiveFolder"
+            "action": "inkpad.notepad.sync.free_quota_info", 
+            "sender": "com.workpail.inkpad.notepad.notes.service.SyncIntentService"
         }, 
         {
             "dataType": null, 
@@ -111,13 +111,6 @@
             "component": "com.workpail.inkpad.notepad.notes.AccountList", 
             "action": null, 
             "sender": "com.workpail.inkpad.notepad.notes.ui.dialog.PremiumDialog"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "sendBroadcast", 
-            "component": null, 
-            "action": "inkpad.notepad.sync.free_quota_info", 
-            "sender": "com.workpail.inkpad.notepad.notes.service.SyncIntentService"
         }, 
         {
             "dataType": null, 
@@ -202,6 +195,13 @@
             "component": "com.workpail.inkpad.notepad.notes.ui.activity.NoteEditActivity", 
             "action": "android.intent.action.INSERT", 
             "sender": "com.workpail.inkpad.notepad.notes.ui.activity.NoteEditActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.workpail.inkpad.notepad.notes.NotesLiveFolder"
         }, 
         {
             "dataType": null, 

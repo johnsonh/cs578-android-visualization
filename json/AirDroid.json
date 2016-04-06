@@ -278,7 +278,7 @@
             "consumerMethod": "setIntent", 
             "component": null, 
             "action": null, 
-            "sender": "com.sand.airdroid.RegisterActivity_"
+            "sender": "com.sand.push.MsgDialog2Activity_"
         }, 
         {
             "dataType": "\"*/*\"", 
@@ -292,7 +292,7 @@
             "consumerMethod": "setIntent", 
             "component": null, 
             "action": null, 
-            "sender": "com.sand.push.MsgDialog2Activity_"
+            "sender": "com.sand.airdroid.RegisterActivity_"
         }, 
         {
             "dataType": null, 

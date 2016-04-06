@@ -275,10 +275,10 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "sendOrderedBroadcast", 
+            "consumerMethod": "setIntent", 
             "component": null, 
-            "action": "com.twitter.android.poll.data", 
-            "sender": "com.twitter.android.platform.C2DMService"
+            "action": null, 
+            "sender": "com.twitter.android.HomeTabActivity"
         }, 
         {
             "dataType": null, 
@@ -359,10 +359,10 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "setIntent", 
+            "consumerMethod": "sendOrderedBroadcast", 
             "component": null, 
-            "action": null, 
-            "sender": "com.twitter.android.HomeTabActivity"
+            "action": "com.twitter.android.poll.data", 
+            "sender": "com.twitter.android.platform.C2DMService"
         }, 
         {
             "dataType": null, 
@@ -419,6 +419,13 @@
             "component": "com.twitter.android.HomeTabActivity", 
             "action": null, 
             "sender": "com.twitter.android.BaseListActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.twitter.android.WelcomeActivity", 
+            "action": null, 
+            "sender": "com.twitter.android.LoginActivity"
         }, 
         {
             "dataType": null, 
@@ -573,13 +580,6 @@
             "component": null, 
             "action": null, 
             "sender": "com.twitter.android.WidgetSettingsActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "component": "com.twitter.android.WelcomeActivity", 
-            "action": null, 
-            "sender": "com.twitter.android.LoginActivity"
         }, 
         {
             "dataType": null, 

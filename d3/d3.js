@@ -28,6 +28,7 @@ function linkid(l) {
 
 function getGroup(n) { return n.parentApp; }
 
+function getLinkIntent(n) { return n.consumerMethod; }
 
 // network(data, net, getGroup, expand);
 // constructs the network to visualize
@@ -223,6 +224,7 @@ function init() {
     .text(function(d) { return d.group });
 
   link = linkg.selectAll("line.link").data(net.links, linkid);
+  console.log("linkkkkk ", link);
   link.exit().remove();
   link.enter().append("line")
       .attr("class", "link")
@@ -231,6 +233,9 @@ function init() {
       .attr("x2", function(d) { return d.target.x; })
       .attr("y2", function(d) { return d.target.y; })
       .style("stroke-width", function(d) { return d.size || 1; });
+
+  link.append("title")
+    .text(function(d) { return d.consumerMethod });
 
   var node = nodeg.selectAll("circle.node").data(net.nodes, nodeid);
   node.exit().remove();

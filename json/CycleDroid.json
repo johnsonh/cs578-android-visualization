@@ -122,6 +122,13 @@
         {
             "dataType": null, 
             "consumerMethod": "startActivity", 
+            "component": "com.maral.cycledroid.activity.trip.TripActivity", 
+            "action": null, 
+            "sender": "com.maral.cycledroid.activity.tripslist.SummarySelectActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
             "component": "com.maral.cycledroid.activity.DonateActivity", 
             "action": null, 
             "sender": "com.maral.cycledroid.activity.file.ChooseFileActivity"
@@ -146,13 +153,6 @@
             "component": "com.maral.cycledroid.activity.settings.SettingsActivity", 
             "action": null, 
             "sender": "com.maral.cycledroid.activity.file.ChooseFileActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "component": "com.maral.cycledroid.activity.trip.TripActivity", 
-            "action": null, 
-            "sender": "com.maral.cycledroid.activity.tripslist.SummarySelectActivity"
         }, 
         {
             "dataType": null, 

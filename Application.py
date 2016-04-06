@@ -17,6 +17,11 @@ class Application(CommonEqualityMixin):
 
 		self.name = application.find("name", recursive=False).string
 		self.packageName = application.find("packageName").string
+		
+		self.permissions = []
+		for permission in application.find_all("permission"):
+			self.permissions.append(permission.string)
+		print self.permissions
 
 		self.myComponents = []
 		bsComponents = application.find_all("Component")
@@ -39,8 +44,9 @@ class Application(CommonEqualityMixin):
 		if bsComponent.find("RequiredPermissions").find("PRM"):
 			requiredPermissions = bsComponent.find("RequiredPermissions").find("PRM").string
 
-		if bsComponent.find("PropagatedPermissions"):
-			print bsComponent.find("PropagatedPermissions")
+		# These never appear...
+		# if bsComponent.find("PropagatedPermissions"):
+		# 	print bsComponent.find("PropagatedPermissions")
 
 		bsFilters = bsComponent.find_all("filter")
 		myFilters = []

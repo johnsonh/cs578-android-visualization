@@ -156,13 +156,6 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "component": "com.evernote.ui.EvernotePreferenceActivity", 
-            "action": null, 
-            "sender": "com.evernote.ui.EvernoteFragmentActivity"
-        }, 
-        {
-            "dataType": null, 
             "consumerMethod": "startService", 
             "component": "com.evernote.client.EvernoteService", 
             "action": "com.evernote.action.GET_REGISTRATION_URLS", 
@@ -184,13 +177,6 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startService", 
-            "component": "com.evernote.client.EvernoteService", 
-            "action": "com.evernote.action.GET_REGISTRATION_URLS", 
-            "sender": "com.evernote.ui.LoginFragment"
-        }, 
-        {
-            "dataType": null, 
             "consumerMethod": "sendBroadcast", 
             "component": null, 
             "action": "com.evernote.action.DB_OPEN_CREATION_FAILED", 
@@ -202,6 +188,13 @@
             "component": "com.evernote.client.SyncService", 
             "action": "com.evernote.action.FULL_SYNC", 
             "sender": "com.evernote.provider.EvernoteProvider"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.SAVE_NOTE_DONE", 
+            "sender": "com.evernote.client.EvernoteService"
         }, 
         {
             "dataType": null, 
@@ -223,6 +216,13 @@
             "component": null, 
             "action": "com.evernote.action.GET_CAPTCHA_RESULT", 
             "sender": "com.evernote.client.EvernoteService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.MOVE_NOTE", 
+            "sender": "com.evernote.ui.NoteListFragment"
         }, 
         {
             "dataType": null, 
@@ -338,6 +338,13 @@
         }, 
         {
             "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.GET_REGISTRATION_URLS", 
+            "sender": "com.evernote.ui.LoginFragment"
+        }, 
+        {
+            "dataType": null, 
             "consumerMethod": "sendBroadcast", 
             "component": null, 
             "action": "com.evernote.SD_CARD_STILL_MOUNTED", 
@@ -373,6 +380,13 @@
         }, 
         {
             "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.SyncService", 
+            "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.ui.EvernoteActivity"
+        }, 
+        {
+            "dataType": null, 
             "consumerMethod": "setResult", 
             "component": null, 
             "action": null, 
@@ -384,13 +398,6 @@
             "component": "com.evernote.ui.NoteListActivity", 
             "action": null, 
             "sender": "com.evernote.ui.maps.r"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "component": "com.evernote.client.EvernoteService", 
-            "action": "com.evernote.action.MOVE_NOTE", 
-            "sender": "com.evernote.ui.NoteListFragment"
         }, 
         {
             "dataType": null, 
@@ -555,6 +562,13 @@
         }, 
         {
             "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.WebActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.LoginFragment"
+        }, 
+        {
+            "dataType": null, 
             "consumerMethod": "sendBroadcast", 
             "component": null, 
             "action": "com.evernote.action.DB_READ_ONLY", 
@@ -675,13 +689,6 @@
         {
             "dataType": null, 
             "consumerMethod": "startActivity", 
-            "component": "com.evernote.ui.WebActivity", 
-            "action": null, 
-            "sender": "com.evernote.ui.LoginFragment"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
             "component": "com.evernote.ui.SearchActivity", 
             "action": null, 
             "sender": "com.evernote.ui.EvernoteFragmentActivity"
@@ -752,6 +759,13 @@
         {
             "dataType": null, 
             "consumerMethod": "startService", 
+            "component": "com.evernote.client.SyncService", 
+            "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.ui.rx"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
             "component": "com.evernote.client.EvernoteService", 
             "action": "com.evernote.action.LOG_OUT", 
             "sender": "com.evernote.ui.cj"
@@ -765,6 +779,13 @@
         }, 
         {
             "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.EvernotePreferenceActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.EvernoteFragmentActivity"
+        }, 
+        {
+            "dataType": null, 
             "consumerMethod": "sendBroadcast", 
             "component": null, 
             "action": "com.evernote.action.ACTION_RECENT_NOTES_CHANGED", 
@@ -772,10 +793,10 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "sendOrderedBroadcast", 
-            "component": null, 
-            "action": null, 
-            "sender": "com.evernote.client.EvernoteService"
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.START_SEARCH_INDEXING", 
+            "sender": "com.evernote.ui.EvernotePreferenceActivity"
         }, 
         {
             "dataType": null, 
@@ -797,13 +818,6 @@
             "component": "com.evernote.client.EvernoteService", 
             "action": "com.evernote.action.SAVE_NOTEBOOK", 
             "sender": "com.evernote.ui.NotebookFragment"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "sendOrderedBroadcast", 
-            "component": null, 
-            "action": "com.evernote.action.SAVE_NOTE_DONE", 
-            "sender": "com.evernote.client.EvernoteService"
         }, 
         {
             "dataType": null, 
@@ -1073,13 +1087,6 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startService", 
-            "component": "com.evernote.client.SyncService", 
-            "action": "com.evernote.action.FULL_SYNC", 
-            "sender": "com.evernote.ui.EvernoteActivity"
-        }, 
-        {
-            "dataType": null, 
             "consumerMethod": "sendOrderedBroadcast", 
             "component": null, 
             "action": null, 
@@ -1108,10 +1115,17 @@
         }, 
         {
             "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.client.EvernoteService"
+        }, 
+        {
+            "dataType": null, 
             "consumerMethod": "startService", 
             "component": "com.evernote.client.EvernoteService", 
-            "action": "com.evernote.action.START_SEARCH_INDEXING", 
-            "sender": "com.evernote.ui.EvernotePreferenceActivity"
+            "action": "com.evernote.action.LOG_OUT", 
+            "sender": "com.evernote.ui.z"
         }, 
         {
             "dataType": null, 
@@ -1133,20 +1147,6 @@
             "component": "com.evernote.ui.NotebookShareSettingsActivity", 
             "action": null, 
             "sender": "com.evernote.ui.NotebookFragment"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "component": "com.evernote.client.EvernoteService", 
-            "action": "com.evernote.action.LOG_OUT", 
-            "sender": "com.evernote.ui.z"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startService", 
-            "component": "com.evernote.client.SyncService", 
-            "action": "com.evernote.action.FULL_SYNC", 
-            "sender": "com.evernote.ui.rx"
         }, 
         {
             "dataType": null, 

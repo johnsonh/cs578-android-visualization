@@ -86,17 +86,17 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startActivityForResult", 
-            "component": "com.microsoft.office.onenote.ui.ONMSettingAccountPicker", 
+            "consumerMethod": "startActivity", 
+            "component": null, 
             "action": null, 
-            "sender": "com.microsoft.office.onenote.ui.ONMSettingActivity"
+            "sender": "com.microsoft.office.onenote.ui.canvas.ONMCanvasActivity"
         }, 
         {
             "dataType": null, 
             "consumerMethod": "startActivityForResult", 
-            "component": null, 
+            "component": "com.microsoft.office.onenote.ui.ONMSettingAccountPicker", 
             "action": null, 
-            "sender": "com.microsoft.office.uicontrols.OMSendFeedbackActivity"
+            "sender": "com.microsoft.office.onenote.ui.ONMSettingActivity"
         }, 
         {
             "dataType": null, 
@@ -163,13 +163,6 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startActivityForResult", 
-            "component": null, 
-            "action": null, 
-            "sender": "com.microsoft.office.onenote.ui.adapters.ONMNotebookSettingAdapter"
-        }, 
-        {
-            "dataType": null, 
             "consumerMethod": "startActivity", 
             "component": "com.microsoft.office.onenote.ui.ONMSyncErrorActivity", 
             "action": null, 
@@ -219,10 +212,10 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startActivity", 
-            "component": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": "com.microsoft.office.onenote.ui.ONMEULAActivity", 
             "action": null, 
-            "sender": "com.microsoft.office.onenote.ui.canvas.ONMCanvasActivity"
+            "sender": "com.microsoft.office.onenote.ui.ONMSplashActivity"
         }, 
         {
             "dataType": null, 
@@ -230,6 +223,13 @@
             "component": null, 
             "action": null, 
             "sender": "com.microsoft.office.onenote.ui.ONMSettingActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.microsoft.office.onenote.ui.adapters.ONMNotebookSettingAdapter"
         }, 
         {
             "dataType": null, 
@@ -269,23 +269,16 @@
         {
             "dataType": null, 
             "consumerMethod": "startActivity", 
-            "component": "com.microsoft.office.onenote.ui.ONMNotebookSettingActivity", 
-            "action": null, 
-            "sender": "com.microsoft.office.onenote.ui.firstrun.ONMSignInWrapperActivity"
-        }, 
-        {
-            "dataType": null, 
-            "consumerMethod": "startActivity", 
             "component": null, 
             "action": null, 
             "sender": "com.microsoft.office.onenote.ui.canvas.views.ONMPageView"
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "setResult", 
+            "consumerMethod": "startActivityForResult", 
             "component": null, 
             "action": null, 
-            "sender": "com.microsoft.office.auth.live.OAuthDeprecatedAuthenticatorActivity"
+            "sender": "com.microsoft.office.onenote.ui.firstrun.ONMSignInWrapperActivity"
         }, 
         {
             "dataType": null, 
@@ -366,6 +359,13 @@
         }, 
         {
             "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.microsoft.office.uicontrols.OMSendFeedbackActivity"
+        }, 
+        {
+            "dataType": null, 
             "consumerMethod": "startActivity", 
             "component": "com.microsoft.office.onenote.ui.ONMSettingActivity", 
             "action": null, 
@@ -443,8 +443,8 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startActivityForResult", 
-            "component": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.microsoft.office.onenote.ui.ONMNotebookSettingActivity", 
             "action": null, 
             "sender": "com.microsoft.office.onenote.ui.firstrun.ONMSignInWrapperActivity"
         }, 
@@ -464,10 +464,10 @@
         }, 
         {
             "dataType": null, 
-            "consumerMethod": "startActivityForResult", 
-            "component": "com.microsoft.office.onenote.ui.ONMEULAActivity", 
+            "consumerMethod": "setResult", 
+            "component": null, 
             "action": null, 
-            "sender": "com.microsoft.office.onenote.ui.ONMSplashActivity"
+            "sender": "com.microsoft.office.auth.live.OAuthDeprecatedAuthenticatorActivity"
         }
     ], 
     "packageName": "com.microsoft.office.onenote", 

@@ -7,7 +7,7 @@ class IntentFilterResolver(object):
 	def __init__(self, nodelist):
 		self.nodelist = nodelist
 
-	# inefficient but i just need it to work
+	# inefficient but i just need it to work, this should be backed by multi_key_dicts
 	def getImplicitReceiversOfIntent(self, inputAction, inputData):
 		receivers = []
 		for node in self.nodelist:
@@ -18,7 +18,6 @@ class IntentFilterResolver(object):
 						receivers.append(node.name)
 						break
 		return receivers
-
 
 
 		"""
