@@ -26,6 +26,8 @@ function linkid(l) {
 
 function getGroup(n) { return n.parentApp; }
 
+
+// network(data, net, getGroup, expand);
 // constructs the network to visualize
 function network(data, prev, index, expand) {
   	expand = expand || {};
@@ -37,13 +39,11 @@ function network(data, prev, index, expand) {
       nodes = [], // output nodes
       links = []; // output links
 
-	console.log("prev: ");
-	console.log(prev);
-
   // process previous nodes for reuse or centroid calculation
   if (prev) {
     prev.nodes.forEach(function(n) {
       var i = index(n), o;
+      console.log(i);
       if (n.size > 0) {
         gn[i] = n;
         n.size = 0;
@@ -84,9 +84,9 @@ function network(data, prev, index, expand) {
       }
       l.nodes.push(n);
     }
-  // always count group size as we also use it to tweak the force graph strengths/distances
+    // always count group size as we also use it to tweak the force graph strengths/distances
     l.size += 1;
-  n.group_data = l;
+    n.group_data = l;
   }
 
   for (i in gm) { gm[i].link_count = 0; }
@@ -96,10 +96,10 @@ function network(data, prev, index, expand) {
     var e = data.links[k],
         u = index(e.source),
         v = index(e.target);
-  if (u != v) {
-    gm[u].link_count++;
-    gm[v].link_count++;
-  }
+    if (u != v) {
+      gm[u].link_count++;
+      gm[v].link_count++;
+    }
     u = expand[u] ? nm[e.source.name] : nm[u];
     v = expand[v] ? nm[e.target.name] : nm[v];
     var i = (u<v ? u+"|"+v : v+"|"+u),
@@ -178,44 +178,44 @@ function init() {
       .links(net.links)
       .size([width, height])
       .linkDistance(function(l, i) {
-      var n1 = l.source, n2 = l.target;
-    // larger distance for bigger groups:
-    // both between single nodes and _other_ groups (where size of own node group still counts),
-    // and between two group nodes.
-    //
-    // reduce distance for groups with very few outer links,
-    // again both in expanded and grouped form, i.e. between individual nodes of a group and
-    // nodes of another group or other group node or between two group nodes.
-    //
-    // The latter was done to keep the single-link groups ('blue', rose, ...) close.
-    return 30 +
-      Math.min(20 * Math.min((n1.size || (n1.group != n2.group ? n1.group_data.size : 0)),
-                             (n2.size || (n1.group != n2.group ? n2.group_data.size : 0))),
-           -30 +
-           30 * Math.min((n1.link_count || (n1.group != n2.group ? n1.group_data.link_count : 0)),
-                         (n2.link_count || (n1.group != n2.group ? n2.group_data.link_count : 0))),
-           100);
-      //return 150;
-    })
-    .linkStrength(function(l, i) {
-    return 1;
-    })
-    .gravity(0.05)   // gravity+charge tweaked to ensure good 'grouped' view (e.g. green group not smack between blue&orange, ...
-    .charge(-600)    // ... charge is important to turn single-linked groups to the outside
-    .friction(0.5)   // friction adjusted to get dampened display: less bouncy bouncy ball [Swedish Chef, anyone?]
+          var n1 = l.source, n2 = l.target;
+          // larger distance for bigger groups:
+          // both between single nodes and _other_ groups (where size of own node group still counts),
+          // and between two group nodes.
+          //
+          // reduce distance for groups with very few outer links,
+          // again both in expanded and grouped form, i.e. between individual nodes of a group and
+          // nodes of another group or other group node or between two group nodes.
+          //
+          // The latter was done to keep the single-link groups ('blue', rose, ...) close.
+          return 30 +
+            Math.min(20 * Math.min((n1.size || (n1.group != n2.group ? n1.group_data.size : 0)),
+                                   (n2.size || (n1.group != n2.group ? n2.group_data.size : 0))),
+                 -30 +
+                 30 * Math.min((n1.link_count || (n1.group != n2.group ? n1.group_data.link_count : 0)),
+                               (n2.link_count || (n1.group != n2.group ? n2.group_data.link_count : 0))),
+                 100);
+            //return 150;
+        })
+      .linkStrength(function(l, i) {
+          return 1;
+        })
+      .gravity(0.05)   // gravity+charge tweaked to ensure good 'grouped' view (e.g. green group not smack between blue&orange, ...
+      .charge(-600)    // ... charge is important to turn single-linked groups to the outside
+      .friction(0.5)   // friction adjusted to get dampened display: less bouncy bouncy ball [Swedish Chef, anyone?]
       .start();
 
   hullg.selectAll("path.hull").remove();
   hull = hullg.selectAll("path.hull")
       .data(convexHulls(net.nodes, getGroup, off))
-    .enter().append("path")
+      .enter().append("path")
       .attr("class", "hull")
       .attr("d", drawCluster)
       .style("fill", function(d) { return fill(d.group); })
-      .on("click", function(d) {
-console.log("hull click", d, arguments, this, expand[d.group]);
-      expand[d.group] = false; init();
-    });
+      .on("click", function(d) { 
+        console.log("hull click", d, arguments, this, expand[d.group]);
+        expand[d.group] = false; init();
+      });
 
   link = linkg.selectAll("line.link").data(net.links, linkid);
   link.exit().remove();
@@ -230,6 +230,7 @@ console.log("hull click", d, arguments, this, expand[d.group]);
   node = nodeg.selectAll("circle.node").data(net.nodes, nodeid);
   node.exit().remove();
   node.enter().append("circle")
+      // .classed('node', true)
       // if (d.size) -- d.size > 0 when d is a group node.
       .attr("class", function(d) { return "node" + (d.size?"":" leaf"); })
       .attr("r", function(d) { return d.size ? d.size + dr : dr+1; })
@@ -237,12 +238,17 @@ console.log("hull click", d, arguments, this, expand[d.group]);
       .attr("cy", function(d) { return d.y; })
       .style("fill", function(d) { return fill(d.group); })
       .on("click", function(d) {
-console.log("node click", d, arguments, this, expand[d.group]);
+        console.log("node click", d, arguments, this, expand[d.group]);
         expand[d.group] = !expand[d.group];
-    init();
+        init();
       });
 
   node.call(force.drag);
+
+  // // Append the labels to each group
+  // var labels = node.enter().append("text")
+  //   // .text(function(d) { return d.group });
+  //   .text(function(d) { console.log(d.group) });
 
   force.on("tick", function() {
     if (!hull.empty()) {
