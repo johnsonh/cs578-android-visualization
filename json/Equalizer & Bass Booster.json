@@ -1,0 +1,63 @@
+{
+    "myIntents": [], 
+    "packageName": "music.bassbooster.equalizer", 
+    "myComponents": [
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.LAUNCHER"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "kx.com.app.equalizer.LauncherActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "music.bassbooster.equalizer.EQActivity"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "kx.com.app.equalizer.EQActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "kx.com.app.equalizer.SettingsActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "net.coocent.android.xmlparser.GiftActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.google.android.gms.ads.AdActivity"
+        }, 
+        {
+            "type": "service", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "kx.com.app.equalizer.EQService"
+        }
+    ], 
+    "name": "Equalizer & Bass Booster"
+}

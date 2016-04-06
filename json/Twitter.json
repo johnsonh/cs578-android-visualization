@@ -1,0 +1,1474 @@
+{
+    "myIntents": [
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.PostActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.twitter.android.HomeTabActivity", 
+            "action": null, 
+            "sender": "com.twitter.android.BaseFragmentActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.SearchTweetsActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.bd"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "binder", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.gf"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.aj"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.twitter.android.platform.C2DMService", 
+            "action": null, 
+            "sender": "com.twitter.android.platform.C2DMService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.aj"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.FollowActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.LoginActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.UsersActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.twitter.android.DialogActivity", 
+            "action": "start", 
+            "sender": "com.twitter.android.bb"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": "com.twitter.android.PostActivity", 
+            "action": null, 
+            "sender": "com.twitter.android.DraftsFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setIntent", 
+            "component": "com.twitter.android.AboutActivity", 
+            "action": null, 
+            "sender": "com.twitter.android.LoginActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.twitter.android.PostActivity", 
+            "action": "com.twitter.android.post.status", 
+            "sender": "com.twitter.android.BaseFragmentActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.twitter.android.HomeTabActivity", 
+            "action": null, 
+            "sender": "com.twitter.android.StartActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.AccountsDialogActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setIntent", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.SettingsActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.MessagesActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.SearchUsersActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.ch"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.ListCreateEditActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "on_update", 
+            "sender": "com.twitter.android.client.WidgetSmallProvider"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": "com.twitter.android.SignUpActivity", 
+            "action": null, 
+            "sender": "com.twitter.android.LoginActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.twitter.android.action.c2dm.REFRESH", 
+            "sender": "com.twitter.android.platform.C2DMService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "com.twitter.android.post.status", 
+            "sender": "com.twitter.android.HomeTabActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.twitter.android.SignUpActivity", 
+            "action": null, 
+            "sender": "com.twitter.android.StartActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.google.android.c2dm.intent.REGISTER", 
+            "sender": "com.twitter.android.platform.C2DMService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.client.g"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.twitter.android.StartActivity", 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.twitter.android.StartActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.twitter.android.HomeTabActivity", 
+            "action": null, 
+            "sender": "com.twitter.android.BaseActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.client.h"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.en"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "binder", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.platform.TwitterContactsSyncService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": null, 
+            "action": "com.twitter.android.pick_multiple", 
+            "sender": "com.twitter.android.PostActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setIntent", 
+            "component": "com.twitter.android.WebViewActivity", 
+            "action": null, 
+            "sender": "com.twitter.android.AboutActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "on_update", 
+            "sender": "com.twitter.android.client.WidgetLargeProvider"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.twitter.android.service.TwitterService", 
+            "action": "LOGIN", 
+            "sender": "com.twitter.android.AuthenticatorActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.twitter.android.PostActivity", 
+            "action": "com.twitter.android.post.status", 
+            "sender": "com.twitter.android.BaseActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": "com.twitter.android.poll.data", 
+            "sender": "com.twitter.android.platform.C2DMService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.client.WidgetSmallProvider"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.twitter.android.HomeTabActivity", 
+            "action": null, 
+            "sender": "com.twitter.android.UrlInterpreterActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.twitter.android.ProfileActivity", 
+            "action": null, 
+            "sender": "com.twitter.android.HomeTabActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.HomeTabActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setIntent", 
+            "component": null, 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.twitter.android.AboutActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.AuthenticatorActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setIntent", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.MessagesActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.twitter.android.platform.RemoveRawContactsService", 
+            "action": null, 
+            "sender": "com.twitter.android.fv"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.AccountSettingsActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.twitter.android.SULActivity", 
+            "action": null, 
+            "sender": "com.twitter.android.UrlInterpreterActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.twitter.android.SettingsActivity", 
+            "action": null, 
+            "sender": "com.twitter.android.AccountsDialogActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setIntent", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.HomeTabActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": "com.twitter.android.MessagesThreadActivity", 
+            "action": null, 
+            "sender": "com.twitter.android.UsersActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setIntent", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.SearchTweetsActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.service.ScribeService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setIntent", 
+            "component": "com.twitter.android.ProfileActivity", 
+            "action": null, 
+            "sender": "com.twitter.android.AboutActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.StartActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.SearchQueriesFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": null, 
+            "action": "android.media.action.IMAGE_CAPTURE", 
+            "sender": "com.twitter.android.PostActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.twitter.android.HomeTabActivity", 
+            "action": null, 
+            "sender": "com.twitter.android.BaseListActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "binder", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.platform.TwitterAuthenticationService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "FLUSH", 
+            "sender": "com.twitter.android.service.ScribeService"
+        }, 
+        {
+            "dataType": "\"vnd.android.cursor.dir/image\"", 
+            "consumerMethod": "startActivityForResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.PostActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": "com.twitter.android.UsersActivity", 
+            "action": "android.intent.action.PICK", 
+            "sender": "com.twitter.android.MessagesThreadActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.AccountsDialogActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.twitter.android.service.TwitterService", 
+            "action": "LOG", 
+            "sender": "com.twitter.android.TweetFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "binder", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.platform.TwitterDataSyncService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setIntent", 
+            "component": "com.twitter.android.AboutActivity", 
+            "action": null, 
+            "sender": "com.twitter.android.SettingsActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.cz"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.twitter.android.SettingsActivity", 
+            "action": null, 
+            "sender": "com.twitter.android.fk"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.ei"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.twitter.android.PostActivity", 
+            "action": null, 
+            "sender": "com.twitter.android.UrlInterpreterActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": "com.google.android.c2dm.intent.UNREGISTER", 
+            "sender": "com.twitter.android.platform.C2DMService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": null, 
+            "action": "android.intent.action.PICK", 
+            "sender": "com.twitter.android.EditProfileActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.be"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.platform.TwitterDataSyncService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.client.WidgetLargeProvider"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.twitter.android.SettingsActivity", 
+            "action": null, 
+            "sender": "com.twitter.android.HomeTabActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.AccountsDialogActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.widget.j"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": "com.twitter.android.poll.data", 
+            "sender": "com.twitter.android.platform.o"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.WidgetSettingsActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.twitter.android.WelcomeActivity", 
+            "action": null, 
+            "sender": "com.twitter.android.LoginActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.WelcomeActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setIntent", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.ImageActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.BaseActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.UrlInterpreterActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.PostActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.ListsActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.twitter.android.PostActivity", 
+            "action": "com.twitter.android.post.status", 
+            "sender": "com.twitter.android.BaseListActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "com.twitter.android.intent.action.FOLLOW", 
+            "sender": "com.twitter.android.UrlInterpreterActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.twitter.android.DiscoverFragment"
+        }
+    ], 
+    "packageName": "com.twitter.android", 
+    "myComponents": [
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": "login", 
+                            "scheme": "twitter"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.LoginActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.AboutActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.SettingsActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.appwidget.action.APPWIDGET_CONFIGURE"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.WidgetSettingsActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": "timeline", 
+                            "scheme": "twitter"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "mentions", 
+                            "scheme": "twitter"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.HomeTabActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": "user_timeline", 
+                            "scheme": "twitter"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.TimelineActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.UsersActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.ListsActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": "messages", 
+                            "scheme": "twitter"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.MessagesActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.ActivitiesActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": "list", 
+                            "scheme": "twitter"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.ListTabActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": "search", 
+                            "scheme": "twitter"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.SEARCH"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": "search", 
+                            "scheme": "twitter"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.SEARCH"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.SearchTweetsActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.SEARCH"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.SearchUsersActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.ListCreateEditActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": "post", 
+                            "scheme": "twitter"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "quote", 
+                            "scheme": "twitter"
+                        }, 
+                        {
+                            "mimeType": "text/plain", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "image/*", 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.SEND"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": "post", 
+                            "scheme": "twitter"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "quote", 
+                            "scheme": "twitter"
+                        }, 
+                        {
+                            "mimeType": "text/plain", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "image/*", 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.SEND"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": "post", 
+                            "scheme": "twitter"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "quote", 
+                            "scheme": "twitter"
+                        }, 
+                        {
+                            "mimeType": "text/plain", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "image/*", 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW", 
+                        "android.intent.action.SEND"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.PostActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.AuthenticatorActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": "status", 
+                            "scheme": "twitter"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "tweet", 
+                            "scheme": "twitter"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": "status", 
+                            "scheme": "twitter"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "tweet", 
+                            "scheme": "twitter"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.TweetActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.MessagesThreadActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.EditProfileActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [
+                        {
+                            "mimeType": "vnd.android.cursor.item/vnd.twitter.profile", 
+                            "host": "com.android.contacts", 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "user", 
+                            "scheme": "twitter"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": "vnd.android.cursor.item/vnd.twitter.profile", 
+                            "host": "com.android.contacts", 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "user", 
+                            "scheme": "twitter"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.ProfileActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": "follow", 
+                            "scheme": "twitter"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "unfollow", 
+                            "scheme": "twitter"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.DialogActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.SULActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.SignUpActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.LAUNCHER"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.StartActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.WelcomeActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.FollowActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.ImageActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.WebViewActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.DraftsActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.AccountsActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.AccountsDialogActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.AccountSettingsActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": "twitter.com", 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "twitter.com", 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "mobile.twitter.com", 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "mobile.twitter.com", 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "www.twitter.com", 
+                            "scheme": "http"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "www.twitter.com", 
+                            "scheme": "https"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.UrlInterpreterActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.HomeActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.SearchQueriesActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.StoriesActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.twitter.android.ConnectActivity"
+        }, 
+        {
+            "type": "service", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "service.TwitterService"
+        }, 
+        {
+            "type": "service", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "client.AppService"
+        }, 
+        {
+            "type": "service", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "platform.RemoveRawContactsService"
+        }, 
+        {
+            "type": "service", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "client.WidgetService"
+        }, 
+        {
+            "type": "service", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.accounts.AccountAuthenticator"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "platform.TwitterAuthenticationService"
+        }, 
+        {
+            "type": "service", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.content.SyncAdapter"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "platform.TwitterContactsSyncService"
+        }, 
+        {
+            "type": "service", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.content.SyncAdapter"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "platform.TwitterDataSyncService"
+        }, 
+        {
+            "type": "service", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "platform.C2DMService"
+        }, 
+        {
+            "type": "service", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "service.ScribeService"
+        }, 
+        {
+            "type": "receiver", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.accounts.LOGIN_ACCOUNTS_CHANGED"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "platform.AccountsChangedReceiver"
+        }, 
+        {
+            "type": "receiver", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.appwidget.action.APPWIDGET_UPDATE"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "client.WidgetLargeProvider"
+        }, 
+        {
+            "type": "receiver", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.appwidget.action.APPWIDGET_UPDATE"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "client.WidgetSmallProvider"
+        }, 
+        {
+            "type": "receiver", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "com.twitter.android.widget.button.next", 
+                        "com.twitter.android.poll.data", 
+                        "com.twitter.android.widget.button.prev"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "client.AppBroadcastReceiver"
+        }, 
+        {
+            "type": "receiver", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "com.android.vending.INSTALL_REFERRER"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "platform.InstallReferralReceiver"
+        }, 
+        {
+            "type": "receiver", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "com.twitter.android"
+                    ], 
+                    "actions": [
+                        "com.google.android.c2dm.intent.REGISTRATION", 
+                        "com.google.android.c2dm.intent.RECEIVE"
+                    ]
+                }, 
+                {
+                    "data": [], 
+                    "categories": [
+                        "com.twitter.android"
+                    ], 
+                    "actions": [
+                        "com.google.android.c2dm.intent.REGISTRATION", 
+                        "com.google.android.c2dm.intent.RECEIVE"
+                    ]
+                }
+            ], 
+            "requiredPermissions": "SEND", 
+            "name": "platform.C2DMReceiver"
+        }, 
+        {
+            "type": "provider", 
+            "filters": [], 
+            "requiredPermissions": "RESTRICTED", 
+            "name": "provider.TwitterProvider"
+        }, 
+        {
+            "type": "provider", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "provider.GlobalDatabaseProvider"
+        }
+    ], 
+    "name": "Twitter"
+}

@@ -1,0 +1,114 @@
+{
+    "myIntents": [
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.mobirix.util.JniMethods"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.mobirix.util.callShop"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "android.intent.action.SEND", 
+            "sender": "com.mobirix.util.KakaoLink"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.mobirix.util.JniMethods"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.mobirix.slideking.MxPlayGameMultiListener"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.mobirix.util.JniMethods"
+        }
+    ], 
+    "packageName": "com.mobirix.slideking", 
+    "myComponents": [
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.LAUNCHER"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.mobirix.slideking.SlideKing"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.google.android.gms.ads.AdActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.mobirix.payment.sk.SkPayment"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.mobirix.payment.google.GooglePayment"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.mobirix.payment.kt.KTPayment"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.mobirix.payment.lg.LGPayment"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.mobirix.payment.sa.SamsungPayment"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.mobirix.payment.na.NaverPayment"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.feelingk.lguiab.manager.gui.InAppLockActivity"
+        }
+    ], 
+    "name": "Unblock king"
+}

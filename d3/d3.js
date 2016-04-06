@@ -252,7 +252,11 @@ function init() {
 
   // Append the labels to each group
   var gnodes1 = gnodes.append("title")
-    .text(function(d) { return d.group });
+    .text(function(d) { 
+      var description = "App name: " + d.group;
+      description += ""
+      return description; 
+    });
     // .text(function(d) { console.log(d.group) });
 
   force.on("tick", function() {

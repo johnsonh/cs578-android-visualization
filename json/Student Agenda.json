@@ -1,0 +1,124 @@
+{
+    "myIntents": [
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": "com.clawdyvan.agendaestudantepro.Activities.CameraActivity", 
+            "action": null, 
+            "sender": "com.clawdyvan.agendaestudantepro.Activities.VisualizacaoFotoActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.clawdyvan.agendaestudantepro.Activities.c"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.clawdyvan.agendaestudantepro.Activities.m"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.clawdyvan.agendaestudantepro.Activities.l"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.clawdyvan.agendaestudantepro.Activities.ContainerFragmentsActivity", 
+            "action": null, 
+            "sender": "com.clawdyvan.agendaestudantepro.Activities.ContainerFragmentsActivity"
+        }
+    ], 
+    "packageName": "com.clawdyvan.agendadigitalaluno", 
+    "myComponents": [
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.LAUNCHER"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.clawdyvan.agendaestudantepro.Activities.MainActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.clawdyvan.agendaestudantepro.Activities.CameraActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.clawdyvan.agendaestudantepro.Activities.VisualizacaoFotoActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.clawdyvan.agendaestudantepro.Activities.ContainerFragmentsActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.google.android.gms.ads.AdActivity"
+        }, 
+        {
+            "type": "receiver", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "com.clawdyvan.agendadigitalaluno", 
+                        "AlarmReceiver"
+                    ]
+                }, 
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "com.clawdyvan.agendadigitalaluno", 
+                        "AlarmReceiver"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.clawdyvan.agendaestudantepro.Util.AlarmReceiver"
+        }, 
+        {
+            "type": "receiver", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.intent.action.BOOT_COMPLETED"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.clawdyvan.agendaestudantepro.Util.ReceiverReativaAlarmReboot"
+        }
+    ], 
+    "name": "Student Agenda"
+}

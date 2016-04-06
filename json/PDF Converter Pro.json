@@ -1,0 +1,64 @@
+{
+    "myIntents": [
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.twansoftware.pdfconverterpro.service.UploadAndConvertService", 
+            "action": null, 
+            "sender": "com.twansoftware.pdfconverterpro.service.UploadAndConvertService"
+        }, 
+        {
+            "dataType": "\"application/msword\"", 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.twansoftware.pdfconverterpro.util.FileUtil"
+        }
+    ], 
+    "packageName": "com.twansoftware.pdfconverterpro", 
+    "myComponents": [
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.LAUNCHER"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.twansoftware.pdfconverterpro.ui.MainActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "android.support.v7.widget.TestActivity"
+        }, 
+        {
+            "type": "service", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.twansoftware.pdfconverterpro.service.UploadAndConvertService"
+        }, 
+        {
+            "type": "receiver", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "com.amazon.inapp.purchasing.NOTIFY"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.amazon.device.iap.ResponseReceiver"
+        }
+    ], 
+    "name": "PDF Converter Pro"
+}

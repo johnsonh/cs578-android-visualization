@@ -1,0 +1,29 @@
+{
+    "myIntents": [], 
+    "packageName": "info.percentagecalculator.v1", 
+    "myComponents": [
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.LAUNCHER"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "info.percentagecalculator.v1.PercentageCalculator"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.google.android.gms.ads.AdActivity"
+        }
+    ], 
+    "name": "Percentage Calculator v1"
+}

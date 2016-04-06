@@ -1,0 +1,1920 @@
+{
+    "myIntents": [
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.SyncService", 
+            "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.util.af"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.LOGOUT_DONE", 
+            "sender": "com.evernote.client.EvernoteService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.CONTENT_DONE", 
+            "sender": "com.evernote.client.SyncService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setIntent", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.RegistrationFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.helper.WidgetUpdateReceiver"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.THUMBNAIL_DONE", 
+            "sender": "com.evernote.client.SyncService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.UPDATE_NOTE_TAGS", 
+            "sender": "com.evernote.ui.TagEditActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.SyncService", 
+            "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.ui.ex"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.NOTE_DELETED", 
+            "sender": "com.evernote.client.SyncService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.RESET_PASSWORD", 
+            "sender": "com.evernote.ui.ResetPasswordFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.REGISTER_RESULT", 
+            "sender": "com.evernote.client.EvernoteService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.helper.bq"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.SYNC_ERROR", 
+            "sender": "com.evernote.client.SyncService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.pinlock.LockableEvernoteFragementActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.billing.BillingService", 
+            "action": "com.android.vending.billing.PURCHASE_STATE_CHANGED", 
+            "sender": "com.evernote.billing.BillingReceiver"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.QUOTA_STATUS", 
+            "sender": "com.evernote.client.SyncService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.GET_CAPTCHA", 
+            "sender": "com.evernote.ui.CaptchaFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.DYNDialogActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.DYNDialogActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.NewNoteActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.helper.ShareUtils"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.REGISTER", 
+            "sender": "com.evernote.ui.CaptchaFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.CHECK_USERNAME", 
+            "sender": "com.evernote.ui.RegistrationFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.EvernotePreferenceActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.EvernoteFragmentActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.GET_REGISTRATION_URLS", 
+            "sender": "com.evernote.ui.RegistrationFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.SAVE_TODO", 
+            "sender": "com.evernote.ui.NoteViewFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.LOG_IN", 
+            "sender": "com.evernote.ui.CaptchaFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.GET_REGISTRATION_URLS", 
+            "sender": "com.evernote.ui.LoginFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.DB_OPEN_CREATION_FAILED", 
+            "sender": "com.evernote.provider.b"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.SyncService", 
+            "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.provider.EvernoteProvider"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.NotebookShareSettingsActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.NoteListFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.REGISTER", 
+            "sender": "com.evernote.ui.RegistrationFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.GET_CAPTCHA_RESULT", 
+            "sender": "com.evernote.client.EvernoteService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": null, 
+            "sender": "com.evernote.provider.EvernoteProvider"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.SyncService", 
+            "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.provider.b"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setIntent", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.maps.NoteListActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": "android.intent.action.VIEW", 
+            "sender": "com.evernote.billing.f"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.CLEAR_HTML", 
+            "sender": "com.evernote.provider.b"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.LOG_IN_PREP", 
+            "sender": "com.evernote.ui.LoginFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.SyncService", 
+            "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.ui.OfflineNotebookSettingsFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.LOG_OUT", 
+            "sender": "com.evernote.ui.of"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.billing.BillingService", 
+            "action": "com.evernote.billing.GET_PURCHASE_INFORMATION", 
+            "sender": "com.evernote.billing.BillingReceiver"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.PinLockActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.pinlock.a"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": "com.evernote.ACTION_STOP_AUDIO_NOTE", 
+            "sender": "com.evernote.ui.helper.LiveKeyAudioNoteReceiver"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.SYNC_ERROR", 
+            "sender": "com.evernote.provider.EvernoteProvider"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.THUMBNAIL_DONE", 
+            "sender": "com.evernote.util.an"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.WebActivity", 
+            "action": null, 
+            "sender": "com.evernote.billing.BillingActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.GET_REGISTRATION_URLS_RESULT", 
+            "sender": "com.evernote.client.EvernoteService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.LOG_IN", 
+            "sender": "com.evernote.ui.LoginFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.evernote.SD_CARD_STILL_MOUNTED", 
+            "sender": "com.evernote.provider.ac"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.CHUNK_DONE", 
+            "sender": "com.evernote.client.SyncService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.CLEAN_SHARE_DIR", 
+            "sender": "com.evernote.client.SyncService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.pinlock.LockableActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.CHUNK_STARTED", 
+            "sender": "com.evernote.client.SyncService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.CaptchaFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.NoteListActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.maps.r"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.MOVE_NOTE", 
+            "sender": "com.evernote.ui.NoteListFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.SyncService", 
+            "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.ui.helper.dg"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.PhoneMainActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.cb"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.SYNC_ERROR", 
+            "sender": "com.evernote.provider.EvernoteProvider"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.LOG_IN", 
+            "sender": "com.evernote.ui.AuthenticationActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.SDCARD_CHANGED", 
+            "sender": "com.evernote.provider.b"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setIntent", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.TabletFragmentActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.LoginActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.CaptchaFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.TagEditActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.LOG_IN", 
+            "sender": "com.evernote.ui.RegistrationFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.SyncService", 
+            "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.ui.EvernoteFragmentActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.SyncService", 
+            "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.billing.ai"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.FilePickerActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.pinlock.LockablePreferenceActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.SYNC_STARTED", 
+            "sender": "com.evernote.client.SyncService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.SAVE_STACK", 
+            "sender": "com.evernote.ui.NotebookFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.CONTENT_DONE", 
+            "sender": "com.evernote.provider.EvernoteProvider"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.StandardDialogActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.StandardDialogActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.LOG_IN", 
+            "sender": "com.evernote.provider.q"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.LOG_OUT", 
+            "sender": "com.evernote.ui.ee"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.NOTE_UPLOADED", 
+            "sender": "com.evernote.client.SyncService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.NewNoteActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.EvernoteFragmentActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.SyncService", 
+            "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.ui.EvernotePreferenceActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.LOGIN_RESULT", 
+            "sender": "com.evernote.client.EvernoteService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.DB_READ_ONLY", 
+            "sender": "com.evernote.provider.b"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "bindService", 
+            "component": null, 
+            "action": "com.android.vending.billing.MarketBillingService.BIND", 
+            "sender": "com.evernote.billing.BillingService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.SyncService", 
+            "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.ui.LinkedNotebookFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.SyncService", 
+            "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.billing.ah"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.RESOURCE_DONE", 
+            "sender": "com.evernote.client.SyncService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.LOG_IN_PREP_DONE", 
+            "sender": "com.evernote.client.EvernoteService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.pinlock.LockablePreferenceActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.billing.BillingService", 
+            "action": "com.android.vending.billing.RESPONSE_CODE", 
+            "sender": "com.evernote.billing.BillingReceiver"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.android.launcher.action.INSTALL_SHORTCUT", 
+            "sender": "com.evernote.ui.jc"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.android.launcher.action.INSTALL_SHORTCUT", 
+            "sender": "com.evernote.ui.NoteListFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.SyncService", 
+            "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.ui.NewNoteActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.helper.by"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.ea"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.TAG_UPLOADED", 
+            "sender": "com.evernote.client.SyncService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.SAVE_STACK", 
+            "sender": "com.evernote.ui.lg"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.android.launcher.action.INSTALL_SHORTCUT", 
+            "sender": "com.evernote.ui.NoteViewFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.NoteViewActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.maps.q"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.WebActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.LoginFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.SearchActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.EvernoteFragmentActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.LOG_OUT", 
+            "sender": "com.evernote.ui.qq"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.ACTION_PINLOCK_STATE_CHANGE", 
+            "sender": "com.evernote.ui.pinlock.b"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.CHECK_USERNAME_RESULT", 
+            "sender": "com.evernote.client.EvernoteService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.START_SEARCH_INDEXING", 
+            "sender": "com.evernote.ui.helper.SyncNotification"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.RateAppActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.by"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.EXPORT_RESOURCES", 
+            "sender": "com.evernote.ui.kq"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.ac"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.SyncService", 
+            "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.ui.helper.bq"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setIntent", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.LoginFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.LOG_OUT", 
+            "sender": "com.evernote.ui.cj"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.EXPORT_RESOURCES", 
+            "sender": "com.evernote.ui.NoteViewFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.ACTION_RECENT_NOTES_CHANGED", 
+            "sender": "com.evernote.provider.i"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.client.EvernoteService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.SearchActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.TabManager"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.NoteListFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.SAVE_NOTEBOOK", 
+            "sender": "com.evernote.ui.NotebookFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.SAVE_NOTE_DONE", 
+            "sender": "com.evernote.client.EvernoteService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": null, 
+            "sender": "com.evernote.ui.SearchActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": null, 
+            "sender": "com.evernote.ui.os"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.EvernoteFragmentActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.ui.helper.WidgetProviderService", 
+            "action": null, 
+            "sender": "com.evernote.ui.EvernoteWidgetWSnippetProvider"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.SyncService", 
+            "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.ui.EvernoteStatusBar"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.SyncService", 
+            "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.ui.mp"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.TabletFragmentActivity", 
+            "action": "ACTION_LINK_NOTEBOOK", 
+            "sender": "com.evernote.ui.helper.URIBrokerActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.ACTION_PIN_SHOW_WIDGET_CHANGED", 
+            "sender": "com.evernote.ui.ph"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.og"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.RESET_PASSWORD_RESULT", 
+            "sender": "com.evernote.client.EvernoteService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": "com.evernote.ui.LoginActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.helper.dg"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": null, 
+            "sender": "com.evernote.ui.SDCardChangedActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "android.intent.action.MEDIA_SCANNER_SCAN_FILE", 
+            "sender": "com.evernote.client.EvernoteService"
+        }, 
+        {
+            "dataType": "\"application/zip\"", 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.util.SendLogTask"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.pinlock.LockableActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.helper.dg"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.billing.LaunchBillingActivity", 
+            "action": "com.evernote.action.DUMMY_ACTION", 
+            "sender": "com.evernote.ui.de"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.DB_CORRUPTED", 
+            "sender": "com.evernote.provider.b"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.helper.StopAudioNoteReceiver"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.SYNC_DONE", 
+            "sender": "com.evernote.client.SyncService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": "com.evernote.SD_CARD_STILL_MOUNTED", 
+            "sender": "com.evernote.provider.aa"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.billing.BillingActivity", 
+            "action": null, 
+            "sender": "com.evernote.billing.u"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.SyncService", 
+            "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.ui.NotebookFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.TabletFragmentActivity", 
+            "action": "com.evernote.action.DUMMY_ACTION", 
+            "sender": "com.evernote.ui.HomeActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivityForResult", 
+            "component": "com.evernote.ui.CaptchaActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.RegistrationFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.SyncService", 
+            "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.ui.jx"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": "com.evernote.action.METADATA_DONE", 
+            "sender": "com.evernote.client.SyncService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.SAVE_NOTE", 
+            "sender": "com.evernote.client.Draft"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.LoginActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.ResetPasswordFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.LoginActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.RegistrationFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.RegistrationActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.LoginFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.STOP_SEARCH_INDEXING", 
+            "sender": "com.evernote.ui.helper.SyncNotification"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.helper.j"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setResult", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.ju"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.LearnMoreActivity", 
+            "action": null, 
+            "sender": "com.evernote.util.ah"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.RECOVER_NOTE", 
+            "sender": "com.evernote.client.SyncService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.billing.LaunchBillingActivity", 
+            "action": "com.evernote.action.DUMMY_ACTION", 
+            "sender": "com.evernote.ui.HomeFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.CLEAR_CACHE", 
+            "sender": "com.evernote.ui.EvernotePreferenceActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.SyncService", 
+            "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.ui.EvernoteActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendOrderedBroadcast", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.util.an"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "setIntent", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.no"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.ui.qa"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.SyncService", 
+            "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.client.EvernoteService"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.START_SEARCH_INDEXING", 
+            "sender": "com.evernote.ui.EvernotePreferenceActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.evernote.provider.EvernoteProvider"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.SDCardChangedActivity", 
+            "action": "hasValue", 
+            "sender": "com.evernote.ui.SDCardChangedActivity"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": "com.evernote.ui.NotebookShareSettingsActivity", 
+            "action": null, 
+            "sender": "com.evernote.ui.NotebookFragment"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.LOG_OUT", 
+            "sender": "com.evernote.ui.z"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.SyncService", 
+            "action": "com.evernote.action.FULL_SYNC", 
+            "sender": "com.evernote.ui.rx"
+        }, 
+        {
+            "dataType": null, 
+            "consumerMethod": "startService", 
+            "component": "com.evernote.client.EvernoteService", 
+            "action": "com.evernote.action.GET_REGISTRATION_URLS", 
+            "sender": "com.evernote.ui.CaptchaFragment"
+        }
+    ], 
+    "packageName": "com.evernote", 
+    "myComponents": [
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.LAUNCHER", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "ui.HomeActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "ui.PhoneMainActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.TabletFragmentActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.maps.EvernoteMapActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.maps.SnippetActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.maps.NoteListActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.maps.MapActivityGroup"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.maps.PinDropActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.PinLockActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "com.evernote.action.SECURITY_PREFERENCES"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.SecurityPreferenceActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.TabManager"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.NotebookActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.OfflineNotebookSettings"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.LinkedNotebookActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.LinkedNotebookSettings"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.TagsActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.InformationActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "com.evernote.action.VIEW_NOTELIST", 
+                        "com.evernote.action.SEARCH_NOTES", 
+                        "android.intent.action.SEARCH"
+                    ]
+                }, 
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "com.evernote.action.VIEW_NOTELIST", 
+                        "com.evernote.action.SEARCH_NOTES", 
+                        "android.intent.action.SEARCH"
+                    ]
+                }, 
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "com.evernote.action.VIEW_NOTELIST", 
+                        "com.evernote.action.SEARCH_NOTES", 
+                        "android.intent.action.SEARCH"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.NoteListActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "com.evernote.intent.action.VIEW", 
+                        "com.evernote.action.VIEW_NOTELIST_TABLET"
+                    ]
+                }, 
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "com.evernote.intent.action.VIEW", 
+                        "com.evernote.action.VIEW_NOTELIST_TABLET"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.NoteListAloneActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "com.evernote.action.VIEW_NOTE"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.NoteViewActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "evernote"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "com.evernote.action.VIEW_NOTE_TABLET", 
+                        "android.intent.action.VIEW"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "evernote"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "com.evernote.action.VIEW_NOTE_TABLET", 
+                        "android.intent.action.VIEW"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.NoteViewAloneActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.EvernotePreferenceActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [
+                        {
+                            "mimeType": "*/*", 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "com.evernote.action.NEW_VOICE_NOTE", 
+                        "com.evernote.action.NEW_SKITCH_NOTE", 
+                        "android.intent.action.SEND_MULTIPLE", 
+                        "com.evernote.action.NEW_SNAPSHOT", 
+                        "android.intent.action.SEND", 
+                        "com.evernote.action.CREATE_NEW_NOTE"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": "*/*", 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "com.evernote.action.NEW_VOICE_NOTE", 
+                        "com.evernote.action.NEW_SKITCH_NOTE", 
+                        "android.intent.action.SEND_MULTIPLE", 
+                        "com.evernote.action.NEW_SNAPSHOT", 
+                        "android.intent.action.SEND", 
+                        "com.evernote.action.CREATE_NEW_NOTE"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.NewNoteActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.NewNoteAloneActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "com.evernote.widget.action.NEW_SNAPSHOT", 
+                        "com.evernote.widget.action.CREATE_NEW_NOTE", 
+                        "com.evernote.widget.action.NEW_VOICE_NOTE", 
+                        "com.evernote.widget.action.NEW_SKITCH_NOTE"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.WidgetNewNoteActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.LearnMoreActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.EmailActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.TagEditActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.NoteInfoActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.FilePickerActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.AuthenticationActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.WebActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.TrunkActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.SearchActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "com.evernote.action.SEARCH"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.WidgetSearchActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.AdvanceSearchActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.AdvanceSearchSelector"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.LoginActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.RegistrationActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.CaptchaActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.ResetPasswordActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.RateAppActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.DYNDialogActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.StandardDialogActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.ShareWithFacebook"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.ShareDialogActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.SDCardChangedActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": "evernote.com", 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "www.evernote.com", 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "stage.evernote.com", 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "www.stage.evernote.com", 
+                            "scheme": "https"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.helper.URIBrokerActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.billing.BillingActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": "evernote.com", 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "www.evernote.com", 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "stage.evernote.com", 
+                            "scheme": "https"
+                        }, 
+                        {
+                            "mimeType": null, 
+                            "host": "www.stage.evernote.com", 
+                            "scheme": "https"
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.BROWSABLE", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.VIEW"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.billing.LaunchBillingActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.NotebookShareSettingsActivity"
+        }, 
+        {
+            "type": "activity", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "ui.EmailPickerActivity"
+        }, 
+        {
+            "type": "service", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.client.EvernoteService"
+        }, 
+        {
+            "type": "service", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.helper.WidgetProviderService"
+        }, 
+        {
+            "type": "service", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.client.SyncService"
+        }, 
+        {
+            "type": "service", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.billing.BillingService"
+        }, 
+        {
+            "type": "receiver", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.appwidget.action.APPWIDGET_UPDATE"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.EvernoteWidgetProvider"
+        }, 
+        {
+            "type": "receiver", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.appwidget.action.APPWIDGET_UPDATE"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.EvernoteWidgetWSnippetProvider"
+        }, 
+        {
+            "type": "receiver", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "com.evernote.action.ACTION_RECENT_NOTES_CHANGED", 
+                        "com.evernote.action.NOTE_UPLOADED", 
+                        "com.evernote.action.THUMBNAIL_DONE", 
+                        "com.evernote.action.CHUNK_DONE", 
+                        "com.evernote.action.CONTENT_DONE", 
+                        "com.evernote.action.SYNC_DONE", 
+                        "com.evernote.action.ACTION_PINLOCK_STATE_CHANGE", 
+                        "com.evernote.action.ACTION_PIN_SHOW_WIDGET_CHANGED", 
+                        "com.evernote.action.LOGOUT_DONE", 
+                        "com.evernote.action.SAVE_NOTE_DONE"
+                    ]
+                }, 
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "com.evernote.action.ACTION_RECENT_NOTES_CHANGED", 
+                        "com.evernote.action.NOTE_UPLOADED", 
+                        "com.evernote.action.THUMBNAIL_DONE", 
+                        "com.evernote.action.CHUNK_DONE", 
+                        "com.evernote.action.CONTENT_DONE", 
+                        "com.evernote.action.SYNC_DONE", 
+                        "com.evernote.action.ACTION_PINLOCK_STATE_CHANGE", 
+                        "com.evernote.action.ACTION_PIN_SHOW_WIDGET_CHANGED", 
+                        "com.evernote.action.LOGOUT_DONE", 
+                        "com.evernote.action.SAVE_NOTE_DONE"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.helper.WidgetUpdateReceiver"
+        }, 
+        {
+            "type": "receiver", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "android.intent.action.BOOT_COMPLETED"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.BootReceiver"
+        }, 
+        {
+            "type": "receiver", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "com.evernote.action.SDCARD_CHANGED", 
+                        "com.evernote.action.SYNC_ERROR", 
+                        "com.evernote.action.DB_OPEN_CREATION_FAILED", 
+                        "com.evernote.action.SYNC_DONE", 
+                        "com.evernote.action.DB_CORRUPTED", 
+                        "com.evernote.action.SYNC_STARTED", 
+                        "com.evernote.action.DB_READ_ONLY", 
+                        "com.evernote.action.SAVE_NOTE_DONE"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.helper.SyncNotification"
+        }, 
+        {
+            "type": "receiver", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "com.sonyericsson.extras.livekey"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.helper.LiveKeyAudioNoteReceiver"
+        }, 
+        {
+            "type": "receiver", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "com.evernote.ACTION_STOP_AUDIO_NOTE"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.ui.helper.StopAudioNoteReceiver"
+        }, 
+        {
+            "type": "receiver", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [], 
+                    "actions": [
+                        "com.android.vending.billing.IN_APP_NOTIFY", 
+                        "com.android.vending.billing.PURCHASE_STATE_CHANGED", 
+                        "com.android.vending.billing.RESPONSE_CODE"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.billing.BillingReceiver"
+        }, 
+        {
+            "type": "receiver", 
+            "filters": [
+                {
+                    "data": [
+                        {
+                            "mimeType": null, 
+                            "host": null, 
+                            "scheme": "notificationId"
+                        }
+                    ], 
+                    "categories": [], 
+                    "actions": [
+                        "com.evernote.action.ACTION_DELAYED_NOTIFICATION"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.util.MultiUseReceiver"
+        }, 
+        {
+            "type": "provider", 
+            "filters": [], 
+            "requiredPermissions": null, 
+            "name": "com.evernote.provider.EvernoteProvider"
+        }
+    ], 
+    "name": "Evernote"
+}

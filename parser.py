@@ -25,7 +25,7 @@ def readAndWriteApplication(directory, appXmlName):
 	print("-----")
 
 	jsonified = StringHelper.dumpJSON(application)
-	print(jsonified)
+	# print(jsonified)
 
 	appName = os.path.splitext(appXmlName)[0]
 	f = open(WRITE_RELATIVE_DIR + appName + ".json", 'w')
@@ -38,13 +38,13 @@ def main():
 	directory = sys.argv[1]
 	for file in os.listdir(directory):
 		if file.endswith(".xml"):
-			print(readAndWriteApplication(directory, file))
+			readAndWriteApplication(directory, file)
+			# print(readAndWriteApplication(directory, file))
 
 	# readAndWriteApplication(appXmlName)
 	
 
 main()
-
 
 
 

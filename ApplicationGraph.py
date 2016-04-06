@@ -48,8 +48,11 @@ import json
 
 from ComponentNode import ComponentNode
 from Link import Link
+from IntentFilterResolver import IntentFilterResolver
 
 class ApplicationGraph(object):
+	actionToComponentsThatReceiveMap = {}
+
 	def __init__(self, applications):
 		self.applications = applications
 
@@ -67,61 +70,65 @@ class ApplicationGraph(object):
 
 		for componentDict in application.myComponents:
 			node = ComponentNode(componentDict, application.name)
-			print(node.name)
+			# print(node.name)
 			componentNodeSet.add(node)
 
 		return componentNodeSet
 
 	def determineConnections(self, componentNodeList):
-		componentNameToIdxMap = self._getMap(componentNodeList)
+		componentNameToIdxMap = self._getComponentNameToIdxMap(componentNodeList)
+		intentFilterResolver = IntentFilterResolver(componentNodeList)
 
 		allLinks = []
 		for application in self.applications:
-			listOfLinks = self._findLinksFromApp(application, componentNameToIdxMap)
+			listOfLinks = self._findLinksFromApp(application, intentFilterResolver, componentNameToIdxMap)
 			allLinks.extend(listOfLinks)
 		return allLinks
 
-	def _findLinksFromApp(self, application, componentNameToIdxMap):
-		print(application.name)
+	def _findLinksFromApp(self, application, intentFilterResolver, componentNameToIdxMap):
+		print(application.name + "!!!!!!")
 		links = []
 		for intentDict in application.myIntents:
-			explicitLink = self._getExplicitLink(intentDict, componentNameToIdxMap)
+			if intentDict['sender'] not in componentNameToIdxMap:
+				continue
+			# print(intentDict)
+			explicitLink = self._getExplicitComponentIntent(intentDict, componentNameToIdxMap)
 			if explicitLink:
 				links.append(explicitLink)
 
-			actionToComponentsThatReceiveMap = {}
-			implicitLinks = self._getImplicitLinks(intentDict, componentNameToIdxMap, actionToComponentsThatReceiveMap)
+			# explicitActionLinks = self._getExplicitActionIntent(intentDict, intentFilterResolver, componentNameToIdxMap)
+			# if explicitActionLinks:
+			# 	links.extend(explicitActionLinks)
+
+			implicitLinks = self._getImplicitIntent(intentDict, intentFilterResolver, 
+				componentNameToIdxMap, ApplicationGraph.actionToComponentsThatReceiveMap)
 			if implicitLinks:
 				links.extend(implicitLinks)
 
 		print(len(links))
 		return list(set(links))
 
-	def _getExplicitLink(self, intentDict, componentNameToIdxMap):
+	def _getExplicitComponentIntent(self, intentDict, componentNameToIdxMap):
 		if intentDict["sender"] in componentNameToIdxMap and intentDict["component"] in componentNameToIdxMap:
-			return Link(intentDict, componentNameToIdxMap)
+			return Link(intentDict, intentDict["component"], componentNameToIdxMap)
 
-	def _getImplicitLinks(self, intentDict, componentNameToIdxMap, actionToComponentsThatReceiveMap):
-		# TODOOOOOOOO
-		pass
+	# def _getExplicitActionIntent(self, intentDict, intentFilterResolver, componentNameToIdxMap):
+	# 	# TODOOOOOOOO
+	# 	if intentDict['action']:
+	# 		# print intentDict['action']
+	# 		pass
+		
 
-	"""
-	{
-		"consumerMethod": "startActivity",
-		"component": "com.instagram.android.activity.MainTabActivity",
-		"action": null
-	}
-	"""
-	def __writeIntentAsLink(self, intentDict, componentNameToIdxMap):
-		link = {}
-		link["source"] = componentNameToIdxMap[intentDict["sender"]]
-		link["target"] = componentNameToIdxMap[intentDict["component"]]
+	def _getImplicitIntent(self, intentDict, intentFilterResolver, componentNameToIdxMap, actionToComponentsThatReceiveMap):
+		# no category.... 
+		receivers = intentFilterResolver.getImplicitReceiversOfIntent(intentDict['action'], intentDict['dataType'])
+		results =[]
+		for receiver in receivers:
+			# if receiver in componentNameToIdxMap:
+			results.append(Link(intentDict, receiver, componentNameToIdxMap))
+		return results
 
-		link["consumerMethod"] = intentDict["consumerMethod"]
-		link["action"] = intentDict["action"]
-		return link
-
-	def _getMap(self, componentNodeList):
+	def _getComponentNameToIdxMap(self, componentNodeList):
 		nameIdxMap = {}
 		for idx, componentNode in enumerate(componentNodeList):
 			if componentNode.name in nameIdxMap:
@@ -131,6 +138,42 @@ class ApplicationGraph(object):
 				nameIdxMap[componentNode.name] = idx
 		return nameIdxMap
 
+	"""
+	{
+        "data": [], 
+        "categories": [], 
+        "actions": [
+            "com.evernote.action.SDCARD_CHANGED", 
+            "com.evernote.action.SYNC_ERROR", 
+            "com.evernote.action.DB_OPEN_CREATION_FAILED", 
+            "com.evernote.action.SYNC_DONE", 
+            "com.evernote.action.DB_CORRUPTED", 
+            "com.evernote.action.SYNC_STARTED", 
+            "com.evernote.action.DB_READ_ONLY", 
+            "com.evernote.action.SAVE_NOTE_DONE"
+        ]
+    }
+	"""
+	def _getReceivedActionsToComponentNameMap(self, componentNodeList):
+		# print("component name: " + componentNodeList[0].filters[0])
+		pass
+
+	"""
+	{
+		"consumerMethod": "startActivity",
+		"component": "com.instagram.android.activity.MainTabActivity",
+		"action": null
+	}
+	UNUSED
+	"""
+	def __writeIntentAsLink(self, intentDict, componentNameToIdxMap):
+		link = {}
+		link["source"] = componentNameToIdxMap[intentDict["sender"]]
+		link["target"] = componentNameToIdxMap[intentDict["component"]]
+
+		link["consumerMethod"] = intentDict["consumerMethod"]
+		link["action"] = intentDict["action"]
+		return link
 
 
 

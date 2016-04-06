@@ -35,6 +35,12 @@ class Application(CommonEqualityMixin):
 	def transformComponent(self, bsComponent):
 		type = bsComponent.find("type").string
 		name = bsComponent.find("name").string
+		requiredPermissions = None
+		if bsComponent.find("RequiredPermissions").find("PRM"):
+			requiredPermissions = bsComponent.find("RequiredPermissions").find("PRM").string
+
+		if bsComponent.find("PropagatedPermissions"):
+			print bsComponent.find("PropagatedPermissions")
 
 		bsFilters = bsComponent.find_all("filter")
 		myFilters = []
@@ -51,7 +57,7 @@ class Application(CommonEqualityMixin):
 			filter = Filter(actionList, categoryList, dataList)
 			myFilters.append(filter)
 
-		return Component(type, name, myFilters)
+		return Component(type, name, requiredPermissions, myFilters)
 		
 
 	def getActions(self, bsActions):

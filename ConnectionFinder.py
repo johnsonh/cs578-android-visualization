@@ -28,12 +28,22 @@ def getApplications(directory):
 
 def writeToJson(objectList, fileName):
 	jsonified = StringHelper.dumpJSON(objectList)
-	print(jsonified)
+	# print(jsonified)
 
 	f = open(fileName, 'w')
 	f.write(jsonified)
 	f.close()
 
+def writeToGraphJson(nodesList, links, fileName):
+	jsonNodes = StringHelper.dumpJSON(nodesList)
+	jsonLinks = StringHelper.dumpJSON(links)
+	f = open(fileName, 'w')
+	f.write('{ "nodes": ')
+	f.write(jsonNodes)
+	f.write(', "links": ')
+	f.write(jsonLinks)
+	f.write('}')
+	f.close()
 
 def main():
 	checkCommandline()
@@ -56,6 +66,8 @@ def main():
 	
 	writeToJson(nodesList, "nodes.json")
 	writeToJson(links, "links.json")
+
+	writeToGraphJson(nodesList, links, "graph.json")
 
 
 main()

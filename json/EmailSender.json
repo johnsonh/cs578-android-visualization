@@ -1,0 +1,116 @@
+{
+    "myIntents": [
+        {
+            "dataType": null, 
+            "consumerMethod": "startActivity", 
+            "component": null, 
+            "action": null, 
+            "sender": "com.javacodegeeks.android.sendemailtest.MainActivity"
+        }
+    ], 
+    "packageName": "com.javacodegeeks.android.sendemailtest", 
+    "myComponents": [
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [
+                        {
+                            "mimeType": "application/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "audio/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "image/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "message/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "multipart/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "text/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "video/*", 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.LAUNCHER", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN", 
+                        "android.intent.action.SEND"
+                    ]
+                }, 
+                {
+                    "data": [
+                        {
+                            "mimeType": "application/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "audio/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "image/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "message/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "multipart/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "text/*", 
+                            "host": null, 
+                            "scheme": null
+                        }, 
+                        {
+                            "mimeType": "video/*", 
+                            "host": null, 
+                            "scheme": null
+                        }
+                    ], 
+                    "categories": [
+                        "android.intent.category.LAUNCHER", 
+                        "android.intent.category.DEFAULT"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN", 
+                        "android.intent.action.SEND"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.javacodegeeks.android.sendemailtest.MainActivity"
+        }
+    ], 
+    "name": "EmailSender"
+}

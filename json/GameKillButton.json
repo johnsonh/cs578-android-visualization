@@ -1,0 +1,31 @@
+{
+    "myIntents": [
+        {
+            "dataType": null, 
+            "consumerMethod": "sendBroadcast", 
+            "component": "com.example.hsiehj.gamekillbuttonapp.", 
+            "action": null, 
+            "sender": "com.example.hsiehj.gamekillbuttonapp.MainActivity"
+        }
+    ], 
+    "packageName": "com.example.hsiehj.gamekillbuttonapp", 
+    "myComponents": [
+        {
+            "type": "activity", 
+            "filters": [
+                {
+                    "data": [], 
+                    "categories": [
+                        "android.intent.category.LAUNCHER"
+                    ], 
+                    "actions": [
+                        "android.intent.action.MAIN"
+                    ]
+                }
+            ], 
+            "requiredPermissions": null, 
+            "name": "com.example.hsiehj.gamekillbuttonapp.MainActivity"
+        }
+    ], 
+    "name": "GameKillButton"
+}
