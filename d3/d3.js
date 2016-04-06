@@ -1,3 +1,5 @@
+// http://bl.ocks.org/GerHobbelt/3071239
+
 
 var width = 960,     // svg width
     height = 600,     // svg height
@@ -217,6 +219,9 @@ function init() {
         expand[d.group] = false; init();
       });
 
+  hull.append("title")
+    .text(function(d) { return d.group });
+
   link = linkg.selectAll("line.link").data(net.links, linkid);
   link.exit().remove();
   link.enter().append("line")
@@ -227,9 +232,9 @@ function init() {
       .attr("y2", function(d) { return d.target.y; })
       .style("stroke-width", function(d) { return d.size || 1; });
 
-  node = nodeg.selectAll("circle.node").data(net.nodes, nodeid);
+  var node = nodeg.selectAll("circle.node").data(net.nodes, nodeid);
   node.exit().remove();
-  node.enter().append("circle")
+  var gnodes = node.enter().append("circle")
       // .classed('node', true)
       // if (d.size) -- d.size > 0 when d is a group node.
       .attr("class", function(d) { return "node" + (d.size?"":" leaf"); })
@@ -245,10 +250,10 @@ function init() {
 
   node.call(force.drag);
 
-  // // Append the labels to each group
-  // var labels = node.enter().append("text")
-  //   // .text(function(d) { return d.group });
-  //   .text(function(d) { console.log(d.group) });
+  // Append the labels to each group
+  var gnodes1 = gnodes.append("title")
+    .text(function(d) { return d.group });
+    // .text(function(d) { console.log(d.group) });
 
   force.on("tick", function() {
     if (!hull.empty()) {
